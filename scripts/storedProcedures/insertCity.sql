@@ -1,4 +1,5 @@
 USE AtlasTravel;
+GO
 
 CREATE PROCEDURE uspInsertCity
 	@City varchar(255),
@@ -12,5 +13,5 @@ AS
 			VALUES (@Region, SCOPE_IDENTITY());
 		INSERT INTO CITY (CityName, RegionID)
 			VALUES (@City, SCOPE_IDENTITY());
-	END TRAN t1
+	COMMIT TRAN t1
 GO
