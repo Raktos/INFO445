@@ -11,48 +11,37 @@ AS
 		DECLARE @RegionFind int;
 		DECLARE @CityFind int;
 		
-		SELECT @CountryFind = CountryID 
+		SET @CountryFind = (SELECT CountryID 
 			FROM COUNTRY 
-			WHERE CountryName LIKE @Country;
+			WHERE CountryName = @Country);
 			
 		IF @CountryFind IS NULL
 		BEGIN
 			INSERT INTO COUNTRY (CountryName)
 			VALUES (@Country);
-			@CountryFind = SCOPE_IDENTITY();
+			SET @CountryFind = SCOPE_IDENTITY();
 		END
 		
-		SELECT @CountryFind = CountryID 
-			FROM COUNTRY 
-			WHERE CountryName = @Country;
-			
-		IF @CountryFind IS NULL
-		BEGIN
-			INSERT INTO COUNTRY (CountryName)
-			VALUES (@Country);
-			@CountryFind = SCOPE_IDENTITY();
-		END
-		
-		SELECT @RegionFind = RegionID 
+		SET @RegionFind = (SELECT RegionID 
 			FROM REGION 
 			WHERE RegionName = @Region
-			AND CountryID = @CountryFind;
+			AND CountryID = @CountryFind);
 			
 		IF @RegionFind IS NULL
 		BEGIN
-			INSERT INTO REGION (RegionName)
+			INSERT INTO REGION (RegionName, CountryID)
 			VALUES (@Region, @CountryFind);
-			@RegionFind = SCOPE_IDENTITY();
+			SET @RegionFind = SCOPE_IDENTITY();
 		END
 		
-		SELECT @CityFind = CityID 
+		SET @CityFind = (SELECT CityID 
 			FROM CITY 
 			WHERE CityName = @City
-			AND RegionID = @RegionFind;
+			AND RegionID = @RegionFind);
 			
 		IF @CityFind IS NULL
 		BEGIN
-			INSERT INTO CITY (CityName)
+			INSERT INTO CITY (CityName, RegionID)
 			VALUES (@City, @RegionFind);
 		END
 	COMMIT TRAN t1
