@@ -1,0 +1,16 @@
+INSERT INTO SPONSOR_TYPE (SponsorTypeID, SponsorTypeName, SponsorTypeDesc) VALUES (6, 'University', 'A rather big higher education school')
+
+SELECT * FROM SPONSOR_TYPE
+
+EXEC uspInsertSponsor @CityName = 'Seattle', @RegionName = 'Washington', @CountryName = 'United States of America', @SponsorName = 'University of Washington', @SponsorDesc = 'lorem ipsum', @SponsorStreetAddress = 'UW ADDRESS HERE', @SponsorType = 'University';
+
+EXEC uspInsertCity @City = 'Tacoma', @Region = 'Washington', @Country = 'United States of America';
+EXEC uspInsertCity @City = 'Seattle', @Region = 'Washington', @Country = 'United States of America';
+EXEC uspInsertCity @City = 'Olympia', @Region = 'Washington', @Country = 'United States of America';
+EXEC uspInsertCity @City = 'Paris', @Region = '', @Country = 'France';
+EXEC uspInsertCity @City = 'San Francisco', @Region = 'California', @Country = 'United States of America';
+EXEC uspInsertCity @City = 'San Jose', @Region = 'California', @Country = 'United States of America';
+EXEC uspInsertCity @City = 'London', @Region = '', @Country = 'United Kingdom';
+EXEC uspInsertCity @City = 'Hong Kong', @Region = 'Hong Kong Special Administration Zone', @Country = 'China';
+EXEC uspInsertCity @City = 'Vancover', @Region = 'British Columbia', @Country = 'Canada';
+EXEC uspInsertCity @City = 'Toronto', @Region = 'Ontario', @Country = 'Canada';
