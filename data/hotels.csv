@@ -1,1001 +1,1001 @@
 hotel_id,hotel_type_id,city_id,hotel_address,hotel_name,hotel_name1,hotel_name2,hotel_desc
-1,3,,4 Kennedy Pass,Ninety-one Motel,Ninety-one,Motel,Close to the local university.
-2,5,,170 Lukken Junction,Tualatin College,Tualatin,College,Large vacation draw for tourists and families.
-3,3,,51 Moose Trail,Hamilton Motel,Hamilton,Motel,"A nice, quiet place on a side street."
-4,5,,12 Pawling Point,Sunnyside College,Sunnyside,College,Very accomodating for students.
-5,5,,54119 Pine View Parkway,Redmond College,Redmond,College,"A nice, quiet place on a side street."
-6,5,,126 Pine View Trail,Sellwood College,Sellwood,College,"A nice, quiet place on a side street."
-7,1,,17 Bartillon Road,Jeffers Garden Hostel,Jeffers Garden,Hostel,"A nice, quiet place on a side street."
-8,6,,0 Schmedeman Terrace,Tillicum Beach University,Tillicum Beach,University,"A nice, quiet place on a side street."
-9,1,,8227 Fremont Avenue,Bly Hostel,Bly,Hostel,"A nice, quiet place on a side street."
-10,5,,97247 Lindbergh Alley,Ontario Heights College,Ontario Heights,College,"A nice, quiet place on a side street."
-11,6,,877 Springs Parkway,Shangri-La Mill University,Shangri-La Mill,University,Large vacation draw for tourists and families.
-12,1,,58 Lillian Way,Wren Hostel,Wren,Hostel,Very accomodating for students.
-13,5,,54 Stoughton Road,West Haven College,West Haven,College,Very accomodating for students.
-14,2,,542 Sherman Crossing,Clatsop Station Hotel,Clatsop Station,Hotel,Close to the local university.
-15,1,,7497 Ruskin Way,Empire Hostel,Empire,Hostel,Close to the local university.
-16,6,,9 Cascade Circle,Vinson University,Vinson,University,Large vacation draw for tourists and families.
-17,1,,69 8th Hill,Vaughn Hostel,Vaughn,Hostel,Large vacation draw for tourists and families.
-18,5,,18435 Hansons Plaza,Quatama College,Quatama,College,Very accomodating for students.
-19,2,,9402 Pennsylvania Lane,Roy Hotel,Roy,Hotel,"A nice, quiet place on a side street."
-20,4,,7096 Transport Park,Springfield Inn,Springfield,Inn,Large vacation draw for tourists and families.
-21,4,,59 Darwin Place,Winchester Inn,Winchester,Inn,Large vacation draw for tourists and families.
-22,1,,27865 Fisk Parkway,Hopewell Hostel,Hopewell,Hostel,Close to the local university.
-23,6,,0 Fisk Trail,Miles Crossing University,Miles Crossing,University,"A nice, quiet place on a side street."
-24,1,,92702 Carberry Lane,Waterloo Hostel,Waterloo,Hostel,"A nice, quiet place on a side street."
-25,4,,60497 Dawn Court,Folkenberg Inn,Folkenberg,Inn,Large vacation draw for tourists and families.
-26,2,,45802 Shelley Terrace,Kendall Hotel,Kendall,Hotel,Very accomodating for students.
-27,2,,1 Dexter Alley,Badger Corner Hotel,Badger Corner,Hotel,Close to the local university.
-28,4,,78 Portage Drive,Fern Hill Inn,Fern Hill,Inn,Close to the local university.
-29,4,,0 South Drive,Woodstock Inn,Woodstock,Inn,Close to the local university.
-30,3,,20705 Meadow Vale Lane,Scotts Mills Motel,Scotts Mills,Motel,Very accomodating for students.
-31,2,,4 Sutteridge Trail,Chiloquin Hotel,Chiloquin,Hotel,Very accomodating for students.
-32,4,,12 Banding Alley,Surprise Valley Inn,Surprise Valley,Inn,Close to the local university.
-33,5,,9 Scoville Junction,Tracy College,Tracy,College,Close to the local university.
-34,3,,208 Killdeer Lane,Jenne Motel,Jenne,Motel,Very accomodating for students.
-35,6,,0 Buhler Terrace,Garden Home University,Garden Home,University,Large vacation draw for tourists and families.
-36,5,,7024 Service Way,Ashwood College,Ashwood,College,"A nice, quiet place on a side street."
-37,6,,66 Dakota Lane,Fair Oaks University,Fair Oaks,University,Very accomodating for students.
-38,5,,13 Gale Way,Middleton College,Middleton,College,Large vacation draw for tourists and families.
-39,6,,1726 Autumn Leaf Parkway,Yankton University,Yankton,University,Close to the local university.
-40,3,,36 Duke Place,Salishan Beach Motel,Salishan Beach,Motel,Large vacation draw for tourists and families.
-41,3,,2 Jenna Center,Cascadia Motel,Cascadia,Motel,"A nice, quiet place on a side street."
-42,1,,6 Parkside Crossing,Bolton Hostel,Bolton,Hostel,Close to the local university.
-43,5,,51 Sage Avenue,Robertson College,Robertson,College,"A nice, quiet place on a side street."
-44,4,,8011 Bartillon Drive,Dewey Inn,Dewey,Inn,"A nice, quiet place on a side street."
-45,3,,761 Mitchell Terrace,Knoxville Motel,Knoxville,Motel,Close to the local university.
-46,2,,62 Laurel Crossing,Montavilla Hotel,Montavilla,Hotel,"A nice, quiet place on a side street."
-47,5,,98861 Riverside Pass,Canyonville College,Canyonville,College,Close to the local university.
-48,2,,3532 Stephen Court,Summit Hotel,Summit,Hotel,Close to the local university.
-49,6,,51715 Golden Leaf Parkway,Dewey University,Dewey,University,Close to the local university.
-50,1,,2 Kingsford Park,Hermans Hostel,Hermans,Hostel,Close to the local university.
-51,2,,78 Ridge Oak Place,Yachats Hotel,Yachats,Hotel,Close to the local university.
-52,2,,66906 Nelson Place,Waconda Beach Hotel,Waconda Beach,Hotel,Very accomodating for students.
-53,6,,797 Eagan Lane,Silver Lake University,Silver Lake,University,Close to the local university.
-54,5,,88417 Forster Circle,Rockaway College,Rockaway,College,Close to the local university.
-55,6,,76 Hagan Circle,Millersburg University,Millersburg,University,Very accomodating for students.
-56,5,,05 Crowley Pass,Little Albany College,Little Albany,College,Large vacation draw for tourists and families.
-57,1,,827 Eliot Pass,Lincoln City Hostel,Lincoln City,Hostel,Close to the local university.
-58,5,,6236 Ludington Center,Fruita College,Fruita,College,"A nice, quiet place on a side street."
-59,5,,86 Fremont Road,Eagle Creek College,Eagle Creek,College,"A nice, quiet place on a side street."
-60,2,,06 Loomis Plaza,Vida Hotel,Vida,Hotel,Very accomodating for students.
-61,6,,27 Donald Junction,Coquille University,Coquille,University,Close to the local university.
-62,1,,225 Myrtle Lane,Fall Creek Hostel,Fall Creek,Hostel,Very accomodating for students.
-63,6,,46 Coleman Way,Winchester University,Winchester,University,"A nice, quiet place on a side street."
-64,5,,73732 Warbler Road,Firwood College,Firwood,College,Very accomodating for students.
-65,1,,159 Larry Park,Sandlake Hostel,Sandlake,Hostel,Close to the local university.
-66,4,,526 Rutledge Court,Carson Inn,Carson,Inn,"A nice, quiet place on a side street."
-67,3,,952 Macpherson Road,Kilts Motel,Kilts,Motel,Close to the local university.
-68,1,,3 Heath Place,Side Camp Hostel,Side Camp,Hostel,Close to the local university.
-69,1,,4649 Sundown Junction,Homestead Hostel,Homestead,Hostel,Very accomodating for students.
-70,2,,55148 Leroy Parkway,Wallowa Hotel,Wallowa,Hotel,Very accomodating for students.
-71,1,,47273 Monterey Junction,Garfield Hostel,Garfield,Hostel,Very accomodating for students.
-72,2,,9 Thierer Pass,Cornucopia Hotel,Cornucopia,Hotel,"A nice, quiet place on a side street."
-73,4,,25 Roth Way,Government Camp Inn,Government Camp,Inn,Large vacation draw for tourists and families.
-74,5,,73385 Schlimgen Hill,Vermont Hills College,Vermont Hills,College,Close to the local university.
-75,2,,94164 Ridgeview Court,Alder Hotel,Alder,Hotel,Close to the local university.
-76,6,,36301 Bashford Drive,Pittsburg University,Pittsburg,University,Very accomodating for students.
-77,5,,39893 Ryan Street,Bethany College,Bethany,College,Close to the local university.
-78,6,,638 Warrior Street,Pine University,Pine,University,"A nice, quiet place on a side street."
-79,5,,57 Northfield Way,Prosper College,Prosper,College,Very accomodating for students.
-80,4,,0999 Stoughton Avenue,Ontario Heights Inn,Ontario Heights,Inn,Large vacation draw for tourists and families.
-81,4,,8198 Shoshone Trail,Forest Grove Inn,Forest Grove,Inn,Large vacation draw for tourists and families.
-82,4,,69 Division Parkway,Glencoe Inn,Glencoe,Inn,Large vacation draw for tourists and families.
-83,6,,8798 Fuller Pass,Central Point University,Central Point,University,Very accomodating for students.
-84,6,,3546 Pankratz Crossing,The Dalles University,The Dalles,University,"A nice, quiet place on a side street."
-85,6,,61097 Aberg Lane,Lenz University,Lenz,University,Very accomodating for students.
-86,4,,38846 Thompson Court,Lone Pine Corner Inn,Lone Pine Corner,Inn,Very accomodating for students.
-87,6,,54474 Hintze Road,Valley Falls University,Valley Falls,University,Close to the local university.
-88,5,,31454 Pennsylvania Court,Crown Point College,Crown Point,College,Very accomodating for students.
-89,5,,6 Di Loreto Place,Glenbrook College,Glenbrook,College,Large vacation draw for tourists and families.
-90,2,,06 Helena Hill,Treharne Hotel,Treharne,Hotel,"A nice, quiet place on a side street."
-91,3,,267 Morningstar Hill,Wildwood Motel,Wildwood,Motel,Large vacation draw for tourists and families.
-92,3,,1 Old Gate Trail,Scotts Mills Motel,Scotts Mills,Motel,Close to the local university.
-93,3,,14411 Dakota Place,Winona Motel,Winona,Motel,Close to the local university.
-94,2,,9 Spenser Trail,Glenada Hotel,Glenada,Hotel,Large vacation draw for tourists and families.
-95,1,,0 Arrowood Point,Manzanita Hostel,Manzanita,Hostel,"A nice, quiet place on a side street."
-96,1,,9 Cherokee Drive,Multnomah Hostel,Multnomah,Hostel,"A nice, quiet place on a side street."
-97,6,,57 Elgar Lane,Liberty University,Liberty,University,"A nice, quiet place on a side street."
-98,6,,664 Mandrake Hill,Union Mills University,Union Mills,University,Large vacation draw for tourists and families.
-99,3,,9699 Walton Junction,Fort Klamath Motel,Fort Klamath,Motel,Very accomodating for students.
-100,6,,51486 Bunker Hill Alley,Springdale University,Springdale,University,Large vacation draw for tourists and families.
-101,6,,12 Towne Plaza,Wichita University,Wichita,University,Very accomodating for students.
-102,1,,342 Sherman Hill,Butteville Hostel,Butteville,Hostel,Close to the local university.
-103,5,,375 Fair Oaks Plaza,Parkrose College,Parkrose,College,Very accomodating for students.
-104,6,,03 Chive Alley,Echo Dell University,Echo Dell,University,Close to the local university.
-105,2,,8 Northwestern Pass,Island City Hotel,Island City,Hotel,"A nice, quiet place on a side street."
-106,1,,414 Trailsway Place,Lookingglass Hostel,Lookingglass,Hostel,Close to the local university.
-107,6,,20 Golf Alley,Saunders Lake University,Saunders Lake,University,Very accomodating for students.
-108,3,,2 Pepper Wood Court,Svensen Motel,Svensen,Motel,Close to the local university.
-109,5,,176 Stang Alley,Durham College,Durham,College,Very accomodating for students.
-110,4,,13 Holy Cross Place,Crow Inn,Crow,Inn,Large vacation draw for tourists and families.
-111,5,,5 Granby Street,Fairview College,Fairview,College,"A nice, quiet place on a side street."
-112,2,,7 Carberry Terrace,Trout Creek Hotel,Trout Creek,Hotel,Close to the local university.
-113,1,,12 Vidon Trail,Camp Elkanah Hostel,Camp Elkanah,Hostel,Close to the local university.
-114,1,,57412 Jackson Drive,Brooklyn Hostel,Brooklyn,Hostel,"A nice, quiet place on a side street."
-115,6,,1 Victoria Junction,Orient University,Orient,University,Very accomodating for students.
-116,6,,4 Garrison Parkway,Canemah University,Canemah,University,Close to the local university.
-117,4,,3923 8th Point,Vaughn Inn,Vaughn,Inn,Large vacation draw for tourists and families.
-118,3,,7 Linden Plaza,Island City Motel,Island City,Motel,Close to the local university.
-119,3,,163 Onsgard Plaza,Deer Island Motel,Deer Island,Motel,"A nice, quiet place on a side street."
-120,5,,82 6th Alley,McKee College,McKee,College,Very accomodating for students.
-121,2,,5 Darwin Road,Riversdale Hotel,Riversdale,Hotel,Large vacation draw for tourists and families.
-122,3,,320 Columbus Center,Brightwood Motel,Brightwood,Motel,Large vacation draw for tourists and families.
-123,5,,1974 Eliot Place,North Santian College,North Santian,College,Large vacation draw for tourists and families.
-124,3,,4677 Bonner Junction,North Bend Motel,North Bend,Motel,Large vacation draw for tourists and families.
-125,6,,0903 Becker Hill,Lewisburg University,Lewisburg,University,"A nice, quiet place on a side street."
-126,5,,94870 Lakeland Center,Crown Point College,Crown Point,College,"A nice, quiet place on a side street."
-127,6,,8 Mitchell Center,Jordan Valley University,Jordan Valley,University,Very accomodating for students.
-128,3,,5 Center Lane,Culp Creek Motel,Culp Creek,Motel,Very accomodating for students.
-129,4,,4722 Huxley Road,Crown Point Inn,Crown Point,Inn,Large vacation draw for tourists and families.
-130,2,,722 Mockingbird Court,Ruch Hotel,Ruch,Hotel,"A nice, quiet place on a side street."
-131,2,,23588 Independence Road,Sunnyridge Hotel,Sunnyridge,Hotel,Very accomodating for students.
-132,4,,45 1st Pass,Eugene Inn,Eugene,Inn,Large vacation draw for tourists and families.
-133,4,,2056 Blue Bill Park Court,Moro Inn,Moro,Inn,Close to the local university.
-134,5,,75405 Pleasure Way,Rice Hill College,Rice Hill,College,"A nice, quiet place on a side street."
-135,2,,598 Utah Point,Tidewater Hotel,Tidewater,Hotel,Large vacation draw for tourists and families.
-136,3,,09 Lyons Plaza,Carlton Motel,Carlton,Motel,Large vacation draw for tourists and families.
-137,4,,497 Brickson Park Hill,Clarno Inn,Clarno,Inn,Large vacation draw for tourists and families.
-138,1,,95419 Eagan Junction,Oak Springs Hostel,Oak Springs,Hostel,Large vacation draw for tourists and families.
-139,1,,30 Anthes Court,Hathaway Mead Hostel,Hathaway Mead,Hostel,Close to the local university.
-140,6,,0 Russell Avenue,Manzanita University,Manzanita,University,Very accomodating for students.
-141,3,,3739 Ridgeway Road,Allendale Motel,Allendale,Motel,Close to the local university.
-142,5,,8744 Lawn Hill,West Portland College,West Portland,College,Large vacation draw for tourists and families.
-143,2,,67 Red Cloud Trail,Weston Hotel,Weston,Hotel,"A nice, quiet place on a side street."
-144,1,,013 Transport Point,Warren Hostel,Warren,Hostel,Close to the local university.
-145,6,,36623 Dwight Pass,Turner University,Turner,University,Very accomodating for students.
-146,6,,40648 Loeprich Lane,Hidaway Springs University,Hidaway Springs,University,Close to the local university.
-147,5,,066 Debs Court,Hay Creek Ranch College,Hay Creek Ranch,College,Very accomodating for students.
-148,6,,27393 Warner Crossing,Svensen Junction University,Svensen Junction,University,Close to the local university.
-149,1,,9 Logan Junction,O'Neil Corners Hostel,O'Neil Corners,Hostel,Very accomodating for students.
-150,3,,0419 Sugar Hill,Kendall Motel,Kendall,Motel,Close to the local university.
-151,3,,663 Valley Edge Terrace,Maple Lane Motel,Maple Lane,Motel,"A nice, quiet place on a side street."
-152,6,,673 Schlimgen Avenue,Ontario Heights University,Ontario Heights,University,"A nice, quiet place on a side street."
-153,5,,305 Stoughton Circle,Elgin College,Elgin,College,Large vacation draw for tourists and families.
-154,5,,9035 Schurz Road,Yamhill Station College,Yamhill Station,College,Large vacation draw for tourists and families.
-155,4,,51760 Comanche Point,Villa Ridge Inn,Villa Ridge,Inn,Very accomodating for students.
-156,2,,44324 Emmet Junction,Orenco Hotel,Orenco,Hotel,Large vacation draw for tourists and families.
-157,3,,13 Milwaukee Avenue,Cooston Motel,Cooston,Motel,Very accomodating for students.
-158,4,,98899 West Point,Donald Inn,Donald,Inn,Very accomodating for students.
-159,1,,9771 Bonner Center,Tongue Point Naval Base Hostel,Tongue Point Naval Base,Hostel,Large vacation draw for tourists and families.
-160,5,,3974 West Crossing,Shady College,Shady,College,Close to the local university.
-161,3,,4136 Judy Place,Dickey Prairie Motel,Dickey Prairie,Motel,Close to the local university.
-162,5,,214 Golden Leaf Parkway,Oak Park College,Oak Park,College,Close to the local university.
-163,5,,5259 Manley Parkway,Witch Hazel College,Witch Hazel,College,Close to the local university.
-164,2,,981 Vera Avenue,Dayville Hotel,Dayville,Hotel,"A nice, quiet place on a side street."
-165,1,,523 Pepper Wood Drive,Sunnyside Hostel,Sunnyside,Hostel,Close to the local university.
-166,6,,6 Waxwing Road,Modoc Point University,Modoc Point,University,Large vacation draw for tourists and families.
-167,4,,4 Brown Road,Haynesville Inn,Haynesville,Inn,Large vacation draw for tourists and families.
-168,3,,714 Hallows Lane,Glide Motel,Glide,Motel,"A nice, quiet place on a side street."
-169,5,,8 Sutherland Pass,Curtin College,Curtin,College,Large vacation draw for tourists and families.
-170,5,,8552 Schmedeman Terrace,Inglis College,Inglis,College,"A nice, quiet place on a side street."
-171,6,,8 Nelson Way,Mt Carmel University,Mt Carmel,University,Very accomodating for students.
-172,3,,4789 Ryan Point,Florence Motel,Florence,Motel,Close to the local university.
-173,2,,72 Delladonna Alley,Hubbard Hotel,Hubbard,Hotel,"A nice, quiet place on a side street."
-174,1,,02 Prentice Pass,Beaver Springs Hostel,Beaver Springs,Hostel,Close to the local university.
-175,6,,012 Texas Court,Kinzua University,Kinzua,University,Very accomodating for students.
-176,4,,76 Sullivan Plaza,Ashland Inn,Ashland,Inn,Large vacation draw for tourists and families.
-177,1,,6 Pond Point,Trotter Hostel,Trotter,Hostel,Large vacation draw for tourists and families.
-178,2,,05153 Waubesa Street,Matney Hotel,Matney,Hotel,"A nice, quiet place on a side street."
-179,1,,479 Tennessee Hill,Prospect Hostel,Prospect,Hostel,Large vacation draw for tourists and families.
-180,6,,3860 Stang Avenue,Blaine University,Blaine,University,"A nice, quiet place on a side street."
-181,2,,80626 Caliangt Place,Laurelwood Hotel,Laurelwood,Hotel,"A nice, quiet place on a side street."
-182,5,,260 Scoville Center,Tillicum Beach College,Tillicum Beach,College,Close to the local university.
-183,1,,43 Veith Lane,Galice Hostel,Galice,Hostel,Large vacation draw for tourists and families.
-184,6,,0 Amoth Junction,Bridlemile University,Bridlemile,University,Close to the local university.
-185,3,,3979 Nova Street,Eagle Point Motel,Eagle Point,Motel,Close to the local university.
-186,6,,4025 Amoth Center,Springdale University,Springdale,University,Large vacation draw for tourists and families.
-187,5,,5 Messerschmidt Park,Talbot College,Talbot,College,"A nice, quiet place on a side street."
-188,4,,5861 Dayton Hill,Cottrell Inn,Cottrell,Inn,Close to the local university.
-189,3,,053 Hanover Terrace,Whitwood Court Motel,Whitwood Court,Motel,Very accomodating for students.
-190,3,,3 Muir Center,Coquille Motel,Coquille,Motel,Close to the local university.
-191,2,,475 Independence Junction,Dairy Hotel,Dairy,Hotel,Large vacation draw for tourists and families.
-192,6,,6 Merrick Trail,Laurelhurst University,Laurelhurst,University,"A nice, quiet place on a side street."
-193,6,,183 Summit Way,Gap University,Gap,University,"A nice, quiet place on a side street."
-194,3,,12 Kenwood Circle,Unity Motel,Unity,Motel,Very accomodating for students.
-195,6,,63518 Springview Park,Waconda University,Waconda,University,Close to the local university.
-196,5,,4 Mcbride Parkway,East Gardiner College,East Gardiner,College,Large vacation draw for tourists and families.
-197,1,,81944 Kenwood Drive,Sidney Hostel,Sidney,Hostel,Close to the local university.
-198,4,,3 Sachs Pass,Okietown Inn,Okietown,Inn,"A nice, quiet place on a side street."
-199,3,,575 Twin Pines Street,Kerby Motel,Kerby,Motel,Large vacation draw for tourists and families.
-200,1,,16356 Mandrake Pass,Weston Hostel,Weston,Hostel,"A nice, quiet place on a side street."
-201,3,,14 Shasta Point,Gilchrist Motel,Gilchrist,Motel,Very accomodating for students.
-202,2,,1 Blue Bill Park Court,Parkrose Hotel,Parkrose,Hotel,"A nice, quiet place on a side street."
-203,3,,2501 Aberg Park,Bandon Motel,Bandon,Motel,Close to the local university.
-204,4,,3478 Cardinal Court,Neahr Inn,Neahr,Inn,"A nice, quiet place on a side street."
-205,2,,33204 Shoshone Park,Corbett Station Hotel,Corbett Station,Hotel,Very accomodating for students.
-206,5,,10 Continental Hill,Tyee Camp College,Tyee Camp,College,Close to the local university.
-207,6,,3799 Hayes Center,Hopewell University,Hopewell,University,Very accomodating for students.
-208,1,,09 Pleasure Pass,Myrtle Point Hostel,Myrtle Point,Hostel,Very accomodating for students.
-209,5,,3 Northland Center,Arock College,Arock,College,"A nice, quiet place on a side street."
-210,5,,7 Bowman Road,Prescott College,Prescott,College,Close to the local university.
-211,6,,67 Ryan Court,Kirbro University,Kirbro,University,Close to the local university.
-212,4,,8396 Surrey Park,Weston Inn,Weston,Inn,Close to the local university.
-213,5,,62399 Gulseth Lane,Bonneville College,Bonneville,College,Close to the local university.
-214,1,,1 Sachtjen Circle,Mitchell Hostel,Mitchell,Hostel,Large vacation draw for tourists and families.
-215,2,,62379 Vermont Trail,Azalea Hotel,Azalea,Hotel,Very accomodating for students.
-216,1,,1355 Cascade Place,New Pine Creek Hostel,New Pine Creek,Hostel,Close to the local university.
-217,4,,9 Merry Crossing,Culver Inn,Culver,Inn,Close to the local university.
-218,5,,674 Almo Junction,Monmouth College,Monmouth,College,Very accomodating for students.
-219,2,,150 Sutherland Hill,Sylvan Hotel,Sylvan,Hotel,Very accomodating for students.
-220,3,,46 Del Mar Pass,Douglass Ridge Motel,Douglass Ridge,Motel,Close to the local university.
-221,3,,11 Buell Circle,Veneta Motel,Veneta,Motel,Large vacation draw for tourists and families.
-222,6,,12 Marcy Lane,Champ University,Champ,University,"A nice, quiet place on a side street."
-223,5,,8 Memorial Road,East Portland College,East Portland,College,"A nice, quiet place on a side street."
-224,3,,9820 Emmet Lane,Wilson Motel,Wilson,Motel,Large vacation draw for tourists and families.
-225,1,,9414 Superior Lane,Mayger Hostel,Mayger,Hostel,Large vacation draw for tourists and families.
-226,5,,27993 Sloan Road,Nelscott College,Nelscott,College,"A nice, quiet place on a side street."
-227,6,,76 Warbler Way,Matney University,Matney,University,"A nice, quiet place on a side street."
-228,2,,05 Artisan Point,Mount View Hotel,Mount View,Hotel,Very accomodating for students.
-229,4,,489 Oak Valley Circle,Princeton Inn,Princeton,Inn,Very accomodating for students.
-230,6,,297 Dakota Center,McKinley University,McKinley,University,Close to the local university.
-231,4,,146 Almo Terrace,Rothe Inn,Rothe,Inn,Large vacation draw for tourists and families.
-232,5,,133 Emmet Circle,Mapleton College,Mapleton,College,Very accomodating for students.
-233,2,,7728 Anderson Alley,Hardman Hotel,Hardman,Hotel,Close to the local university.
-234,5,,36 Declaration Point,Veneta College,Veneta,College,"A nice, quiet place on a side street."
-235,3,,8 Dryden Crossing,The Dalles Motel,The Dalles,Motel,"A nice, quiet place on a side street."
-236,2,,7 Bayside Junction,Walker Hotel,Walker,Hotel,Very accomodating for students.
-237,4,,72 2nd Terrace,Altamont Inn,Altamont,Inn,Large vacation draw for tourists and families.
-238,2,,6194 Bobwhite Court,Nyssa Hotel,Nyssa,Hotel,"A nice, quiet place on a side street."
-239,4,,1214 Mallard Park,Unity Inn,Unity,Inn,"A nice, quiet place on a side street."
-240,1,,9 Huxley Crossing,Elk Lake Hostel,Elk Lake,Hostel,Large vacation draw for tourists and families.
-241,5,,59916 Ridge Oak Point,Gilbert Station College,Gilbert Station,College,Very accomodating for students.
-242,2,,23 Acker Terrace,Outlook Hotel,Outlook,Hotel,Close to the local university.
-243,2,,26842 West Road,Deerhorn Hotel,Deerhorn,Hotel,Very accomodating for students.
-244,4,,00 Oneill Court,Hazelia Inn,Hazelia,Inn,"A nice, quiet place on a side street."
-245,4,,47 High Crossing Crossing,Dufur Inn,Dufur,Inn,Close to the local university.
-246,3,,6 Mallard Junction,Siletz Motel,Siletz,Motel,Large vacation draw for tourists and families.
-247,6,,8249 Melby Parkway,Saunders Lake University,Saunders Lake,University,Very accomodating for students.
-248,2,,79472 Talmadge Terrace,Richland Hotel,Richland,Hotel,"A nice, quiet place on a side street."
-249,2,,30660 Eagan Hill,Eden Hotel,Eden,Hotel,Close to the local university.
-250,4,,8680 Sherman Alley,Cherry Grove Inn,Cherry Grove,Inn,Close to the local university.
-251,5,,74 Rieder Avenue,Butte Falls College,Butte Falls,College,Close to the local university.
-252,1,,402 Dayton Way,Eastmoreland Hostel,Eastmoreland,Hostel,Very accomodating for students.
-253,2,,5311 Russell Way,Clatskanie Hotel,Clatskanie,Hotel,Close to the local university.
-254,6,,62 Summer Ridge Way,Siltcoos University,Siltcoos,University,"A nice, quiet place on a side street."
-255,5,,83 Starling Court,Adrian College,Adrian,College,Large vacation draw for tourists and families.
-256,1,,8 Delaware Street,Warrenton Hostel,Warrenton,Hostel,Very accomodating for students.
-257,5,,229 Kings Plaza,Fir Grove College,Fir Grove,College,Close to the local university.
-258,3,,74 Cascade Place,Athena Motel,Athena,Motel,Very accomodating for students.
-259,3,,7 Twin Pines Pass,Mabel Motel,Mabel,Motel,Very accomodating for students.
-260,2,,88900 Grayhawk Parkway,Hemlock Hotel,Hemlock,Hotel,"A nice, quiet place on a side street."
-261,1,,8336 Evergreen Point,Hay Creek Ranch Hostel,Hay Creek Ranch,Hostel,"A nice, quiet place on a side street."
-262,3,,86 Orin Place,Corbett Motel,Corbett,Motel,Very accomodating for students.
-263,6,,29 Glendale Place,Blue River University,Blue River,University,"A nice, quiet place on a side street."
-264,2,,467 Valley Edge Circle,Brush College Hotel,Brush College,Hotel,Very accomodating for students.
-265,6,,23 Debs Pass,Robinette University,Robinette,University,Large vacation draw for tourists and families.
-266,6,,43234 Bluejay Trail,Russell University,Russell,University,Very accomodating for students.
-267,1,,5428 Graedel Way,Otis Junction Hostel,Otis Junction,Hostel,Very accomodating for students.
-268,5,,417 Everett Terrace,West Saint Helens College,West Saint Helens,College,Close to the local university.
-269,4,,4771 North Avenue,Bayside Gardens Inn,Bayside Gardens,Inn,"A nice, quiet place on a side street."
-270,6,,27015 Towne Plaza,Harmony Point University,Harmony Point,University,Very accomodating for students.
-271,3,,29 Raven Alley,Mitchell Corner Motel,Mitchell Corner,Motel,Very accomodating for students.
-272,4,,65109 Sloan Way,Zena Inn,Zena,Inn,"A nice, quiet place on a side street."
-273,1,,6 Mesta Crossing,Sonny Hostel,Sonny,Hostel,Large vacation draw for tourists and families.
-274,4,,4 Manley Crossing,Folkenberg Inn,Folkenberg,Inn,Large vacation draw for tourists and families.
-275,1,,187 Hollow Ridge Hill,Glendale Junction Hostel,Glendale Junction,Hostel,Large vacation draw for tourists and families.
-276,6,,336 Sycamore Junction,Cottrell University,Cottrell,University,Very accomodating for students.
-277,3,,2094 Lukken Parkway,Barnes Road Motel,Barnes Road,Motel,Close to the local university.
-278,5,,7144 Village Green Place,Wildwood College,Wildwood,College,Very accomodating for students.
-279,2,,131 Emmet Trail,Eagle Point Hotel,Eagle Point,Hotel,"A nice, quiet place on a side street."
-280,1,,75980 3rd Pass,Lenz Hostel,Lenz,Hostel,Very accomodating for students.
-281,1,,2850 Melody Point,Rand Hostel,Rand,Hostel,Very accomodating for students.
-282,6,,07190 Mayfield Drive,Battin University,Battin,University,Close to the local university.
-283,3,,674 Rieder Parkway,Burnt Woods Motel,Burnt Woods,Motel,Very accomodating for students.
-284,3,,86 West Crossing,Sylvan Motel,Sylvan,Motel,Large vacation draw for tourists and families.
-285,2,,31564 Clyde Gallagher Point,Farnham Landing Hotel,Farnham Landing,Hotel,"A nice, quiet place on a side street."
-286,6,,8853 Marquette Street,Redmond University,Redmond,University,Large vacation draw for tourists and families.
-287,4,,1810 Rusk Crossing,Jefferson Inn,Jefferson,Inn,Close to the local university.
-288,6,,1 Meadow Vale Hill,Jacksonville University,Jacksonville,University,Very accomodating for students.
-289,3,,69 Toban Street,Coos River Motel,Coos River,Motel,"A nice, quiet place on a side street."
-290,6,,9661 Division Pass,Liberal University,Liberal,University,Large vacation draw for tourists and families.
-291,3,,44 Upham Way,Kendall Motel,Kendall,Motel,Close to the local university.
-292,2,,38806 Browning Street,Charleston Hotel,Charleston,Hotel,"A nice, quiet place on a side street."
-293,4,,0 Dottie Way,Kendall Inn,Kendall,Inn,"A nice, quiet place on a side street."
-294,2,,04690 Hermina Lane,Willamina Hotel,Willamina,Hotel,Large vacation draw for tourists and families.
-295,5,,1291 Westend Hill,Clackamas College,Clackamas,College,Large vacation draw for tourists and families.
-296,5,,132 Forest Run Court,Carnahan College,Carnahan,College,Close to the local university.
-297,1,,35222 Marquette Parkway,Mohler Hostel,Mohler,Hostel,Very accomodating for students.
-298,2,,800 Tennessee Street,Svensen Hotel,Svensen,Hotel,Very accomodating for students.
-299,6,,3272 Brown Hill,Sodaville University,Sodaville,University,Very accomodating for students.
-300,2,,8 Hauk Circle,Mill City Hotel,Mill City,Hotel,"A nice, quiet place on a side street."
-301,1,,6 Reinke Drive,Sunset Hostel,Sunset,Hostel,Close to the local university.
-302,1,,540 Namekagon Trail,Huber Hostel,Huber,Hostel,Large vacation draw for tourists and families.
-303,3,,4627 Rowland Crossing,West Haven Motel,West Haven,Motel,Large vacation draw for tourists and families.
-304,4,,2 High Crossing Place,Warrenton Inn,Warrenton,Inn,"A nice, quiet place on a side street."
-305,1,,95 Comanche Hill,Elk City Hostel,Elk City,Hostel,"A nice, quiet place on a side street."
-306,4,,20748 Hanson Way,Trent Inn,Trent,Inn,"A nice, quiet place on a side street."
-307,1,,86583 Bay Terrace,Robinwood Hostel,Robinwood,Hostel,Large vacation draw for tourists and families.
-308,4,,45020 Lakeland Drive,Garfield Inn,Garfield,Inn,Close to the local university.
-309,5,,166 Packers Alley,Barlow College,Barlow,College,Large vacation draw for tourists and families.
-310,3,,458 Sunnyside Road,Woodson Motel,Woodson,Motel,"A nice, quiet place on a side street."
-311,2,,4374 Browning Court,Marion Hotel,Marion,Hotel,"A nice, quiet place on a side street."
-312,3,,89143 Onsgard Hill,Post Motel,Post,Motel,Close to the local university.
-313,2,,65911 Weeping Birch Street,East Milwaukie Hotel,East Milwaukie,Hotel,Very accomodating for students.
-314,5,,7384 Golf Course Junction,Cascade Locks College,Cascade Locks,College,Large vacation draw for tourists and families.
-315,4,,99 New Castle Hill,Heppner Inn,Heppner,Inn,Large vacation draw for tourists and families.
-316,2,,841 Caliangt Plaza,Waconda Hotel,Waconda,Hotel,"A nice, quiet place on a side street."
-317,6,,74027 Gerald Pass,Grand Ronde University,Grand Ronde,University,"A nice, quiet place on a side street."
-318,6,,9897 Lawn Park,Green University,Green,University,Large vacation draw for tourists and families.
-319,2,,8 Old Shore Plaza,Bendemeer Hotel,Bendemeer,Hotel,Close to the local university.
-320,2,,9 Westerfield Hill,Warm Springs Hotel,Warm Springs,Hotel,Large vacation draw for tourists and families.
-321,4,,48760 Wayridge Hill,Ontario Heights Inn,Ontario Heights,Inn,"A nice, quiet place on a side street."
-322,5,,9005 Menomonie Way,Fulton College,Fulton,College,Large vacation draw for tourists and families.
-323,5,,113 Elgar Alley,East Maupin College,East Maupin,College,"A nice, quiet place on a side street."
-324,2,,7 Mcbride Street,Plainview Hotel,Plainview,Hotel,"A nice, quiet place on a side street."
-325,5,,17 Harper Plaza,Dryland College,Dryland,College,Large vacation draw for tourists and families.
-326,2,,3 Coleman Junction,Fort Stevens Hotel,Fort Stevens,Hotel,"A nice, quiet place on a side street."
-327,5,,9487 Pierstorff Pass,Neskowin College,Neskowin,College,Very accomodating for students.
-328,6,,8327 Springview Avenue,Russell University,Russell,University,Close to the local university.
-329,4,,37318 Crowley Road,Labish Village Inn,Labish Village,Inn,Close to the local university.
-330,2,,05449 Sloan Trail,Bolt Hotel,Bolt,Hotel,Very accomodating for students.
-331,6,,047 Arapahoe Way,Brownsville University,Brownsville,University,Large vacation draw for tourists and families.
-332,1,,7 Randy Terrace,Orient Hostel,Orient,Hostel,Large vacation draw for tourists and families.
-333,2,,36844 Prairieview Circle,Dixonville Hotel,Dixonville,Hotel,"A nice, quiet place on a side street."
-334,4,,52572 Scott Road,Mount View Inn,Mount View,Inn,Large vacation draw for tourists and families.
-335,4,,2 Londonderry Center,Greenberry Inn,Greenberry,Inn,Large vacation draw for tourists and families.
-336,6,,5 Glendale Hill,Island City University,Island City,University,Very accomodating for students.
-337,5,,6 Schiller Avenue,Durkee College,Durkee,College,Large vacation draw for tourists and families.
-338,5,,16505 Burrows Center,Rhododendron College,Rhododendron,College,Very accomodating for students.
-339,5,,44 Shasta Crossing,Hugo College,Hugo,College,Large vacation draw for tourists and families.
-340,4,,8 Blue Bill Park Hill,Forest Grove Inn,Forest Grove,Inn,"A nice, quiet place on a side street."
-341,5,,073 Hanover Terrace,Bethel College,Bethel,College,"A nice, quiet place on a side street."
-342,3,,41568 Fallview Park,Mehama Motel,Mehama,Motel,Very accomodating for students.
-343,2,,22845 Northridge Terrace,Orenco Hotel,Orenco,Hotel,Very accomodating for students.
-344,6,,8247 Pankratz Avenue,Elgarose University,Elgarose,University,Close to the local university.
-345,3,,71 Moulton Court,Heppner Motel,Heppner,Motel,Large vacation draw for tourists and families.
-346,4,,9754 Rigney Circle,Reedville Inn,Reedville,Inn,"A nice, quiet place on a side street."
-347,4,,301 Hansons Point,Greenville Inn,Greenville,Inn,Large vacation draw for tourists and families.
-348,6,,86585 Buena Vista Place,Reedsport University,Reedsport,University,Close to the local university.
-349,4,,80 Waxwing Trail,Laurelwood Inn,Laurelwood,Inn,"A nice, quiet place on a side street."
-350,2,,42267 Knutson Hill,Glide Hotel,Glide,Hotel,Very accomodating for students.
-351,3,,08187 Farwell Circle,Creston Motel,Creston,Motel,Very accomodating for students.
-352,3,,169 Welch Street,Labish Village Motel,Labish Village,Motel,"A nice, quiet place on a side street."
-353,3,,7538 Sommers Road,Somerset West Motel,Somerset West,Motel,Close to the local university.
-354,4,,3571 Heffernan Lane,Wichita Inn,Wichita,Inn,Very accomodating for students.
-355,3,,570 Iowa Trail,Ashaha Motel,Ashaha,Motel,Close to the local university.
-356,6,,2627 Vidon Crossing,Glendale University,Glendale,University,"A nice, quiet place on a side street."
-357,5,,91 Badeau Center,Harper College,Harper,College,Very accomodating for students.
-358,5,,179 Summit Parkway,Warrendale College,Warrendale,College,Large vacation draw for tourists and families.
-359,3,,9373 Forster Center,Grand Island Junction Motel,Grand Island Junction,Motel,"A nice, quiet place on a side street."
-360,2,,5 South Place,Birkenfeld Hotel,Birkenfeld,Hotel,Very accomodating for students.
-361,2,,3888 Blackbird Alley,Spray Hotel,Spray,Hotel,Very accomodating for students.
-362,2,,22163 Fisk Pass,Beaver Homes Hotel,Beaver Homes,Hotel,Very accomodating for students.
-363,6,,4 Surrey Pass,Brookwild University,Brookwild,University,Large vacation draw for tourists and families.
-364,2,,08 2nd Terrace,Athena Hotel,Athena,Hotel,Close to the local university.
-365,6,,3356 Garrison Park,Shortys Corner University,Shortys Corner,University,Large vacation draw for tourists and families.
-366,5,,68 Dennis Terrace,Willamette College,Willamette,College,Very accomodating for students.
-367,3,,13 Birchwood Circle,Bonanza Motel,Bonanza,Motel,Very accomodating for students.
-368,4,,262 Colorado Park,Wimer Inn,Wimer,Inn,Large vacation draw for tourists and families.
-369,2,,9583 Parkside Avenue,Bonneville Hotel,Bonneville,Hotel,Close to the local university.
-370,4,,06778 Magdeline Center,Unity Inn,Unity,Inn,Very accomodating for students.
-371,5,,78076 Truax Trail,Redland College,Redland,College,Large vacation draw for tourists and families.
-372,2,,762 Lake View Drive,Wilson Hotel,Wilson,Hotel,Large vacation draw for tourists and families.
-373,3,,83299 Lake View Terrace,Payette Junction Motel,Payette Junction,Motel,Close to the local university.
-374,6,,28 Express Crossing,Keizer University,Keizer,University,Very accomodating for students.
-375,4,,38601 Old Gate Drive,Airlie Inn,Airlie,Inn,Close to the local university.
-376,4,,2474 Mayfield Plaza,Woodburn Inn,Woodburn,Inn,Very accomodating for students.
-377,3,,555 Logan Point,Dayton Motel,Dayton,Motel,Close to the local university.
-378,3,,7082 Judy Court,Cannon Beach Junction Motel,Cannon Beach Junction,Motel,Close to the local university.
-379,3,,2244 Columbus Terrace,Falls City Motel,Falls City,Motel,Very accomodating for students.
-380,6,,53154 Elka Junction,Lobert Junction University,Lobert Junction,University,Large vacation draw for tourists and families.
-381,3,,5174 Bayside Road,Lincoln Motel,Lincoln,Motel,Very accomodating for students.
-382,5,,8 Mitchell Circle,Lincoln College,Lincoln,College,"A nice, quiet place on a side street."
-383,6,,1 Lake View Lane,Mahan University,Mahan,University,Very accomodating for students.
-384,2,,0748 Jenna Way,Monmouth Hotel,Monmouth,Hotel,"A nice, quiet place on a side street."
-385,3,,01 Anhalt Street,Waconda Beach Motel,Waconda Beach,Motel,Very accomodating for students.
-386,5,,00 Hauk Terrace,Irving College,Irving,College,Close to the local university.
-387,2,,48759 Marcy Court,Placer Hotel,Placer,Hotel,Large vacation draw for tourists and families.
-388,4,,27558 Merchant Street,Redland Inn,Redland,Inn,"A nice, quiet place on a side street."
-389,2,,333 Drewry Alley,Rye Valley Hotel,Rye Valley,Hotel,"A nice, quiet place on a side street."
-390,2,,97 Warrior Junction,Juniper Hotel,Juniper,Hotel,Large vacation draw for tourists and families.
-391,3,,5031 Sunfield Terrace,Bethany Motel,Bethany,Motel,Very accomodating for students.
-392,5,,8419 Waywood Point,Fern Ridge College,Fern Ridge,College,Close to the local university.
-393,3,,3 Artisan Place,Mulino Motel,Mulino,Motel,"A nice, quiet place on a side street."
-394,1,,14 Esker Plaza,Powell Valley Hostel,Powell Valley,Hostel,Very accomodating for students.
-395,3,,91 Gateway Parkway,Switzerland Motel,Switzerland,Motel,Close to the local university.
-396,3,,09 Red Cloud Street,Junction City Motel,Junction City,Motel,Large vacation draw for tourists and families.
-397,6,,1 Tony Hill,Upper Nehalem University,Upper Nehalem,University,"A nice, quiet place on a side street."
-398,2,,3627 2nd Pass,Sandlake Hotel,Sandlake,Hotel,Close to the local university.
-399,5,,02 Dunning Plaza,Crescent College,Crescent,College,"A nice, quiet place on a side street."
-400,4,,7 Bartelt Hill,Bellrose Inn,Bellrose,Inn,"A nice, quiet place on a side street."
-401,4,,16091 American Crossing,Chenoweth Inn,Chenoweth,Inn,"A nice, quiet place on a side street."
-402,2,,4894 Brickson Park Place,Talent Hotel,Talent,Hotel,Close to the local university.
-403,3,,790 Straubel Drive,Latham Motel,Latham,Motel,Large vacation draw for tourists and families.
-404,1,,3572 Arizona Pass,Forfar Hostel,Forfar,Hostel,Close to the local university.
-405,3,,27 Merchant Trail,Wamic Motel,Wamic,Motel,Very accomodating for students.
-406,3,,09 Grim Plaza,Creston Motel,Creston,Motel,"A nice, quiet place on a side street."
-407,2,,0138 Thompson Lane,Mitchell Corner Hotel,Mitchell Corner,Hotel,Very accomodating for students.
-408,5,,33 Melody Lane,McMinnville College,McMinnville,College,Large vacation draw for tourists and families.
-409,6,,43 Utah Street,Beverly Beach University,Beverly Beach,University,"A nice, quiet place on a side street."
-410,1,,06145 Milwaukee Junction,Surprise Valley Hostel,Surprise Valley,Hostel,"A nice, quiet place on a side street."
-411,3,,0438 Eastwood Court,Breitenbush Motel,Breitenbush,Motel,"A nice, quiet place on a side street."
-412,5,,4 Canary Parkway,Hemlock College,Hemlock,College,Large vacation draw for tourists and families.
-413,3,,898 Saint Paul Crossing,Butterfield Motel,Butterfield,Motel,"A nice, quiet place on a side street."
-414,4,,57587 Jenna Alley,Riverview Inn,Riverview,Inn,Close to the local university.
-415,4,,3891 Rutledge Crossing,Newberg Inn,Newberg,Inn,Very accomodating for students.
-416,2,,20758 Barnett Avenue,Rougue Elk Hotel,Rougue Elk,Hotel,Close to the local university.
-417,4,,179 Northfield Crossing,Columbia City Inn,Columbia City,Inn,Large vacation draw for tourists and families.
-418,3,,5035 Parkside Hill,Shedd Motel,Shedd,Motel,Large vacation draw for tourists and families.
-419,2,,75 Thierer Terrace,Franklin Hotel,Franklin,Hotel,Close to the local university.
-420,6,,20 Warner Alley,Halfway University,Halfway,University,Close to the local university.
-421,2,,6347 Maryland Junction,Elk Rock Hotel,Elk Rock,Hotel,Large vacation draw for tourists and families.
-422,6,,92 Dennis Lane,Hopewell University,Hopewell,University,Very accomodating for students.
-423,6,,667 Superior Parkway,Interlachen University,Interlachen,University,Very accomodating for students.
-424,2,,78 Butternut Lane,Bonny Slope Hotel,Bonny Slope,Hotel,Very accomodating for students.
-425,5,,61 Clarendon Point,Takilma College,Takilma,College,"A nice, quiet place on a side street."
-426,3,,1327 Green Ridge Pass,Prosper Motel,Prosper,Motel,Large vacation draw for tourists and families.
-427,4,,8 Knutson Court,Brush College Inn,Brush College,Inn,Very accomodating for students.
-428,4,,047 Sachs Terrace,Knappa Junction Inn,Knappa Junction,Inn,Close to the local university.
-429,6,,761 Carey Crossing,Shady Dell University,Shady Dell,University,Close to the local university.
-430,2,,47 Florence Street,Orchard View Hotel,Orchard View,Hotel,Large vacation draw for tourists and families.
-431,2,,77988 Continental Way,Tracy Hotel,Tracy,Hotel,"A nice, quiet place on a side street."
-432,2,,86 Arrowood Trail,Locoda Hotel,Locoda,Hotel,Very accomodating for students.
-433,2,,1 Mcbride Terrace,Rosewood Hotel,Rosewood,Hotel,Very accomodating for students.
-434,4,,707 Mariners Cove Circle,Wilson Corner Inn,Wilson Corner,Inn,"A nice, quiet place on a side street."
-435,6,,15820 Forest Run Circle,Molalla University,Molalla,University,Large vacation draw for tourists and families.
-436,2,,6376 Oak Valley Parkway,Wilderville Hotel,Wilderville,Hotel,Close to the local university.
-437,2,,53 High Crossing Alley,Farnham Landing Hotel,Farnham Landing,Hotel,Close to the local university.
-438,5,,1525 Loftsgordon Park,Troy College,Troy,College,"A nice, quiet place on a side street."
-439,4,,79927 Charing Cross Circle,Siletz Inn,Siletz,Inn,Large vacation draw for tourists and families.
-440,1,,0591 Crescent Oaks Terrace,Cherry Heights Hostel,Cherry Heights,Hostel,"A nice, quiet place on a side street."
-441,5,,0910 Trailsway Trail,Clatsop Station College,Clatsop Station,College,"A nice, quiet place on a side street."
-442,3,,6297 North Crossing,Monitor Motel,Monitor,Motel,Very accomodating for students.
-443,1,,92683 Spohn Road,Empire Hostel,Empire,Hostel,Large vacation draw for tourists and families.
-444,5,,3878 Michigan Alley,Lehman Springs College,Lehman Springs,College,Close to the local university.
-445,3,,60174 Chinook Center,Park Place Motel,Park Place,Motel,"A nice, quiet place on a side street."
-446,1,,8 International Road,Verboort Hostel,Verboort,Hostel,Close to the local university.
-447,6,,0 Heath Crossing,Phoenix University,Phoenix,University,Very accomodating for students.
-448,1,,75 Warner Court,Yankton Hostel,Yankton,Hostel,Very accomodating for students.
-449,1,,837 Pepper Wood Parkway,Brightwood Hostel,Brightwood,Hostel,"A nice, quiet place on a side street."
-450,1,,595 Homewood Hill,Salem Hostel,Salem,Hostel,Close to the local university.
-451,2,,7 Little Fleur Court,Arleta Hotel,Arleta,Hotel,"A nice, quiet place on a side street."
-452,4,,353 Main Way,Tumalo Inn,Tumalo,Inn,Very accomodating for students.
-453,3,,78756 Hanson Plaza,Bethany Motel,Bethany,Motel,Very accomodating for students.
-454,2,,925 8th Hill,Fairview Hotel,Fairview,Hotel,"A nice, quiet place on a side street."
-455,1,,1 Eagan Hill,Deerhorn Hostel,Deerhorn,Hostel,Close to the local university.
-456,4,,207 Amoth Park,Monitor Inn,Monitor,Inn,Very accomodating for students.
-457,5,,3198 Northridge Crossing,Lents College,Lents,College,Close to the local university.
-458,2,,700 Milwaukee Center,Hoodview Hotel,Hoodview,Hotel,Large vacation draw for tourists and families.
-459,4,,567 Village Green Street,Rickey Inn,Rickey,Inn,Very accomodating for students.
-460,5,,582 Chive Pass,Tolovana Park College,Tolovana Park,College,Close to the local university.
-461,6,,83454 Rutledge Road,Athena University,Athena,University,"A nice, quiet place on a side street."
-462,3,,53 Bashford Point,Albina Motel,Albina,Motel,Large vacation draw for tourists and families.
-463,2,,2 Talmadge Point,Hines Hotel,Hines,Hotel,"A nice, quiet place on a side street."
-464,5,,79765 Vernon Street,Damascus College,Damascus,College,Close to the local university.
-465,3,,31913 Gerald Hill,Colton Motel,Colton,Motel,"A nice, quiet place on a side street."
-466,2,,92392 Hauk Junction,Spring Valley Hotel,Spring Valley,Hotel,Very accomodating for students.
-467,6,,38 Daystar Center,Lacomb University,Lacomb,University,"A nice, quiet place on a side street."
-468,6,,00 Mccormick Park,Tenmile University,Tenmile,University,Very accomodating for students.
-469,5,,2429 Jana Drive,Foster College,Foster,College,Very accomodating for students.
-470,2,,0 Dexter Pass,Sweet Home Hotel,Sweet Home,Hotel,"A nice, quiet place on a side street."
-471,1,,5 Emmet Alley,Pine Grove Hostel,Pine Grove,Hostel,Large vacation draw for tourists and families.
-472,1,,0 Briar Crest Lane,McKenzie Bridge Hostel,McKenzie Bridge,Hostel,"A nice, quiet place on a side street."
-473,6,,71 Steensland Crossing,Trent University,Trent,University,Large vacation draw for tourists and families.
-474,5,,1 Washington Center,Irving College,Irving,College,Close to the local university.
-475,1,,39844 Jenifer Parkway,Riddle Hostel,Riddle,Hostel,Large vacation draw for tourists and families.
-476,1,,814 Colorado Drive,Parkrose Hostel,Parkrose,Hostel,Large vacation draw for tourists and families.
-477,2,,59 Daystar Drive,Green Hills Hotel,Green Hills,Hotel,"A nice, quiet place on a side street."
-478,5,,63484 Killdeer Pass,Bradley Corner College,Bradley Corner,College,Very accomodating for students.
-479,3,,536 Barby Point,Mist Motel,Mist,Motel,Large vacation draw for tourists and families.
-480,3,,26 Haas Street,Kelso Motel,Kelso,Motel,"A nice, quiet place on a side street."
-481,3,,60 Kings Drive,Burp Hollow Motel,Burp Hollow,Motel,Very accomodating for students.
-482,3,,565 Continental Point,Cherryville Motel,Cherryville,Motel,"A nice, quiet place on a side street."
-483,5,,641 Truax Center,Oregon City College,Oregon City,College,Large vacation draw for tourists and families.
-484,4,,0101 Coleman Park,Glasgow Inn,Glasgow,Inn,Very accomodating for students.
-485,5,,116 Dawn Lane,Middleton College,Middleton,College,Very accomodating for students.
-486,4,,5142 Waubesa Avenue,Swisshome Inn,Swisshome,Inn,Very accomodating for students.
-487,2,,240 Badeau Way,Scappoose Hotel,Scappoose,Hotel,Large vacation draw for tourists and families.
-488,2,,1 4th Place,Fern Hill Hotel,Fern Hill,Hotel,Very accomodating for students.
-489,6,,68637 Packers Road,Norwood University,Norwood,University,"A nice, quiet place on a side street."
-490,3,,9848 Pine View Circle,Douglass Ridge Motel,Douglass Ridge,Motel,Close to the local university.
-491,5,,5417 Buena Vista Park,Butteville Station College,Butteville Station,College,Very accomodating for students.
-492,3,,858 Dovetail Crossing,Orchard View Motel,Orchard View,Motel,"A nice, quiet place on a side street."
-493,3,,70389 Grim Plaza,Netarts Motel,Netarts,Motel,Very accomodating for students.
-494,4,,584 Spohn Circle,Philomath Inn,Philomath,Inn,Very accomodating for students.
-495,5,,3 Warner Plaza,Ruby College,Ruby,College,"A nice, quiet place on a side street."
-496,1,,0 Sunnyside Court,Otis Junction Hostel,Otis Junction,Hostel,Large vacation draw for tourists and families.
-497,2,,91 Moland Crossing,Firwood Hotel,Firwood,Hotel,Very accomodating for students.
-498,3,,4266 Manufacturers Lane,Culp Creek Motel,Culp Creek,Motel,Close to the local university.
-499,3,,61237 Anderson Crossing,Troutdale Motel,Troutdale,Motel,Large vacation draw for tourists and families.
-500,4,,021 Crownhardt Parkway,Ashdale Inn,Ashdale,Inn,Very accomodating for students.
-501,4,,397 Helena Alley,Mitchell Inn,Mitchell,Inn,Large vacation draw for tourists and families.
-502,4,,260 Pepper Wood Alley,Ukiah Inn,Ukiah,Inn,"A nice, quiet place on a side street."
-503,4,,10730 Hintze Road,Buman Inn,Buman,Inn,"A nice, quiet place on a side street."
-504,6,,53 Graedel Center,Seal Rock University,Seal Rock,University,"A nice, quiet place on a side street."
-505,5,,46306 Cambridge Place,Waterloo College,Waterloo,College,Very accomodating for students.
-506,4,,0 Autumn Leaf Circle,Harborton Inn,Harborton,Inn,Close to the local university.
-507,6,,740 Kensington Parkway,Eagle Creek University,Eagle Creek,University,"A nice, quiet place on a side street."
-508,2,,16613 Bunker Hill Center,Manzanita Hotel,Manzanita,Hotel,"A nice, quiet place on a side street."
-509,1,,458 Coolidge Drive,Kenton Hostel,Kenton,Hostel,Very accomodating for students.
-510,6,,66 Ramsey Junction,Navy Heights University,Navy Heights,University,"A nice, quiet place on a side street."
-511,3,,08 Packers Park,Carver Motel,Carver,Motel,Large vacation draw for tourists and families.
-512,1,,18577 Dovetail Drive,Union Gap Hostel,Union Gap,Hostel,Very accomodating for students.
-513,2,,20 Brickson Park Road,Battin Hotel,Battin,Hotel,"A nice, quiet place on a side street."
-514,3,,63 David Hill,Rye Valley Motel,Rye Valley,Motel,Large vacation draw for tourists and families.
-515,4,,98 Porter Circle,Yamhill Station Inn,Yamhill Station,Inn,"A nice, quiet place on a side street."
-516,5,,8 Bay Court,Big Eddy College,Big Eddy,College,"A nice, quiet place on a side street."
-517,2,,203 Bobwhite Parkway,Greenburg Hotel,Greenburg,Hotel,Close to the local university.
-518,4,,8 Scoville Circle,Brothers Inn,Brothers,Inn,Very accomodating for students.
-519,5,,88403 Dwight Alley,Government Camp College,Government Camp,College,Very accomodating for students.
-520,5,,72697 La Follette Hill,Waldport College,Waldport,College,"A nice, quiet place on a side street."
-521,4,,28833 Fieldstone Way,Twin Rocks Inn,Twin Rocks,Inn,Large vacation draw for tourists and families.
-522,3,,45 Waubesa Park,Rockford Motel,Rockford,Motel,Very accomodating for students.
-523,5,,04504 Esch Terrace,Foster College,Foster,College,Very accomodating for students.
-524,2,,013 Dunning Terrace,Milwaukie Hotel,Milwaukie,Hotel,Close to the local university.
-525,6,,19 Laurel Pass,Rainier University,Rainier,University,Close to the local university.
-526,6,,0323 Pankratz Parkway,Harlan University,Harlan,University,"A nice, quiet place on a side street."
-527,6,,79419 Lakewood Gardens Street,Lebanon University,Lebanon,University,Close to the local university.
-528,6,,804 Larry Parkway,Shangri-La Mill University,Shangri-La Mill,University,Large vacation draw for tourists and families.
-529,2,,713 Stephen Plaza,Champoeg Hotel,Champoeg,Hotel,"A nice, quiet place on a side street."
-530,1,,31 Mayer Drive,Buxton Hostel,Buxton,Hostel,"A nice, quiet place on a side street."
-531,2,,17 Pawling Center,Marlene Village Hotel,Marlene Village,Hotel,Large vacation draw for tourists and families.
-532,6,,51996 Havey Street,Clarnie University,Clarnie,University,"A nice, quiet place on a side street."
-533,6,,52 Pine View Hill,Ramapo University,Ramapo,University,"A nice, quiet place on a side street."
-534,5,,975 Holy Cross Street,Bandon College,Bandon,College,Close to the local university.
-535,5,,83 Banding Park,Hillsdale College,Hillsdale,College,Close to the local university.
-536,3,,73 Arizona Trail,Surf Pines Motel,Surf Pines,Motel,"A nice, quiet place on a side street."
-537,5,,49609 Forest Run Trail,Hazeldale College,Hazeldale,College,Large vacation draw for tourists and families.
-538,5,,2236 Transport Trail,Hurricane Grange College,Hurricane Grange,College,Very accomodating for students.
-539,5,,55223 Valley Edge Avenue,Tillamook College,Tillamook,College,Close to the local university.
-540,5,,823 Ridgeway Alley,Colton College,Colton,College,Close to the local university.
-541,2,,49506 Kropf Avenue,Shady Hotel,Shady,Hotel,"A nice, quiet place on a side street."
-542,5,,1 1st Hill,West Woodburn College,West Woodburn,College,"A nice, quiet place on a side street."
-543,1,,417 Maryland Junction,Happy Valley Hostel,Happy Valley,Hostel,Close to the local university.
-544,1,,8655 Warner Terrace,Elsie Hostel,Elsie,Hostel,Very accomodating for students.
-545,2,,50 Michigan Circle,Buena Vista Hotel,Buena Vista,Hotel,Large vacation draw for tourists and families.
-546,6,,0024 Vera Point,Aims University,Aims,University,"A nice, quiet place on a side street."
-547,2,,17 Bellgrove Junction,Sylvan Hotel,Sylvan,Hotel,Close to the local university.
-548,5,,7450 Bobwhite Parkway,Riddle College,Riddle,College,"A nice, quiet place on a side street."
-549,3,,48160 Weeping Birch Parkway,Beaverton Motel,Beaverton,Motel,Very accomodating for students.
-550,1,,2938 Village Green Junction,Crow Hostel,Crow,Hostel,Very accomodating for students.
-551,1,,05464 Johnson Lane,Dodge Hostel,Dodge,Hostel,Very accomodating for students.
-552,6,,92200 Thierer Place,Ellendale University,Ellendale,University,Large vacation draw for tourists and families.
-553,1,,973 Bartillon Center,Bellfountain Hostel,Bellfountain,Hostel,Large vacation draw for tourists and families.
-554,1,,9 Stoughton Lane,Kent Hostel,Kent,Hostel,Very accomodating for students.
-555,5,,3 Dexter Alley,Rickard College,Rickard,College,Very accomodating for students.
-556,3,,1 Fulton Avenue,Bellfountain Motel,Bellfountain,Motel,Close to the local university.
-557,6,,93968 Veith Place,Outlook University,Outlook,University,Very accomodating for students.
-558,3,,6 Lukken Plaza,Rickey Motel,Rickey,Motel,Very accomodating for students.
-559,4,,68627 Sullivan Center,Waterloo Inn,Waterloo,Inn,Large vacation draw for tourists and families.
-560,5,,78217 Maywood Plaza,Naef College,Naef,College,Large vacation draw for tourists and families.
-561,1,,7 Pierstorff Circle,Mabel Hostel,Mabel,Hostel,"A nice, quiet place on a side street."
-562,2,,59 Duke Lane,Mabel Hotel,Mabel,Hotel,Close to the local university.
-563,6,,697 Lukken Point,Gold Beach University,Gold Beach,University,Very accomodating for students.
-564,1,,254 Columbus Drive,Hardman Hostel,Hardman,Hostel,Very accomodating for students.
-565,1,,56 Brown Drive,Elgin Hostel,Elgin,Hostel,"A nice, quiet place on a side street."
-566,3,,611 Maryland Way,Menefee Motel,Menefee,Motel,Very accomodating for students.
-567,3,,94 Westridge Trail,Kilts Motel,Kilts,Motel,Large vacation draw for tourists and families.
-568,6,,94 Sunbrook Center,Woodson University,Woodson,University,Large vacation draw for tourists and families.
-569,4,,0134 Lillian Road,Mohler Inn,Mohler,Inn,Very accomodating for students.
-570,1,,825 Mcguire Street,Scholls Hostel,Scholls,Hostel,Large vacation draw for tourists and families.
-571,1,,2 Hollow Ridge Hill,Glencullen Hostel,Glencullen,Hostel,Very accomodating for students.
-572,3,,86460 Marquette Court,Copperfield Motel,Copperfield,Motel,"A nice, quiet place on a side street."
-573,1,,6 John Wall Circle,Trask Hostel,Trask,Hostel,"A nice, quiet place on a side street."
-574,5,,012 Magdeline Drive,Mosier College,Mosier,College,Large vacation draw for tourists and families.
-575,2,,40638 Stephen Street,Jeffers Garden Hotel,Jeffers Garden,Hotel,"A nice, quiet place on a side street."
-576,6,,0 Ruskin Point,Tideport University,Tideport,University,Large vacation draw for tourists and families.
-577,1,,56546 John Wall Circle,West Portland Park Hostel,West Portland Park,Hostel,Large vacation draw for tourists and families.
-578,5,,46 Coolidge Place,Inglis College,Inglis,College,Very accomodating for students.
-579,4,,0646 Sheridan Street,Allegany Inn,Allegany,Inn,Large vacation draw for tourists and families.
-580,6,,38851 Fieldstone Plaza,Sherwood University,Sherwood,University,Very accomodating for students.
-581,6,,1867 Maple Pass,Bridal Veil University,Bridal Veil,University,Close to the local university.
-582,1,,29 Summit Junction,Canyon City Hostel,Canyon City,Hostel,Close to the local university.
-583,6,,720 Village Plaza,Neawanna Station University,Neawanna Station,University,Very accomodating for students.
-584,5,,3 Autumn Leaf Crossing,Netarts College,Netarts,College,Large vacation draw for tourists and families.
-585,5,,09 Coolidge Plaza,Aurora College,Aurora,College,Large vacation draw for tourists and families.
-586,6,,475 Tomscot Pass,Hillsdale University,Hillsdale,University,Close to the local university.
-587,3,,7 Brown Avenue,Warm Springs Motel,Warm Springs,Motel,Very accomodating for students.
-588,4,,61 Grasskamp Place,Mt Carmel Inn,Mt Carmel,Inn,"A nice, quiet place on a side street."
-589,3,,8 Green Hill,Imnaha Motel,Imnaha,Motel,"A nice, quiet place on a side street."
-590,5,,5332 Melody Plaza,Cannon Beach Junction College,Cannon Beach Junction,College,Close to the local university.
-591,3,,539 Emmet Circle,Brush College Motel,Brush College,Motel,Large vacation draw for tourists and families.
-592,4,,24 Truax Point,Brush College Inn,Brush College,Inn,Very accomodating for students.
-593,5,,59609 Buell Avenue,Dufur College,Dufur,College,Very accomodating for students.
-594,4,,0420 Troy Avenue,Briarwood Inn,Briarwood,Inn,Large vacation draw for tourists and families.
-595,4,,7636 Fuller Court,Astoria Inn,Astoria,Inn,Large vacation draw for tourists and families.
-596,5,,61 Dahle Junction,Hardman College,Hardman,College,Close to the local university.
-597,1,,9151 Truax Road,Port Orford Hostel,Port Orford,Hostel,"A nice, quiet place on a side street."
-598,3,,7 Pierstorff Crossing,Sherwood Motel,Sherwood,Motel,"A nice, quiet place on a side street."
-599,5,,323 Banding Court,Maryhurst College,Maryhurst,College,"A nice, quiet place on a side street."
-600,4,,1 Granby Avenue,Springwater Inn,Springwater,Inn,"A nice, quiet place on a side street."
-601,4,,0 Namekagon Street,Liberal Inn,Liberal,Inn,"A nice, quiet place on a side street."
-602,4,,6 Amoth Street,Quartz Mountain Inn,Quartz Mountain,Inn,Close to the local university.
-603,3,,3858 Bay Road,Concord Motel,Concord,Motel,"A nice, quiet place on a side street."
-604,4,,5 Hayes Alley,Parkrose Inn,Parkrose,Inn,Close to the local university.
-605,2,,527 Morrow Pass,Trout Creek Hotel,Trout Creek,Hotel,Close to the local university.
-606,6,,59145 Di Loreto Place,Meacham University,Meacham,University,Close to the local university.
-607,3,,3 Katie Place,Willamette Heights Motel,Willamette Heights,Motel,Large vacation draw for tourists and families.
-608,3,,93 International Road,Madras Station Motel,Madras Station,Motel,"A nice, quiet place on a side street."
-609,4,,75452 Monica Trail,Willamette Inn,Willamette,Inn,Very accomodating for students.
-610,5,,886 Daystar Road,Wolf Creek College,Wolf Creek,College,Large vacation draw for tourists and families.
-611,4,,781 Bashford Avenue,Lincoln Beach Inn,Lincoln Beach,Inn,Very accomodating for students.
-612,4,,17088 Sachtjen Terrace,Lehman Springs Inn,Lehman Springs,Inn,"A nice, quiet place on a side street."
-613,6,,1 Evergreen Lane,Maupin University,Maupin,University,Large vacation draw for tourists and families.
-614,3,,00 Doe Crossing Park,Brownlee Motel,Brownlee,Motel,"A nice, quiet place on a side street."
-615,6,,74683 Morning Parkway,Barview University,Barview,University,Very accomodating for students.
-616,1,,3 Mandrake Hill,Vernonia Hostel,Vernonia,Hostel,Large vacation draw for tourists and families.
-617,5,,484 Carpenter Parkway,Clarnie College,Clarnie,College,"A nice, quiet place on a side street."
-618,3,,0466 Shelley Hill,Buell Motel,Buell,Motel,Close to the local university.
-619,1,,7975 Division Place,Tigard Hostel,Tigard,Hostel,Close to the local university.
-620,1,,23 Brown Trail,Otis Junction Hostel,Otis Junction,Hostel,"A nice, quiet place on a side street."
-621,5,,4234 Farragut Court,Farnham Landing College,Farnham Landing,College,Close to the local university.
-622,5,,6472 Fallview Hill,Park Place College,Park Place,College,"A nice, quiet place on a side street."
-623,6,,5973 Grover Drive,Union Mills University,Union Mills,University,"A nice, quiet place on a side street."
-624,4,,29790 Swallow Place,Laurelwood Inn,Laurelwood,Inn,Large vacation draw for tourists and families.
-625,1,,115 Eggendart Trail,Dodge Hostel,Dodge,Hostel,Close to the local university.
-626,1,,9789 Mayer Plaza,Crescent Lake Hostel,Crescent Lake,Hostel,Large vacation draw for tourists and families.
-627,5,,38 Ludington Court,Bonanza College,Bonanza,College,Very accomodating for students.
-628,3,,6810 Moose Crossing,Fairview Motel,Fairview,Motel,Close to the local university.
-629,6,,98424 Kedzie Way,Terrebonne University,Terrebonne,University,Large vacation draw for tourists and families.
-630,1,,0 Susan Circle,South Lake Oswego Hostel,South Lake Oswego,Hostel,Close to the local university.
-631,1,,297 Ohio Trail,Holiday Beach Hostel,Holiday Beach,Hostel,Very accomodating for students.
-632,2,,28063 Novick Lane,Liberal Hotel,Liberal,Hotel,"A nice, quiet place on a side street."
-633,6,,4966 Roxbury Lane,Lonerock University,Lonerock,University,Close to the local university.
-634,1,,35 Ruskin Trail,Fairview Hostel,Fairview,Hostel,Large vacation draw for tourists and families.
-635,1,,593 Susan Alley,Willamette Hostel,Willamette,Hostel,Close to the local university.
-636,1,,8309 Sage Crossing,Marion Forks Hostel,Marion Forks,Hostel,Large vacation draw for tourists and families.
-637,4,,05 Sycamore Crossing,Canaan Inn,Canaan,Inn,Large vacation draw for tourists and families.
-638,4,,22 Scoville Plaza,Latourell Inn,Latourell,Inn,"A nice, quiet place on a side street."
-639,2,,4353 4th Center,Saunders Lake Hotel,Saunders Lake,Hotel,"A nice, quiet place on a side street."
-640,2,,5 Ohio Circle,Landax Hotel,Landax,Hotel,Large vacation draw for tourists and families.
-641,4,,730 Texas Circle,Blodgett Inn,Blodgett,Inn,Very accomodating for students.
-642,1,,7 Mosinee Pass,Valley Junction Hostel,Valley Junction,Hostel,"A nice, quiet place on a side street."
-643,1,,784 Norway Maple Way,Liberty Hostel,Liberty,Hostel,"A nice, quiet place on a side street."
-644,1,,919 Elmside Circle,Grove Hostel,Grove,Hostel,Very accomodating for students.
-645,1,,1463 Dexter Place,Rosedale Hostel,Rosedale,Hostel,Very accomodating for students.
-646,1,,82205 Blaine Terrace,Irrigon Hostel,Irrigon,Hostel,"A nice, quiet place on a side street."
-647,1,,12 Mesta Center,Lincoln City Hostel,Lincoln City,Hostel,"A nice, quiet place on a side street."
-648,4,,218 Forest Run Drive,Agate Beach Inn,Agate Beach,Inn,Very accomodating for students.
-649,3,,541 6th Drive,Mt Angel Motel,Mt Angel,Motel,Large vacation draw for tourists and families.
-650,5,,73894 Wayridge Street,Bell College,Bell,College,Close to the local university.
-651,4,,109 Cascade Avenue,West Salem Inn,West Salem,Inn,Close to the local university.
-652,6,,2774 Utah Center,Pendair Heights University,Pendair Heights,University,Large vacation draw for tourists and families.
-653,4,,2252 Grover Terrace,Sisters Inn,Sisters,Inn,"A nice, quiet place on a side street."
-654,4,,10916 Armistice Avenue,Banks Inn,Banks,Inn,"A nice, quiet place on a side street."
-655,6,,825 Debra Pass,Hemlock University,Hemlock,University,Close to the local university.
-656,4,,1 Forest Run Junction,Agate Beach Inn,Agate Beach,Inn,Very accomodating for students.
-657,5,,072 Crownhardt Drive,Springwater College,Springwater,College,"A nice, quiet place on a side street."
-658,2,,29 Doe Crossing Hill,Crow Hotel,Crow,Hotel,Very accomodating for students.
-659,4,,7 8th Trail,Mitchell Corner Inn,Mitchell Corner,Inn,"A nice, quiet place on a side street."
-660,5,,277 Sullivan Park,Salishan College,Salishan,College,"A nice, quiet place on a side street."
-661,5,,757 Manley Drive,Happy Hollow College,Happy Hollow,College,"A nice, quiet place on a side street."
-662,3,,83237 Walton Road,Sunnyside Motel,Sunnyside,Motel,Close to the local university.
-663,5,,7 Shelley Crossing,Forfar College,Forfar,College,Large vacation draw for tourists and families.
-664,5,,2 Sunbrook Plaza,Green Acres College,Green Acres,College,Very accomodating for students.
-665,3,,216 Independence Crossing,Albina Motel,Albina,Motel,Close to the local university.
-666,6,,0317 Twin Pines Junction,Sonny University,Sonny,University,Large vacation draw for tourists and families.
-667,2,,51 Nevada Plaza,Mountain Air Park Hotel,Mountain Air Park,Hotel,Close to the local university.
-668,6,,331 Dawn Drive,Fir Grove University,Fir Grove,University,Very accomodating for students.
-669,4,,50 Banding Hill,Harper Inn,Harper,Inn,"A nice, quiet place on a side street."
-670,5,,1496 Sheridan Park,Wemme College,Wemme,College,Very accomodating for students.
-671,5,,200 Talmadge Avenue,Vermont Hills College,Vermont Hills,College,Very accomodating for students.
-672,2,,5 Cascade Way,Eddyville Hotel,Eddyville,Hotel,"A nice, quiet place on a side street."
-673,3,,3728 2nd Street,Tyee Camp Motel,Tyee Camp,Motel,Close to the local university.
-674,2,,523 Sutherland Hill,Spray Hotel,Spray,Hotel,"A nice, quiet place on a side street."
-675,4,,04 Helena Trail,Indian Village Inn,Indian Village,Inn,Close to the local university.
-676,5,,19050 Del Sol Way,Bethel College,Bethel,College,Large vacation draw for tourists and families.
-677,6,,827 Carioca Hill,Scholls University,Scholls,University,Close to the local university.
-678,6,,75 Heffernan Way,Shevlin University,Shevlin,University,Large vacation draw for tourists and families.
-679,3,,7847 Summer Ridge Center,Pelican City Motel,Pelican City,Motel,Very accomodating for students.
-680,1,,2186 Laurel Center,Errol Heights Hostel,Errol Heights,Hostel,Close to the local university.
-681,6,,34 Bashford Parkway,Walker University,Walker,University,"A nice, quiet place on a side street."
-682,3,,646 Hansons Crossing,Altamont Motel,Altamont,Motel,Close to the local university.
-683,2,,163 Anderson Road,Terrebonne Hotel,Terrebonne,Hotel,"A nice, quiet place on a side street."
-684,1,,06472 Lunder Point,Toledo Hostel,Toledo,Hostel,Very accomodating for students.
-685,5,,95 Farmco Avenue,Zena College,Zena,College,"A nice, quiet place on a side street."
-686,5,,9 Packers Terrace,Bolt College,Bolt,College,Large vacation draw for tourists and families.
-687,2,,556 Donald Avenue,Lacomb Hotel,Lacomb,Hotel,Very accomodating for students.
-688,1,,27 Arapahoe Drive,Gopher Hostel,Gopher,Hostel,Large vacation draw for tourists and families.
-689,3,,61883 Dryden Center,Jean Motel,Jean,Motel,Large vacation draw for tourists and families.
-690,3,,24 Anzinger Place,Detroit Motel,Detroit,Motel,Very accomodating for students.
-691,4,,51371 Twin Pines Place,Mulloy Inn,Mulloy,Inn,Large vacation draw for tourists and families.
-692,2,,0513 Old Gate Crossing,Braymill Hotel,Braymill,Hotel,Close to the local university.
-693,3,,77453 Ryan Avenue,Matney Motel,Matney,Motel,Close to the local university.
-694,1,,128 Sommers Terrace,Greenburg Hostel,Greenburg,Hostel,Large vacation draw for tourists and families.
-695,2,,84 Lakewood Point,Cascade Locks Hotel,Cascade Locks,Hotel,Large vacation draw for tourists and families.
-696,4,,1488 Golf View Lane,Unity Inn,Unity,Inn,Close to the local university.
-697,5,,4143 Namekagon Road,Boardman College,Boardman,College,Large vacation draw for tourists and families.
-698,2,,408 Eagan Parkway,Wood Village Hotel,Wood Village,Hotel,"A nice, quiet place on a side street."
-699,3,,14973 Fairview Street,McMinnville Motel,McMinnville,Motel,"A nice, quiet place on a side street."
-700,6,,35342 Briar Crest Road,White Settlement University,White Settlement,University,Very accomodating for students.
-701,1,,553 Briar Crest Pass,Plainview Hostel,Plainview,Hostel,Large vacation draw for tourists and families.
-702,6,,12 Goodland Circle,Cape Meares University,Cape Meares,University,Very accomodating for students.
-703,4,,9 Petterle Avenue,Oregon Slope Inn,Oregon Slope,Inn,"A nice, quiet place on a side street."
-704,4,,731 Dunning Parkway,Ainsworth Corner Inn,Ainsworth Corner,Inn,Very accomodating for students.
-705,1,,10 Toban Lane,Joler Hostel,Joler,Hostel,Large vacation draw for tourists and families.
-706,6,,0 Lakewood Junction,Canby University,Canby,University,"A nice, quiet place on a side street."
-707,3,,1 Di Loreto Alley,Fields Motel,Fields,Motel,Close to the local university.
-708,2,,15 Bonner Parkway,Simnasho Hotel,Simnasho,Hotel,Close to the local university.
-709,5,,646 Pennsylvania Terrace,Adrian College,Adrian,College,"A nice, quiet place on a side street."
-710,2,,54 Kedzie Center,River Grove Hotel,River Grove,Hotel,Large vacation draw for tourists and families.
-711,3,,43 Elgar Trail,Bethel Motel,Bethel,Motel,Large vacation draw for tourists and families.
-712,3,,757 Redwing Place,Bellfountain Motel,Bellfountain,Motel,Large vacation draw for tourists and families.
-713,3,,9009 John Wall Street,Meadowbrook Motel,Meadowbrook,Motel,Close to the local university.
-714,3,,6416 Burning Wood Avenue,Shangri-La Mill Motel,Shangri-La Mill,Motel,Close to the local university.
-715,1,,51234 Scofield Trail,Oakland Hostel,Oakland,Hostel,"A nice, quiet place on a side street."
-716,4,,3 Brickson Park Trail,Azalea Inn,Azalea,Inn,Very accomodating for students.
-717,6,,7 Green Ridge Pass,Harborton University,Harborton,University,"A nice, quiet place on a side street."
-718,4,,0 Morning Circle,Ontario Heights Inn,Ontario Heights,Inn,Large vacation draw for tourists and families.
-719,6,,953 Bultman Point,Tolovana Park University,Tolovana Park,University,Very accomodating for students.
-720,3,,87590 Mendota Center,Nyssa Motel,Nyssa,Motel,Large vacation draw for tourists and families.
-721,3,,020 Granby Place,Lincoln Motel,Lincoln,Motel,Close to the local university.
-722,6,,9524 Springs Way,Spray University,Spray,University,Very accomodating for students.
-723,2,,91 Tony Crossing,Empire Hotel,Empire,Hotel,"A nice, quiet place on a side street."
-724,3,,93 Eagle Crest Point,Roberts Motel,Roberts,Motel,"A nice, quiet place on a side street."
-725,6,,69 Talisman Place,Phoenix University,Phoenix,University,"A nice, quiet place on a side street."
-726,4,,96 Randy Lane,Springwater Inn,Springwater,Inn,Very accomodating for students.
-727,2,,2795 Brentwood Park,Russell Hotel,Russell,Hotel,Very accomodating for students.
-728,3,,4 Delaware Road,Coalca Motel,Coalca,Motel,Very accomodating for students.
-729,1,,0649 Bunker Hill Alley,Werner Camp Hostel,Werner Camp,Hostel,Very accomodating for students.
-730,5,,1 Drewry Court,Gaston College,Gaston,College,"A nice, quiet place on a side street."
-731,2,,50909 Erie Point,Mulloy Hotel,Mulloy,Hotel,Close to the local university.
-732,3,,3309 Daystar Terrace,Green Hills Motel,Green Hills,Motel,Large vacation draw for tourists and families.
-733,2,,205 Ramsey Drive,Dillard Hotel,Dillard,Hotel,Close to the local university.
-734,6,,93 Spaight Place,Netarts University,Netarts,University,"A nice, quiet place on a side street."
-735,1,,56 Hauk Street,Interlachen Hostel,Interlachen,Hostel,Very accomodating for students.
-736,2,,0 Fallview Trail,Grouse Hotel,Grouse,Hotel,Close to the local university.
-737,6,,5768 Gateway Hill,Clear Lake Resort University,Clear Lake Resort,University,Very accomodating for students.
-738,5,,012 Graedel Terrace,Deerhorn College,Deerhorn,College,Very accomodating for students.
-739,3,,3261 Fair Oaks Place,Breitenbush Hot Springs Motel,Breitenbush Hot Springs,Motel,Close to the local university.
-740,4,,2268 Artisan Road,Takilma Inn,Takilma,Inn,Large vacation draw for tourists and families.
-741,6,,5 Montana Way,Weston University,Weston,University,Close to the local university.
-742,5,,19551 Northfield Avenue,Chemawa College,Chemawa,College,"A nice, quiet place on a side street."
-743,2,,76160 Lighthouse Bay Park,Florence Hotel,Florence,Hotel,Large vacation draw for tourists and families.
-744,2,,8 Dahle Parkway,Scholls Hotel,Scholls,Hotel,"A nice, quiet place on a side street."
-745,4,,027 Talmadge Crossing,San Marine Inn,San Marine,Inn,Large vacation draw for tourists and families.
-746,1,,183 Delaware Hill,Quinaby Hostel,Quinaby,Hostel,Close to the local university.
-747,1,,56452 Sugar Crossing,Winston Hostel,Winston,Hostel,"A nice, quiet place on a side street."
-748,3,,792 International Center,Batterson Motel,Batterson,Motel,"A nice, quiet place on a side street."
-749,1,,454 Oneill Avenue,Kerry Hostel,Kerry,Hostel,"A nice, quiet place on a side street."
-750,4,,9289 Gulseth Point,Clackamas Heights Inn,Clackamas Heights,Inn,Close to the local university.
-751,2,,7402 Loeprich Alley,Hidaway Springs Hotel,Hidaway Springs,Hotel,Large vacation draw for tourists and families.
-752,6,,743 Forest Run Circle,Hillsboro University,Hillsboro,University,"A nice, quiet place on a side street."
-753,2,,5507 Vahlen Drive,Barview Hotel,Barview,Hotel,Large vacation draw for tourists and families.
-754,2,,3 Stang Terrace,Alsea Hotel,Alsea,Hotel,Very accomodating for students.
-755,3,,8976 Dapin Point,Wilhoit Motel,Wilhoit,Motel,Close to the local university.
-756,3,,7422 Brown Plaza,Stayton Motel,Stayton,Motel,Large vacation draw for tourists and families.
-757,3,,92 David Circle,Marquam Hill Motel,Marquam Hill,Motel,Close to the local university.
-758,3,,5236 Lunder Street,Wedderburn Motel,Wedderburn,Motel,Large vacation draw for tourists and families.
-759,3,,059 Fairview Terrace,Glenbrook Motel,Glenbrook,Motel,"A nice, quiet place on a side street."
-760,2,,93192 Park Meadow Street,Park Place Hotel,Park Place,Hotel,Very accomodating for students.
-761,6,,36 Summerview Parkway,Seaside University,Seaside,University,"A nice, quiet place on a side street."
-762,6,,6170 Ruskin Hill,Peoria University,Peoria,University,Close to the local university.
-763,4,,6 Superior Center,Elk Rock Inn,Elk Rock,Inn,Very accomodating for students.
-764,3,,7 Shopko Drive,Quincy Motel,Quincy,Motel,Close to the local university.
-765,6,,81719 Donald Hill,Roseburg University,Roseburg,University,Large vacation draw for tourists and families.
-766,5,,71 Walton Trail,Gearhart College,Gearhart,College,Very accomodating for students.
-767,3,,81 Tennyson Crossing,Bates Motel,Bates,Motel,"A nice, quiet place on a side street."
-768,2,,3 Dwight Crossing,Three Pines Hotel,Three Pines,Hotel,Close to the local university.
-769,1,,36025 Hallows Hill,Harrisburg Hostel,Harrisburg,Hostel,Very accomodating for students.
-770,5,,333 Springs Junction,Cascade Locks College,Cascade Locks,College,Close to the local university.
-771,5,,8347 Steensland Circle,East Gardiner College,East Gardiner,College,Large vacation draw for tourists and families.
-772,5,,4 Oriole Crossing,North Howell College,North Howell,College,"A nice, quiet place on a side street."
-773,5,,558 Corben Place,Rogue River College,Rogue River,College,Very accomodating for students.
-774,6,,98609 Ridge Oak Crossing,Butteville University,Butteville,University,Close to the local university.
-775,2,,7573 Crownhardt Street,Monte Cristo Hotel,Monte Cristo,Hotel,Large vacation draw for tourists and families.
-776,6,,128 Dovetail Court,Vienta University,Vienta,University,Large vacation draw for tourists and families.
-777,1,,75127 Spohn Crossing,Briarwood Hostel,Briarwood,Hostel,Close to the local university.
-778,2,,92865 Shelley Court,Kerby Hotel,Kerby,Hotel,Large vacation draw for tourists and families.
-779,6,,89 Drewry Street,Tide University,Tide,University,Large vacation draw for tourists and families.
-780,4,,80384 Hansons Pass,Brogan Inn,Brogan,Inn,Large vacation draw for tourists and families.
-781,1,,44200 Harbort Terrace,North Albany Hostel,North Albany,Hostel,"A nice, quiet place on a side street."
-782,3,,4 Marquette Pass,Hunter Creek Motel,Hunter Creek,Motel,Close to the local university.
-783,5,,37230 Buhler Terrace,Kahneeta Hot Springs College,Kahneeta Hot Springs,College,Close to the local university.
-784,1,,44 Lakewood Gardens Junction,Westmoreland Hostel,Westmoreland,Hostel,"A nice, quiet place on a side street."
-785,3,,97 Melrose Trail,Sodaville Motel,Sodaville,Motel,"A nice, quiet place on a side street."
-786,3,,429 Lyons Pass,Wilsonia Motel,Wilsonia,Motel,Very accomodating for students.
-787,5,,01 Kinsman Street,Laurelhurst College,Laurelhurst,College,Very accomodating for students.
-788,5,,77 Messerschmidt Circle,Sparta College,Sparta,College,Large vacation draw for tourists and families.
-789,5,,32361 Stuart Drive,Rockaway College,Rockaway,College,Very accomodating for students.
-790,1,,9466 Thackeray Plaza,Joseph Hostel,Joseph,Hostel,Large vacation draw for tourists and families.
-791,2,,32 Harbort Circle,Linnemann Hotel,Linnemann,Hotel,Large vacation draw for tourists and families.
-792,1,,77 Stang Crossing,Interlachen Hostel,Interlachen,Hostel,Close to the local university.
-793,3,,1 Northland Park,Hamricks Corner Motel,Hamricks Corner,Motel,Close to the local university.
-794,4,,3 Scofield Trail,Spitzenberg Inn,Spitzenberg,Inn,Very accomodating for students.
-795,1,,4 Talisman Parkway,Sentinel Hill Hostel,Sentinel Hill,Hostel,Very accomodating for students.
-796,4,,47432 Stone Corner Center,Astoria Inn,Astoria,Inn,Large vacation draw for tourists and families.
-797,4,,7381 Westport Circle,Columbia City Inn,Columbia City,Inn,Large vacation draw for tourists and families.
-798,6,,21090 5th Alley,Wren University,Wren,University,"A nice, quiet place on a side street."
-799,5,,4957 Bartillon Hill,Brownlee College,Brownlee,College,Large vacation draw for tourists and families.
-800,4,,4 Bowman Park,Champoeg Inn,Champoeg,Inn,Close to the local university.
-801,6,,202 Thompson Plaza,Nelscott University,Nelscott,University,"A nice, quiet place on a side street."
-802,4,,19303 Florence Drive,North Santian Inn,North Santian,Inn,"A nice, quiet place on a side street."
-803,6,,3 Starling Avenue,Bolt University,Bolt,University,Very accomodating for students.
-804,4,,3163 Quincy Court,Waconda Beach Inn,Waconda Beach,Inn,"A nice, quiet place on a side street."
-805,1,,03 Lotheville Crossing,Oregon City Hostel,Oregon City,Hostel,Very accomodating for students.
-806,5,,995 Morning Crossing,Rufus College,Rufus,College,Very accomodating for students.
-807,4,,44 Mcguire Pass,Curtin Inn,Curtin,Inn,"A nice, quiet place on a side street."
-808,1,,65977 Oneill Court,Nesmith Hostel,Nesmith,Hostel,Close to the local university.
-809,2,,3560 Fairfield Crossing,Crates Hotel,Crates,Hotel,"A nice, quiet place on a side street."
-810,2,,24052 Maryland Court,Hopmere Hotel,Hopmere,Hotel,"A nice, quiet place on a side street."
-811,1,,664 Scoville Trail,Rockwood Hostel,Rockwood,Hostel,Close to the local university.
-812,5,,66860 Declaration Circle,Bend College,Bend,College,Very accomodating for students.
-813,1,,31006 Esker Parkway,Milwaukie Hostel,Milwaukie,Hostel,Close to the local university.
-814,6,,45574 Westridge Avenue,Juntura University,Juntura,University,Very accomodating for students.
-815,1,,82817 Kim Road,Paradise Park Hostel,Paradise Park,Hostel,"A nice, quiet place on a side street."
-816,3,,1 Myrtle Trail,Saginaw Motel,Saginaw,Motel,"A nice, quiet place on a side street."
-817,1,,293 Nobel Circle,Curtin Hostel,Curtin,Hostel,Very accomodating for students.
-818,2,,9938 Pearson Court,Wallowa Hotel,Wallowa,Hotel,Very accomodating for students.
-819,6,,6269 Mcguire Parkway,Cave Junction University,Cave Junction,University,Very accomodating for students.
-820,4,,1418 Lakeland Avenue,Glide Inn,Glide,Inn,"A nice, quiet place on a side street."
-821,6,,94 Atwood Point,Winberry University,Winberry,University,"A nice, quiet place on a side street."
-822,2,,806 Express Crossing,Lexington Hotel,Lexington,Hotel,Close to the local university.
-823,6,,731 Lyons Lane,Lunnville University,Lunnville,University,Large vacation draw for tourists and families.
-824,5,,45312 Hollow Ridge Park,Glendale College,Glendale,College,Close to the local university.
-825,4,,4501 Corscot Avenue,Fossil Inn,Fossil,Inn,Close to the local university.
-826,1,,021 Troy Pass,Kahneeta Hot Springs Hostel,Kahneeta Hot Springs,Hostel,"A nice, quiet place on a side street."
-827,4,,86 Eagan Road,Ruby Inn,Ruby,Inn,"A nice, quiet place on a side street."
-828,1,,7965 Thackeray Junction,Klamath Agency Hostel,Klamath Agency,Hostel,"A nice, quiet place on a side street."
-829,1,,94424 Thompson Plaza,Roberts Hostel,Roberts,Hostel,"A nice, quiet place on a side street."
-830,6,,87343 Sloan Crossing,Hammond University,Hammond,University,Close to the local university.
-831,4,,59 Pine View Road,Kaskela Inn,Kaskela,Inn,Close to the local university.
-832,6,,4 Laurel Park,Sprague River University,Sprague River,University,Very accomodating for students.
-833,4,,5318 Dapin Junction,Millersburg Inn,Millersburg,Inn,Close to the local university.
-834,3,,336 Ruskin Hill,Harmony Motel,Harmony,Motel,Very accomodating for students.
-835,2,,30 Crowley Trail,Lents Hotel,Lents,Hotel,Close to the local university.
-836,4,,1949 Laurel Way,Irrigon Inn,Irrigon,Inn,Very accomodating for students.
-837,6,,025 Bunting Crossing,Barlow University,Barlow,University,"A nice, quiet place on a side street."
-838,6,,235 Glendale Avenue,Salishan University,Salishan,University,Close to the local university.
-839,4,,89815 Sauthoff Plaza,Buchanan Inn,Buchanan,Inn,Close to the local university.
-840,3,,484 Debs Junction,Ritter Motel,Ritter,Motel,"A nice, quiet place on a side street."
-841,3,,4 Pennsylvania Lane,Milwaukie Motel,Milwaukie,Motel,Large vacation draw for tourists and families.
-842,5,,3 Manitowish Pass,Oretown College,Oretown,College,"A nice, quiet place on a side street."
-843,1,,65 Ryan Center,Shale City Hostel,Shale City,Hostel,Very accomodating for students.
-844,4,,3 Pawling Plaza,Siltcoos Inn,Siltcoos,Inn,Very accomodating for students.
-845,4,,8098 South Pass,Placer Inn,Placer,Inn,Large vacation draw for tourists and families.
-846,2,,72 Mifflin Circle,Salishan Beach Hotel,Salishan Beach,Hotel,Large vacation draw for tourists and families.
-847,2,,03264 Graceland Hill,Summer Lake Hotel,Summer Lake,Hotel,Large vacation draw for tourists and families.
-848,1,,7192 Russell Way,Brooklyn Hostel,Brooklyn,Hostel,Very accomodating for students.
-849,2,,2 Helena Alley,Powers Hotel,Powers,Hotel,Close to the local university.
-850,6,,663 Corry Court,Vaughn University,Vaughn,University,"A nice, quiet place on a side street."
-851,4,,59 Tennyson Trail,Kokel Corner Inn,Kokel Corner,Inn,Large vacation draw for tourists and families.
-852,4,,35 Corry Alley,Clackamas Heights Inn,Clackamas Heights,Inn,Very accomodating for students.
-853,6,,2 Farwell Avenue,Fort Stevens University,Fort Stevens,University,"A nice, quiet place on a side street."
-854,5,,23 Pankratz Way,Orrs Corner College,Orrs Corner,College,Very accomodating for students.
-855,1,,17 Marcy Road,Delena Hostel,Delena,Hostel,Close to the local university.
-856,2,,9970 Mitchell Center,Damascus Hotel,Damascus,Hotel,Close to the local university.
-857,5,,90 Stephen Trail,Coquille College,Coquille,College,"A nice, quiet place on a side street."
-858,4,,1818 Schlimgen Plaza,Turner Inn,Turner,Inn,"A nice, quiet place on a side street."
-859,1,,3881 Fairview Hill,Horton Hostel,Horton,Hostel,Large vacation draw for tourists and families.
-860,5,,2 Bluestem Place,Villa Ridge College,Villa Ridge,College,Large vacation draw for tourists and families.
-861,1,,1 Pankratz Avenue,Olney Hostel,Olney,Hostel,Close to the local university.
-862,3,,87171 Arapahoe Park,Sodaville Motel,Sodaville,Motel,Very accomodating for students.
-863,1,,66093 Fordem Drive,Gap Hostel,Gap,Hostel,Large vacation draw for tourists and families.
-864,5,,19 Esker Way,Glencullen College,Glencullen,College,Very accomodating for students.
-865,1,,530 Donald Pass,Cove Orchard Hostel,Cove Orchard,Hostel,Close to the local university.
-866,5,,12386 Vahlen Lane,Tidewater College,Tidewater,College,Large vacation draw for tourists and families.
-867,2,,911 Jenna Road,Reeds Mill Hotel,Reeds Mill,Hotel,Large vacation draw for tourists and families.
-868,1,,99 Russell Lane,Elwood Hostel,Elwood,Hostel,Close to the local university.
-869,2,,9 Barnett Point,Jean Hotel,Jean,Hotel,Close to the local university.
-870,2,,6 Moose Drive,Hermiston Hotel,Hermiston,Hotel,Very accomodating for students.
-871,5,,94 Mallory Lane,Vinemaple College,Vinemaple,College,"A nice, quiet place on a side street."
-872,6,,50 Mariners Cove Way,Ballston University,Ballston,University,"A nice, quiet place on a side street."
-873,3,,8075 Spenser Lane,Yamhill Motel,Yamhill,Motel,"A nice, quiet place on a side street."
-874,2,,8386 Center Road,Valley Junction Hotel,Valley Junction,Hotel,Very accomodating for students.
-875,1,,281 Elmside Circle,Eden Hostel,Eden,Hostel,Very accomodating for students.
-876,6,,52 Vermont Drive,Sandy University,Sandy,University,"A nice, quiet place on a side street."
-877,4,,37 Clyde Gallagher Hill,Salem Inn,Salem,Inn,Very accomodating for students.
-878,5,,250 Wayridge Junction,Sharps Corner College,Sharps Corner,College,Large vacation draw for tourists and families.
-879,4,,976 Rutledge Center,Merrill Inn,Merrill,Inn,"A nice, quiet place on a side street."
-880,5,,631 Ridgeway Court,Parkdale College,Parkdale,College,Very accomodating for students.
-881,6,,97 Sugar Court,Corvallis University,Corvallis,University,"A nice, quiet place on a side street."
-882,6,,90114 Warner Way,Beaver Marsh University,Beaver Marsh,University,"A nice, quiet place on a side street."
-883,1,,09 Evergreen Crossing,Alder Hostel,Alder,Hostel,Very accomodating for students.
-884,2,,0378 Carioca Center,Panther Creek Hotel,Panther Creek,Hotel,Very accomodating for students.
-885,1,,049 Beilfuss Road,Hurricane Grange Hostel,Hurricane Grange,Hostel,Close to the local university.
-886,6,,044 Kings Street,Arleta University,Arleta,University,"A nice, quiet place on a side street."
-887,5,,0 Barnett Drive,Flynn College,Flynn,College,"A nice, quiet place on a side street."
-888,1,,64 Union Drive,Lebanon Hostel,Lebanon,Hostel,Very accomodating for students.
-889,1,,87499 Sunnyside Point,O'Brien Hostel,O'Brien,Hostel,"A nice, quiet place on a side street."
-890,4,,648 Alpine Point,Kokel Corner Inn,Kokel Corner,Inn,Close to the local university.
-891,4,,67 Holmberg Lane,McCoy Inn,McCoy,Inn,Close to the local university.
-892,1,,46301 Pleasure Way,Pendair Heights Hostel,Pendair Heights,Hostel,"A nice, quiet place on a side street."
-893,5,,68109 Canary Alley,Crabtree College,Crabtree,College,Large vacation draw for tourists and families.
-894,6,,92674 Canary Way,Salem University,Salem,University,Close to the local university.
-895,1,,15 Rutledge Hill,Wolf Creek Hostel,Wolf Creek,Hostel,Close to the local university.
-896,5,,1 Glendale Circle,Woodstock College,Woodstock,College,Large vacation draw for tourists and families.
-897,2,,5 Mallory Pass,Hillsboro Hotel,Hillsboro,Hotel,"A nice, quiet place on a side street."
-898,2,,194 Derek Parkway,Hemlock Hotel,Hemlock,Hotel,Very accomodating for students.
-899,6,,6849 Tennyson Alley,Voorhies University,Voorhies,University,"A nice, quiet place on a side street."
-900,4,,91 Crest Line Court,Shady Cove Inn,Shady Cove,Inn,"A nice, quiet place on a side street."
-901,1,,1241 Paget Park,Narrows Hostel,Narrows,Hostel,Close to the local university.
-902,1,,669 Havey Parkway,Tillicum Beach Hostel,Tillicum Beach,Hostel,Very accomodating for students.
-903,4,,38 Havey Lane,Applegate Inn,Applegate,Inn,Large vacation draw for tourists and families.
-904,4,,97399 Judy Lane,Lafayette Inn,Lafayette,Inn,Large vacation draw for tourists and families.
-905,3,,54322 Lillian Place,Athena Motel,Athena,Motel,Very accomodating for students.
-906,3,,1675 Reinke Place,Shortys Corner Motel,Shortys Corner,Motel,"A nice, quiet place on a side street."
-907,4,,38 Talmadge Terrace,Vale Inn,Vale,Inn,Large vacation draw for tourists and families.
-908,6,,56356 Debra Junction,Labish Center University,Labish Center,University,Close to the local university.
-909,3,,50 Eastwood Junction,Carver Motel,Carver,Motel,Very accomodating for students.
-910,1,,3 Blackbird Street,Remote Hostel,Remote,Hostel,"A nice, quiet place on a side street."
-911,4,,442 Lukken Place,Lenz Inn,Lenz,Inn,Very accomodating for students.
-912,6,,2039 Roxbury Point,McNary University,McNary,University,Large vacation draw for tourists and families.
-913,4,,5 South Hill,Gladstone Station Inn,Gladstone Station,Inn,Large vacation draw for tourists and families.
-914,6,,8492 Donald Street,Alsea University,Alsea,University,Close to the local university.
-915,2,,7 Columbus Drive,Macleay Hotel,Macleay,Hotel,"A nice, quiet place on a side street."
-916,5,,578 Birchwood Point,Jacksonville College,Jacksonville,College,Large vacation draw for tourists and families.
-917,5,,03 Orin Circle,Dora College,Dora,College,Very accomodating for students.
-918,5,,73 7th Road,Pringle College,Pringle,College,Large vacation draw for tourists and families.
-919,3,,43238 Kipling Street,Wilson Corner Motel,Wilson Corner,Motel,"A nice, quiet place on a side street."
-920,2,,11 Westerfield Crossing,Shady Dell Hotel,Shady Dell,Hotel,Very accomodating for students.
-921,6,,0 Haas Trail,Seaside University,Seaside,University,Close to the local university.
-922,1,,4681 Mcbride Plaza,Albany Hostel,Albany,Hostel,"A nice, quiet place on a side street."
-923,3,,57 Spenser Plaza,Russellville Motel,Russellville,Motel,Large vacation draw for tourists and families.
-924,3,,38232 Fisk Lane,Tillicum Beach Motel,Tillicum Beach,Motel,Large vacation draw for tourists and families.
-925,4,,78 Graceland Junction,Adrian Inn,Adrian,Inn,Close to the local university.
-926,5,,808 3rd Point,Champoeg College,Champoeg,College,Large vacation draw for tourists and families.
-927,6,,7289 Continental Plaza,Macleay University,Macleay,University,Close to the local university.
-928,2,,19128 Prentice Pass,Firgrove Hotel,Firgrove,Hotel,"A nice, quiet place on a side street."
-929,1,,90 Glacier Hill Drive,Disston Hostel,Disston,Hostel,"A nice, quiet place on a side street."
-930,4,,1364 Comanche Street,Hood River Inn,Hood River,Inn,Very accomodating for students.
-931,5,,14 Heffernan Center,Fruita College,Fruita,College,Close to the local university.
-932,5,,16 Glacier Hill Junction,Dickey Prairie College,Dickey Prairie,College,Close to the local university.
-933,3,,04691 Blue Bill Park Pass,Firwood Motel,Firwood,Motel,Close to the local university.
-934,2,,31 Moland Road,Robertson Hotel,Robertson,Hotel,"A nice, quiet place on a side street."
-935,4,,4 Village Alley,Robinette Inn,Robinette,Inn,Large vacation draw for tourists and families.
-936,2,,3466 Birchwood Lane,Albany Hotel,Albany,Hotel,Very accomodating for students.
-937,2,,2 Fisk Court,Wetzels Corner Hotel,Wetzels Corner,Hotel,Large vacation draw for tourists and families.
-938,2,,3105 Helena Hill,Lorella Hotel,Lorella,Hotel,Close to the local university.
-939,4,,758 Merchant Trail,Delena Inn,Delena,Inn,Close to the local university.
-940,3,,4 Steensland Hill,Klamath Junction Motel,Klamath Junction,Motel,Close to the local university.
-941,1,,1010 Orin Point,Adair Village Hostel,Adair Village,Hostel,Large vacation draw for tourists and families.
-942,2,,17 Vermont Crossing,Wildwood Hotel,Wildwood,Hotel,Close to the local university.
-943,1,,73 Declaration Plaza,Lookingglass Hostel,Lookingglass,Hostel,Close to the local university.
-944,4,,6749 Montana Lane,Harmony Point Inn,Harmony Point,Inn,Large vacation draw for tourists and families.
-945,1,,406 Buena Vista Trail,Green Hostel,Green,Hostel,Very accomodating for students.
-946,3,,3841 Crest Line Lane,McKee Motel,McKee,Motel,Large vacation draw for tourists and families.
-947,1,,7271 Prairie Rose Pass,Wheeler Hostel,Wheeler,Hostel,"A nice, quiet place on a side street."
-948,3,,1 Claremont Center,Chehalem Motel,Chehalem,Motel,Close to the local university.
-949,5,,7268 Coleman Hill,Dellwood College,Dellwood,College,Large vacation draw for tourists and families.
-950,4,,9 Crowley Road,Bradley Corner Inn,Bradley Corner,Inn,"A nice, quiet place on a side street."
-951,4,,598 Elgar Place,Kamela Inn,Kamela,Inn,Close to the local university.
-952,5,,2 Rusk Parkway,Sams Valley College,Sams Valley,College,"A nice, quiet place on a side street."
-953,1,,5 Ohio Court,Rougue Elk Hostel,Rougue Elk,Hostel,Very accomodating for students.
-954,3,,0 Browning Junction,Rogue River Motel,Rogue River,Motel,Close to the local university.
-955,3,,881 Waubesa Circle,Lacomb Motel,Lacomb,Motel,"A nice, quiet place on a side street."
-956,6,,181 Memorial Road,Blalock University,Blalock,University,Close to the local university.
-957,3,,28 Northview Place,Newberg Motel,Newberg,Motel,Very accomodating for students.
-958,1,,30 Hallows Drive,Barnes Road Hostel,Barnes Road,Hostel,"A nice, quiet place on a side street."
-959,5,,2 Scoville Plaza,Fortune Branch College,Fortune Branch,College,Close to the local university.
-960,5,,52540 Shopko Lane,North Santiam College,North Santiam,College,Large vacation draw for tourists and families.
-961,2,,8780 School Park,Cove Hotel,Cove,Hotel,Very accomodating for students.
-962,4,,50677 Ludington Plaza,College Hill Inn,College Hill,Inn,Large vacation draw for tourists and families.
-963,3,,844 Pearson Place,Errol Heights Motel,Errol Heights,Motel,Large vacation draw for tourists and families.
-964,3,,9112 Bowman Alley,Cedar Hills Motel,Cedar Hills,Motel,"A nice, quiet place on a side street."
-965,1,,5 Kropf Pass,Hemlock Hostel,Hemlock,Hostel,"A nice, quiet place on a side street."
-966,2,,5019 Lakewood Gardens Street,Vale Hotel,Vale,Hotel,Large vacation draw for tourists and families.
-967,5,,3 Surrey Park,Greenleaf College,Greenleaf,College,Close to the local university.
-968,6,,71491 Talisman Junction,Alameda University,Alameda,University,"A nice, quiet place on a side street."
-969,3,,6730 Arkansas Street,Helix Motel,Helix,Motel,Large vacation draw for tourists and families.
-970,5,,0 Jenifer Junction,New Era College,New Era,College,Large vacation draw for tourists and families.
-971,2,,625 Schiller Center,Langlois Hotel,Langlois,Hotel,"A nice, quiet place on a side street."
-972,3,,82 Debs Center,Hardman Motel,Hardman,Motel,Very accomodating for students.
-973,5,,898 Ilene Circle,Amity College,Amity,College,Very accomodating for students.
-974,3,,56 Lawn Drive,Mist Motel,Mist,Motel,Large vacation draw for tourists and families.
-975,4,,743 Algoma Place,Burp Hollow Inn,Burp Hollow,Inn,"A nice, quiet place on a side street."
-976,1,,4445 Prairie Rose Parkway,Sprague River Hostel,Sprague River,Hostel,Close to the local university.
-977,5,,1 Shasta Park,Odell Lake College,Odell Lake,College,Very accomodating for students.
-978,3,,39 Jenifer Road,Alder Creek Motel,Alder Creek,Motel,"A nice, quiet place on a side street."
-979,6,,9 Del Mar Road,Colton University,Colton,University,Very accomodating for students.
-980,6,,751 Miller Junction,Aldervale University,Aldervale,University,Close to the local university.
-981,6,,591 Summer Ridge Hill,Shady Pine University,Shady Pine,University,"A nice, quiet place on a side street."
-982,5,,7 Nova Avenue,Airlie College,Airlie,College,Close to the local university.
-983,2,,4 Monterey Circle,Wilsonville Hotel,Wilsonville,Hotel,Large vacation draw for tourists and families.
-984,5,,40 Oak Valley Road,Pirtle College,Pirtle,College,Large vacation draw for tourists and families.
-985,1,,20642 Onsgard Plaza,Mulloy Hostel,Mulloy,Hostel,"A nice, quiet place on a side street."
-986,2,,8259 Continental Street,Empire Hotel,Empire,Hotel,Large vacation draw for tourists and families.
-987,1,,7004 Russell Court,Goshen Hostel,Goshen,Hostel,"A nice, quiet place on a side street."
-988,6,,009 Village Green Avenue,Sisters University,Sisters,University,Large vacation draw for tourists and families.
-989,2,,33 Carberry Alley,Newport Heights Hotel,Newport Heights,Hotel,Very accomodating for students.
-990,6,,43 Grim Circle,Seven Oaks University,Seven Oaks,University,"A nice, quiet place on a side street."
-991,6,,81126 Tennyson Trail,Jasper University,Jasper,University,Large vacation draw for tourists and families.
-992,3,,2529 Iowa Place,Summit Motel,Summit,Motel,"A nice, quiet place on a side street."
-993,6,,515 Weeping Birch Pass,Shale City University,Shale City,University,Large vacation draw for tourists and families.
-994,1,,75171 Evergreen Alley,Idleyld Park Hostel,Idleyld Park,Hostel,Close to the local university.
-995,2,,03387 Center Avenue,Ontario Heights Hotel,Ontario Heights,Hotel,Very accomodating for students.
-996,6,,9058 Bonner Lane,Whiskey Hill University,Whiskey Hill,University,Close to the local university.
-997,1,,92934 Forster Crossing,Keno Hostel,Keno,Hostel,"A nice, quiet place on a side street."
-998,2,,0758 Pankratz Avenue,New Pine Creek Hotel,New Pine Creek,Hotel,"A nice, quiet place on a side street."
-999,3,,54728 Kipling Alley,Firgrove Motel,Firgrove,Motel,Very accomodating for students.
-1000,1,,5 Independence Lane,Bucks Corners Hostel,Bucks Corners,Hostel,Large vacation draw for tourists and families.
+1,3,13,4 Kennedy Pass,Ninety-one Motel,Ninety-one,Motel,Close to the local university.
+2,5,14,170 Lukken Junction,Tualatin College,Tualatin,College,Large vacation draw for tourists and families.
+3,3,8,51 Moose Trail,Hamilton Motel,Hamilton,Motel,"A nice, quiet place on a side street."
+4,5,13,12 Pawling Point,Sunnyside College,Sunnyside,College,Very accomodating for students.
+5,5,11,54119 Pine View Parkway,Redmond College,Redmond,College,"A nice, quiet place on a side street."
+6,5,15,126 Pine View Trail,Sellwood College,Sellwood,College,"A nice, quiet place on a side street."
+7,1,6,17 Bartillon Road,Jeffers Garden Hostel,Jeffers Garden,Hostel,"A nice, quiet place on a side street."
+8,6,14,0 Schmedeman Terrace,Tillicum Beach University,Tillicum Beach,University,"A nice, quiet place on a side street."
+9,1,13,8227 Fremont Avenue,Bly Hostel,Bly,Hostel,"A nice, quiet place on a side street."
+10,5,11,97247 Lindbergh Alley,Ontario Heights College,Ontario Heights,College,"A nice, quiet place on a side street."
+11,6,10,877 Springs Parkway,Shangri-La Mill University,Shangri-La Mill,University,Large vacation draw for tourists and families.
+12,1,9,58 Lillian Way,Wren Hostel,Wren,Hostel,Very accomodating for students.
+13,5,15,54 Stoughton Road,West Haven College,West Haven,College,Very accomodating for students.
+14,2,14,542 Sherman Crossing,Clatsop Station Hotel,Clatsop Station,Hotel,Close to the local university.
+15,1,13,7497 Ruskin Way,Empire Hostel,Empire,Hostel,Close to the local university.
+16,6,10,9 Cascade Circle,Vinson University,Vinson,University,Large vacation draw for tourists and families.
+17,1,11,69 8th Hill,Vaughn Hostel,Vaughn,Hostel,Large vacation draw for tourists and families.
+18,5,7,18435 Hansons Plaza,Quatama College,Quatama,College,Very accomodating for students.
+19,2,8,9402 Pennsylvania Lane,Roy Hotel,Roy,Hotel,"A nice, quiet place on a side street."
+20,4,12,7096 Transport Park,Springfield Inn,Springfield,Inn,Large vacation draw for tourists and families.
+21,4,6,59 Darwin Place,Winchester Inn,Winchester,Inn,Large vacation draw for tourists and families.
+22,1,10,27865 Fisk Parkway,Hopewell Hostel,Hopewell,Hostel,Close to the local university.
+23,6,6,0 Fisk Trail,Miles Crossing University,Miles Crossing,University,"A nice, quiet place on a side street."
+24,1,14,92702 Carberry Lane,Waterloo Hostel,Waterloo,Hostel,"A nice, quiet place on a side street."
+25,4,12,60497 Dawn Court,Folkenberg Inn,Folkenberg,Inn,Large vacation draw for tourists and families.
+26,2,14,45802 Shelley Terrace,Kendall Hotel,Kendall,Hotel,Very accomodating for students.
+27,2,13,1 Dexter Alley,Badger Corner Hotel,Badger Corner,Hotel,Close to the local university.
+28,4,7,78 Portage Drive,Fern Hill Inn,Fern Hill,Inn,Close to the local university.
+29,4,14,0 South Drive,Woodstock Inn,Woodstock,Inn,Close to the local university.
+30,3,14,20705 Meadow Vale Lane,Scotts Mills Motel,Scotts Mills,Motel,Very accomodating for students.
+31,2,12,4 Sutteridge Trail,Chiloquin Hotel,Chiloquin,Hotel,Very accomodating for students.
+32,4,10,12 Banding Alley,Surprise Valley Inn,Surprise Valley,Inn,Close to the local university.
+33,5,15,9 Scoville Junction,Tracy College,Tracy,College,Close to the local university.
+34,3,7,208 Killdeer Lane,Jenne Motel,Jenne,Motel,Very accomodating for students.
+35,6,12,0 Buhler Terrace,Garden Home University,Garden Home,University,Large vacation draw for tourists and families.
+36,5,13,7024 Service Way,Ashwood College,Ashwood,College,"A nice, quiet place on a side street."
+37,6,6,66 Dakota Lane,Fair Oaks University,Fair Oaks,University,Very accomodating for students.
+38,5,6,13 Gale Way,Middleton College,Middleton,College,Large vacation draw for tourists and families.
+39,6,9,1726 Autumn Leaf Parkway,Yankton University,Yankton,University,Close to the local university.
+40,3,8,36 Duke Place,Salishan Beach Motel,Salishan Beach,Motel,Large vacation draw for tourists and families.
+41,3,12,2 Jenna Center,Cascadia Motel,Cascadia,Motel,"A nice, quiet place on a side street."
+42,1,14,6 Parkside Crossing,Bolton Hostel,Bolton,Hostel,Close to the local university.
+43,5,10,51 Sage Avenue,Robertson College,Robertson,College,"A nice, quiet place on a side street."
+44,4,15,8011 Bartillon Drive,Dewey Inn,Dewey,Inn,"A nice, quiet place on a side street."
+45,3,15,761 Mitchell Terrace,Knoxville Motel,Knoxville,Motel,Close to the local university.
+46,2,8,62 Laurel Crossing,Montavilla Hotel,Montavilla,Hotel,"A nice, quiet place on a side street."
+47,5,11,98861 Riverside Pass,Canyonville College,Canyonville,College,Close to the local university.
+48,2,13,3532 Stephen Court,Summit Hotel,Summit,Hotel,Close to the local university.
+49,6,12,51715 Golden Leaf Parkway,Dewey University,Dewey,University,Close to the local university.
+50,1,7,2 Kingsford Park,Hermans Hostel,Hermans,Hostel,Close to the local university.
+51,2,7,78 Ridge Oak Place,Yachats Hotel,Yachats,Hotel,Close to the local university.
+52,2,6,66906 Nelson Place,Waconda Beach Hotel,Waconda Beach,Hotel,Very accomodating for students.
+53,6,7,797 Eagan Lane,Silver Lake University,Silver Lake,University,Close to the local university.
+54,5,11,88417 Forster Circle,Rockaway College,Rockaway,College,Close to the local university.
+55,6,11,76 Hagan Circle,Millersburg University,Millersburg,University,Very accomodating for students.
+56,5,7,05 Crowley Pass,Little Albany College,Little Albany,College,Large vacation draw for tourists and families.
+57,1,10,827 Eliot Pass,Lincoln City Hostel,Lincoln City,Hostel,Close to the local university.
+58,5,14,6236 Ludington Center,Fruita College,Fruita,College,"A nice, quiet place on a side street."
+59,5,10,86 Fremont Road,Eagle Creek College,Eagle Creek,College,"A nice, quiet place on a side street."
+60,2,10,06 Loomis Plaza,Vida Hotel,Vida,Hotel,Very accomodating for students.
+61,6,7,27 Donald Junction,Coquille University,Coquille,University,Close to the local university.
+62,1,11,225 Myrtle Lane,Fall Creek Hostel,Fall Creek,Hostel,Very accomodating for students.
+63,6,9,46 Coleman Way,Winchester University,Winchester,University,"A nice, quiet place on a side street."
+64,5,10,73732 Warbler Road,Firwood College,Firwood,College,Very accomodating for students.
+65,1,12,159 Larry Park,Sandlake Hostel,Sandlake,Hostel,Close to the local university.
+66,4,9,526 Rutledge Court,Carson Inn,Carson,Inn,"A nice, quiet place on a side street."
+67,3,11,952 Macpherson Road,Kilts Motel,Kilts,Motel,Close to the local university.
+68,1,14,3 Heath Place,Side Camp Hostel,Side Camp,Hostel,Close to the local university.
+69,1,14,4649 Sundown Junction,Homestead Hostel,Homestead,Hostel,Very accomodating for students.
+70,2,11,55148 Leroy Parkway,Wallowa Hotel,Wallowa,Hotel,Very accomodating for students.
+71,1,6,47273 Monterey Junction,Garfield Hostel,Garfield,Hostel,Very accomodating for students.
+72,2,7,9 Thierer Pass,Cornucopia Hotel,Cornucopia,Hotel,"A nice, quiet place on a side street."
+73,4,15,25 Roth Way,Government Camp Inn,Government Camp,Inn,Large vacation draw for tourists and families.
+74,5,15,73385 Schlimgen Hill,Vermont Hills College,Vermont Hills,College,Close to the local university.
+75,2,14,94164 Ridgeview Court,Alder Hotel,Alder,Hotel,Close to the local university.
+76,6,9,36301 Bashford Drive,Pittsburg University,Pittsburg,University,Very accomodating for students.
+77,5,7,39893 Ryan Street,Bethany College,Bethany,College,Close to the local university.
+78,6,14,638 Warrior Street,Pine University,Pine,University,"A nice, quiet place on a side street."
+79,5,8,57 Northfield Way,Prosper College,Prosper,College,Very accomodating for students.
+80,4,14,0999 Stoughton Avenue,Ontario Heights Inn,Ontario Heights,Inn,Large vacation draw for tourists and families.
+81,4,10,8198 Shoshone Trail,Forest Grove Inn,Forest Grove,Inn,Large vacation draw for tourists and families.
+82,4,10,69 Division Parkway,Glencoe Inn,Glencoe,Inn,Large vacation draw for tourists and families.
+83,6,12,8798 Fuller Pass,Central Point University,Central Point,University,Very accomodating for students.
+84,6,13,3546 Pankratz Crossing,The Dalles University,The Dalles,University,"A nice, quiet place on a side street."
+85,6,9,61097 Aberg Lane,Lenz University,Lenz,University,Very accomodating for students.
+86,4,7,38846 Thompson Court,Lone Pine Corner Inn,Lone Pine Corner,Inn,Very accomodating for students.
+87,6,14,54474 Hintze Road,Valley Falls University,Valley Falls,University,Close to the local university.
+88,5,13,31454 Pennsylvania Court,Crown Point College,Crown Point,College,Very accomodating for students.
+89,5,13,6 Di Loreto Place,Glenbrook College,Glenbrook,College,Large vacation draw for tourists and families.
+90,2,8,06 Helena Hill,Treharne Hotel,Treharne,Hotel,"A nice, quiet place on a side street."
+91,3,10,267 Morningstar Hill,Wildwood Motel,Wildwood,Motel,Large vacation draw for tourists and families.
+92,3,8,1 Old Gate Trail,Scotts Mills Motel,Scotts Mills,Motel,Close to the local university.
+93,3,8,14411 Dakota Place,Winona Motel,Winona,Motel,Close to the local university.
+94,2,15,9 Spenser Trail,Glenada Hotel,Glenada,Hotel,Large vacation draw for tourists and families.
+95,1,7,0 Arrowood Point,Manzanita Hostel,Manzanita,Hostel,"A nice, quiet place on a side street."
+96,1,6,9 Cherokee Drive,Multnomah Hostel,Multnomah,Hostel,"A nice, quiet place on a side street."
+97,6,14,57 Elgar Lane,Liberty University,Liberty,University,"A nice, quiet place on a side street."
+98,6,12,664 Mandrake Hill,Union Mills University,Union Mills,University,Large vacation draw for tourists and families.
+99,3,10,9699 Walton Junction,Fort Klamath Motel,Fort Klamath,Motel,Very accomodating for students.
+100,6,10,51486 Bunker Hill Alley,Springdale University,Springdale,University,Large vacation draw for tourists and families.
+101,6,14,12 Towne Plaza,Wichita University,Wichita,University,Very accomodating for students.
+102,1,14,342 Sherman Hill,Butteville Hostel,Butteville,Hostel,Close to the local university.
+103,5,8,375 Fair Oaks Plaza,Parkrose College,Parkrose,College,Very accomodating for students.
+104,6,6,03 Chive Alley,Echo Dell University,Echo Dell,University,Close to the local university.
+105,2,12,8 Northwestern Pass,Island City Hotel,Island City,Hotel,"A nice, quiet place on a side street."
+106,1,10,414 Trailsway Place,Lookingglass Hostel,Lookingglass,Hostel,Close to the local university.
+107,6,7,20 Golf Alley,Saunders Lake University,Saunders Lake,University,Very accomodating for students.
+108,3,14,2 Pepper Wood Court,Svensen Motel,Svensen,Motel,Close to the local university.
+109,5,11,176 Stang Alley,Durham College,Durham,College,Very accomodating for students.
+110,4,11,13 Holy Cross Place,Crow Inn,Crow,Inn,Large vacation draw for tourists and families.
+111,5,7,5 Granby Street,Fairview College,Fairview,College,"A nice, quiet place on a side street."
+112,2,9,7 Carberry Terrace,Trout Creek Hotel,Trout Creek,Hotel,Close to the local university.
+113,1,7,12 Vidon Trail,Camp Elkanah Hostel,Camp Elkanah,Hostel,Close to the local university.
+114,1,10,57412 Jackson Drive,Brooklyn Hostel,Brooklyn,Hostel,"A nice, quiet place on a side street."
+115,6,13,1 Victoria Junction,Orient University,Orient,University,Very accomodating for students.
+116,6,9,4 Garrison Parkway,Canemah University,Canemah,University,Close to the local university.
+117,4,8,3923 8th Point,Vaughn Inn,Vaughn,Inn,Large vacation draw for tourists and families.
+118,3,12,7 Linden Plaza,Island City Motel,Island City,Motel,Close to the local university.
+119,3,9,163 Onsgard Plaza,Deer Island Motel,Deer Island,Motel,"A nice, quiet place on a side street."
+120,5,11,82 6th Alley,McKee College,McKee,College,Very accomodating for students.
+121,2,10,5 Darwin Road,Riversdale Hotel,Riversdale,Hotel,Large vacation draw for tourists and families.
+122,3,9,320 Columbus Center,Brightwood Motel,Brightwood,Motel,Large vacation draw for tourists and families.
+123,5,10,1974 Eliot Place,North Santian College,North Santian,College,Large vacation draw for tourists and families.
+124,3,8,4677 Bonner Junction,North Bend Motel,North Bend,Motel,Large vacation draw for tourists and families.
+125,6,8,0903 Becker Hill,Lewisburg University,Lewisburg,University,"A nice, quiet place on a side street."
+126,5,10,94870 Lakeland Center,Crown Point College,Crown Point,College,"A nice, quiet place on a side street."
+127,6,14,8 Mitchell Center,Jordan Valley University,Jordan Valley,University,Very accomodating for students.
+128,3,8,5 Center Lane,Culp Creek Motel,Culp Creek,Motel,Very accomodating for students.
+129,4,6,4722 Huxley Road,Crown Point Inn,Crown Point,Inn,Large vacation draw for tourists and families.
+130,2,13,722 Mockingbird Court,Ruch Hotel,Ruch,Hotel,"A nice, quiet place on a side street."
+131,2,8,23588 Independence Road,Sunnyridge Hotel,Sunnyridge,Hotel,Very accomodating for students.
+132,4,7,45 1st Pass,Eugene Inn,Eugene,Inn,Large vacation draw for tourists and families.
+133,4,11,2056 Blue Bill Park Court,Moro Inn,Moro,Inn,Close to the local university.
+134,5,13,75405 Pleasure Way,Rice Hill College,Rice Hill,College,"A nice, quiet place on a side street."
+135,2,10,598 Utah Point,Tidewater Hotel,Tidewater,Hotel,Large vacation draw for tourists and families.
+136,3,15,09 Lyons Plaza,Carlton Motel,Carlton,Motel,Large vacation draw for tourists and families.
+137,4,11,497 Brickson Park Hill,Clarno Inn,Clarno,Inn,Large vacation draw for tourists and families.
+138,1,11,95419 Eagan Junction,Oak Springs Hostel,Oak Springs,Hostel,Large vacation draw for tourists and families.
+139,1,8,30 Anthes Court,Hathaway Mead Hostel,Hathaway Mead,Hostel,Close to the local university.
+140,6,9,0 Russell Avenue,Manzanita University,Manzanita,University,Very accomodating for students.
+141,3,11,3739 Ridgeway Road,Allendale Motel,Allendale,Motel,Close to the local university.
+142,5,14,8744 Lawn Hill,West Portland College,West Portland,College,Large vacation draw for tourists and families.
+143,2,14,67 Red Cloud Trail,Weston Hotel,Weston,Hotel,"A nice, quiet place on a side street."
+144,1,9,013 Transport Point,Warren Hostel,Warren,Hostel,Close to the local university.
+145,6,7,36623 Dwight Pass,Turner University,Turner,University,Very accomodating for students.
+146,6,13,40648 Loeprich Lane,Hidaway Springs University,Hidaway Springs,University,Close to the local university.
+147,5,9,066 Debs Court,Hay Creek Ranch College,Hay Creek Ranch,College,Very accomodating for students.
+148,6,12,27393 Warner Crossing,Svensen Junction University,Svensen Junction,University,Close to the local university.
+149,1,12,9 Logan Junction,O'Neil Corners Hostel,O'Neil Corners,Hostel,Very accomodating for students.
+150,3,15,0419 Sugar Hill,Kendall Motel,Kendall,Motel,Close to the local university.
+151,3,7,663 Valley Edge Terrace,Maple Lane Motel,Maple Lane,Motel,"A nice, quiet place on a side street."
+152,6,13,673 Schlimgen Avenue,Ontario Heights University,Ontario Heights,University,"A nice, quiet place on a side street."
+153,5,13,305 Stoughton Circle,Elgin College,Elgin,College,Large vacation draw for tourists and families.
+154,5,15,9035 Schurz Road,Yamhill Station College,Yamhill Station,College,Large vacation draw for tourists and families.
+155,4,12,51760 Comanche Point,Villa Ridge Inn,Villa Ridge,Inn,Very accomodating for students.
+156,2,8,44324 Emmet Junction,Orenco Hotel,Orenco,Hotel,Large vacation draw for tourists and families.
+157,3,13,13 Milwaukee Avenue,Cooston Motel,Cooston,Motel,Very accomodating for students.
+158,4,15,98899 West Point,Donald Inn,Donald,Inn,Very accomodating for students.
+159,1,13,9771 Bonner Center,Tongue Point Naval Base Hostel,Tongue Point Naval Base,Hostel,Large vacation draw for tourists and families.
+160,5,14,3974 West Crossing,Shady College,Shady,College,Close to the local university.
+161,3,11,4136 Judy Place,Dickey Prairie Motel,Dickey Prairie,Motel,Close to the local university.
+162,5,14,214 Golden Leaf Parkway,Oak Park College,Oak Park,College,Close to the local university.
+163,5,10,5259 Manley Parkway,Witch Hazel College,Witch Hazel,College,Close to the local university.
+164,2,9,981 Vera Avenue,Dayville Hotel,Dayville,Hotel,"A nice, quiet place on a side street."
+165,1,9,523 Pepper Wood Drive,Sunnyside Hostel,Sunnyside,Hostel,Close to the local university.
+166,6,8,6 Waxwing Road,Modoc Point University,Modoc Point,University,Large vacation draw for tourists and families.
+167,4,11,4 Brown Road,Haynesville Inn,Haynesville,Inn,Large vacation draw for tourists and families.
+168,3,9,714 Hallows Lane,Glide Motel,Glide,Motel,"A nice, quiet place on a side street."
+169,5,10,8 Sutherland Pass,Curtin College,Curtin,College,Large vacation draw for tourists and families.
+170,5,7,8552 Schmedeman Terrace,Inglis College,Inglis,College,"A nice, quiet place on a side street."
+171,6,8,8 Nelson Way,Mt Carmel University,Mt Carmel,University,Very accomodating for students.
+172,3,13,4789 Ryan Point,Florence Motel,Florence,Motel,Close to the local university.
+173,2,9,72 Delladonna Alley,Hubbard Hotel,Hubbard,Hotel,"A nice, quiet place on a side street."
+174,1,13,02 Prentice Pass,Beaver Springs Hostel,Beaver Springs,Hostel,Close to the local university.
+175,6,11,012 Texas Court,Kinzua University,Kinzua,University,Very accomodating for students.
+176,4,10,76 Sullivan Plaza,Ashland Inn,Ashland,Inn,Large vacation draw for tourists and families.
+177,1,13,6 Pond Point,Trotter Hostel,Trotter,Hostel,Large vacation draw for tourists and families.
+178,2,9,05153 Waubesa Street,Matney Hotel,Matney,Hotel,"A nice, quiet place on a side street."
+179,1,10,479 Tennessee Hill,Prospect Hostel,Prospect,Hostel,Large vacation draw for tourists and families.
+180,6,14,3860 Stang Avenue,Blaine University,Blaine,University,"A nice, quiet place on a side street."
+181,2,13,80626 Caliangt Place,Laurelwood Hotel,Laurelwood,Hotel,"A nice, quiet place on a side street."
+182,5,11,260 Scoville Center,Tillicum Beach College,Tillicum Beach,College,Close to the local university.
+183,1,14,43 Veith Lane,Galice Hostel,Galice,Hostel,Large vacation draw for tourists and families.
+184,6,12,0 Amoth Junction,Bridlemile University,Bridlemile,University,Close to the local university.
+185,3,15,3979 Nova Street,Eagle Point Motel,Eagle Point,Motel,Close to the local university.
+186,6,7,4025 Amoth Center,Springdale University,Springdale,University,Large vacation draw for tourists and families.
+187,5,9,5 Messerschmidt Park,Talbot College,Talbot,College,"A nice, quiet place on a side street."
+188,4,7,5861 Dayton Hill,Cottrell Inn,Cottrell,Inn,Close to the local university.
+189,3,12,053 Hanover Terrace,Whitwood Court Motel,Whitwood Court,Motel,Very accomodating for students.
+190,3,12,3 Muir Center,Coquille Motel,Coquille,Motel,Close to the local university.
+191,2,10,475 Independence Junction,Dairy Hotel,Dairy,Hotel,Large vacation draw for tourists and families.
+192,6,14,6 Merrick Trail,Laurelhurst University,Laurelhurst,University,"A nice, quiet place on a side street."
+193,6,9,183 Summit Way,Gap University,Gap,University,"A nice, quiet place on a side street."
+194,3,7,12 Kenwood Circle,Unity Motel,Unity,Motel,Very accomodating for students.
+195,6,7,63518 Springview Park,Waconda University,Waconda,University,Close to the local university.
+196,5,15,4 Mcbride Parkway,East Gardiner College,East Gardiner,College,Large vacation draw for tourists and families.
+197,1,12,81944 Kenwood Drive,Sidney Hostel,Sidney,Hostel,Close to the local university.
+198,4,12,3 Sachs Pass,Okietown Inn,Okietown,Inn,"A nice, quiet place on a side street."
+199,3,9,575 Twin Pines Street,Kerby Motel,Kerby,Motel,Large vacation draw for tourists and families.
+200,1,14,16356 Mandrake Pass,Weston Hostel,Weston,Hostel,"A nice, quiet place on a side street."
+201,3,9,14 Shasta Point,Gilchrist Motel,Gilchrist,Motel,Very accomodating for students.
+202,2,11,1 Blue Bill Park Court,Parkrose Hotel,Parkrose,Hotel,"A nice, quiet place on a side street."
+203,3,11,2501 Aberg Park,Bandon Motel,Bandon,Motel,Close to the local university.
+204,4,13,3478 Cardinal Court,Neahr Inn,Neahr,Inn,"A nice, quiet place on a side street."
+205,2,8,33204 Shoshone Park,Corbett Station Hotel,Corbett Station,Hotel,Very accomodating for students.
+206,5,14,10 Continental Hill,Tyee Camp College,Tyee Camp,College,Close to the local university.
+207,6,9,3799 Hayes Center,Hopewell University,Hopewell,University,Very accomodating for students.
+208,1,8,09 Pleasure Pass,Myrtle Point Hostel,Myrtle Point,Hostel,Very accomodating for students.
+209,5,8,3 Northland Center,Arock College,Arock,College,"A nice, quiet place on a side street."
+210,5,14,7 Bowman Road,Prescott College,Prescott,College,Close to the local university.
+211,6,14,67 Ryan Court,Kirbro University,Kirbro,University,Close to the local university.
+212,4,6,8396 Surrey Park,Weston Inn,Weston,Inn,Close to the local university.
+213,5,15,62399 Gulseth Lane,Bonneville College,Bonneville,College,Close to the local university.
+214,1,7,1 Sachtjen Circle,Mitchell Hostel,Mitchell,Hostel,Large vacation draw for tourists and families.
+215,2,11,62379 Vermont Trail,Azalea Hotel,Azalea,Hotel,Very accomodating for students.
+216,1,10,1355 Cascade Place,New Pine Creek Hostel,New Pine Creek,Hostel,Close to the local university.
+217,4,11,9 Merry Crossing,Culver Inn,Culver,Inn,Close to the local university.
+218,5,14,674 Almo Junction,Monmouth College,Monmouth,College,Very accomodating for students.
+219,2,11,150 Sutherland Hill,Sylvan Hotel,Sylvan,Hotel,Very accomodating for students.
+220,3,15,46 Del Mar Pass,Douglass Ridge Motel,Douglass Ridge,Motel,Close to the local university.
+221,3,15,11 Buell Circle,Veneta Motel,Veneta,Motel,Large vacation draw for tourists and families.
+222,6,13,12 Marcy Lane,Champ University,Champ,University,"A nice, quiet place on a side street."
+223,5,13,8 Memorial Road,East Portland College,East Portland,College,"A nice, quiet place on a side street."
+224,3,14,9820 Emmet Lane,Wilson Motel,Wilson,Motel,Large vacation draw for tourists and families.
+225,1,11,9414 Superior Lane,Mayger Hostel,Mayger,Hostel,Large vacation draw for tourists and families.
+226,5,11,27993 Sloan Road,Nelscott College,Nelscott,College,"A nice, quiet place on a side street."
+227,6,12,76 Warbler Way,Matney University,Matney,University,"A nice, quiet place on a side street."
+228,2,14,05 Artisan Point,Mount View Hotel,Mount View,Hotel,Very accomodating for students.
+229,4,12,489 Oak Valley Circle,Princeton Inn,Princeton,Inn,Very accomodating for students.
+230,6,12,297 Dakota Center,McKinley University,McKinley,University,Close to the local university.
+231,4,7,146 Almo Terrace,Rothe Inn,Rothe,Inn,Large vacation draw for tourists and families.
+232,5,10,133 Emmet Circle,Mapleton College,Mapleton,College,Very accomodating for students.
+233,2,13,7728 Anderson Alley,Hardman Hotel,Hardman,Hotel,Close to the local university.
+234,5,11,36 Declaration Point,Veneta College,Veneta,College,"A nice, quiet place on a side street."
+235,3,9,8 Dryden Crossing,The Dalles Motel,The Dalles,Motel,"A nice, quiet place on a side street."
+236,2,6,7 Bayside Junction,Walker Hotel,Walker,Hotel,Very accomodating for students.
+237,4,9,72 2nd Terrace,Altamont Inn,Altamont,Inn,Large vacation draw for tourists and families.
+238,2,10,6194 Bobwhite Court,Nyssa Hotel,Nyssa,Hotel,"A nice, quiet place on a side street."
+239,4,9,1214 Mallard Park,Unity Inn,Unity,Inn,"A nice, quiet place on a side street."
+240,1,7,9 Huxley Crossing,Elk Lake Hostel,Elk Lake,Hostel,Large vacation draw for tourists and families.
+241,5,14,59916 Ridge Oak Point,Gilbert Station College,Gilbert Station,College,Very accomodating for students.
+242,2,14,23 Acker Terrace,Outlook Hotel,Outlook,Hotel,Close to the local university.
+243,2,15,26842 West Road,Deerhorn Hotel,Deerhorn,Hotel,Very accomodating for students.
+244,4,13,00 Oneill Court,Hazelia Inn,Hazelia,Inn,"A nice, quiet place on a side street."
+245,4,8,47 High Crossing Crossing,Dufur Inn,Dufur,Inn,Close to the local university.
+246,3,12,6 Mallard Junction,Siletz Motel,Siletz,Motel,Large vacation draw for tourists and families.
+247,6,8,8249 Melby Parkway,Saunders Lake University,Saunders Lake,University,Very accomodating for students.
+248,2,10,79472 Talmadge Terrace,Richland Hotel,Richland,Hotel,"A nice, quiet place on a side street."
+249,2,11,30660 Eagan Hill,Eden Hotel,Eden,Hotel,Close to the local university.
+250,4,6,8680 Sherman Alley,Cherry Grove Inn,Cherry Grove,Inn,Close to the local university.
+251,5,10,74 Rieder Avenue,Butte Falls College,Butte Falls,College,Close to the local university.
+252,1,9,402 Dayton Way,Eastmoreland Hostel,Eastmoreland,Hostel,Very accomodating for students.
+253,2,7,5311 Russell Way,Clatskanie Hotel,Clatskanie,Hotel,Close to the local university.
+254,6,11,62 Summer Ridge Way,Siltcoos University,Siltcoos,University,"A nice, quiet place on a side street."
+255,5,12,83 Starling Court,Adrian College,Adrian,College,Large vacation draw for tourists and families.
+256,1,8,8 Delaware Street,Warrenton Hostel,Warrenton,Hostel,Very accomodating for students.
+257,5,10,229 Kings Plaza,Fir Grove College,Fir Grove,College,Close to the local university.
+258,3,12,74 Cascade Place,Athena Motel,Athena,Motel,Very accomodating for students.
+259,3,14,7 Twin Pines Pass,Mabel Motel,Mabel,Motel,Very accomodating for students.
+260,2,9,88900 Grayhawk Parkway,Hemlock Hotel,Hemlock,Hotel,"A nice, quiet place on a side street."
+261,1,14,8336 Evergreen Point,Hay Creek Ranch Hostel,Hay Creek Ranch,Hostel,"A nice, quiet place on a side street."
+262,3,7,86 Orin Place,Corbett Motel,Corbett,Motel,Very accomodating for students.
+263,6,7,29 Glendale Place,Blue River University,Blue River,University,"A nice, quiet place on a side street."
+264,2,6,467 Valley Edge Circle,Brush College Hotel,Brush College,Hotel,Very accomodating for students.
+265,6,13,23 Debs Pass,Robinette University,Robinette,University,Large vacation draw for tourists and families.
+266,6,10,43234 Bluejay Trail,Russell University,Russell,University,Very accomodating for students.
+267,1,9,5428 Graedel Way,Otis Junction Hostel,Otis Junction,Hostel,Very accomodating for students.
+268,5,13,417 Everett Terrace,West Saint Helens College,West Saint Helens,College,Close to the local university.
+269,4,11,4771 North Avenue,Bayside Gardens Inn,Bayside Gardens,Inn,"A nice, quiet place on a side street."
+270,6,9,27015 Towne Plaza,Harmony Point University,Harmony Point,University,Very accomodating for students.
+271,3,9,29 Raven Alley,Mitchell Corner Motel,Mitchell Corner,Motel,Very accomodating for students.
+272,4,15,65109 Sloan Way,Zena Inn,Zena,Inn,"A nice, quiet place on a side street."
+273,1,6,6 Mesta Crossing,Sonny Hostel,Sonny,Hostel,Large vacation draw for tourists and families.
+274,4,7,4 Manley Crossing,Folkenberg Inn,Folkenberg,Inn,Large vacation draw for tourists and families.
+275,1,10,187 Hollow Ridge Hill,Glendale Junction Hostel,Glendale Junction,Hostel,Large vacation draw for tourists and families.
+276,6,11,336 Sycamore Junction,Cottrell University,Cottrell,University,Very accomodating for students.
+277,3,6,2094 Lukken Parkway,Barnes Road Motel,Barnes Road,Motel,Close to the local university.
+278,5,13,7144 Village Green Place,Wildwood College,Wildwood,College,Very accomodating for students.
+279,2,9,131 Emmet Trail,Eagle Point Hotel,Eagle Point,Hotel,"A nice, quiet place on a side street."
+280,1,11,75980 3rd Pass,Lenz Hostel,Lenz,Hostel,Very accomodating for students.
+281,1,8,2850 Melody Point,Rand Hostel,Rand,Hostel,Very accomodating for students.
+282,6,10,07190 Mayfield Drive,Battin University,Battin,University,Close to the local university.
+283,3,8,674 Rieder Parkway,Burnt Woods Motel,Burnt Woods,Motel,Very accomodating for students.
+284,3,12,86 West Crossing,Sylvan Motel,Sylvan,Motel,Large vacation draw for tourists and families.
+285,2,9,31564 Clyde Gallagher Point,Farnham Landing Hotel,Farnham Landing,Hotel,"A nice, quiet place on a side street."
+286,6,15,8853 Marquette Street,Redmond University,Redmond,University,Large vacation draw for tourists and families.
+287,4,13,1810 Rusk Crossing,Jefferson Inn,Jefferson,Inn,Close to the local university.
+288,6,12,1 Meadow Vale Hill,Jacksonville University,Jacksonville,University,Very accomodating for students.
+289,3,8,69 Toban Street,Coos River Motel,Coos River,Motel,"A nice, quiet place on a side street."
+290,6,8,9661 Division Pass,Liberal University,Liberal,University,Large vacation draw for tourists and families.
+291,3,11,44 Upham Way,Kendall Motel,Kendall,Motel,Close to the local university.
+292,2,12,38806 Browning Street,Charleston Hotel,Charleston,Hotel,"A nice, quiet place on a side street."
+293,4,13,0 Dottie Way,Kendall Inn,Kendall,Inn,"A nice, quiet place on a side street."
+294,2,15,04690 Hermina Lane,Willamina Hotel,Willamina,Hotel,Large vacation draw for tourists and families.
+295,5,11,1291 Westend Hill,Clackamas College,Clackamas,College,Large vacation draw for tourists and families.
+296,5,9,132 Forest Run Court,Carnahan College,Carnahan,College,Close to the local university.
+297,1,13,35222 Marquette Parkway,Mohler Hostel,Mohler,Hostel,Very accomodating for students.
+298,2,7,800 Tennessee Street,Svensen Hotel,Svensen,Hotel,Very accomodating for students.
+299,6,14,3272 Brown Hill,Sodaville University,Sodaville,University,Very accomodating for students.
+300,2,9,8 Hauk Circle,Mill City Hotel,Mill City,Hotel,"A nice, quiet place on a side street."
+301,1,14,6 Reinke Drive,Sunset Hostel,Sunset,Hostel,Close to the local university.
+302,1,15,540 Namekagon Trail,Huber Hostel,Huber,Hostel,Large vacation draw for tourists and families.
+303,3,14,4627 Rowland Crossing,West Haven Motel,West Haven,Motel,Large vacation draw for tourists and families.
+304,4,13,2 High Crossing Place,Warrenton Inn,Warrenton,Inn,"A nice, quiet place on a side street."
+305,1,10,95 Comanche Hill,Elk City Hostel,Elk City,Hostel,"A nice, quiet place on a side street."
+306,4,11,20748 Hanson Way,Trent Inn,Trent,Inn,"A nice, quiet place on a side street."
+307,1,13,86583 Bay Terrace,Robinwood Hostel,Robinwood,Hostel,Large vacation draw for tourists and families.
+308,4,12,45020 Lakeland Drive,Garfield Inn,Garfield,Inn,Close to the local university.
+309,5,13,166 Packers Alley,Barlow College,Barlow,College,Large vacation draw for tourists and families.
+310,3,13,458 Sunnyside Road,Woodson Motel,Woodson,Motel,"A nice, quiet place on a side street."
+311,2,12,4374 Browning Court,Marion Hotel,Marion,Hotel,"A nice, quiet place on a side street."
+312,3,14,89143 Onsgard Hill,Post Motel,Post,Motel,Close to the local university.
+313,2,10,65911 Weeping Birch Street,East Milwaukie Hotel,East Milwaukie,Hotel,Very accomodating for students.
+314,5,8,7384 Golf Course Junction,Cascade Locks College,Cascade Locks,College,Large vacation draw for tourists and families.
+315,4,7,99 New Castle Hill,Heppner Inn,Heppner,Inn,Large vacation draw for tourists and families.
+316,2,9,841 Caliangt Plaza,Waconda Hotel,Waconda,Hotel,"A nice, quiet place on a side street."
+317,6,12,74027 Gerald Pass,Grand Ronde University,Grand Ronde,University,"A nice, quiet place on a side street."
+318,6,7,9897 Lawn Park,Green University,Green,University,Large vacation draw for tourists and families.
+319,2,12,8 Old Shore Plaza,Bendemeer Hotel,Bendemeer,Hotel,Close to the local university.
+320,2,8,9 Westerfield Hill,Warm Springs Hotel,Warm Springs,Hotel,Large vacation draw for tourists and families.
+321,4,14,48760 Wayridge Hill,Ontario Heights Inn,Ontario Heights,Inn,"A nice, quiet place on a side street."
+322,5,6,9005 Menomonie Way,Fulton College,Fulton,College,Large vacation draw for tourists and families.
+323,5,10,113 Elgar Alley,East Maupin College,East Maupin,College,"A nice, quiet place on a side street."
+324,2,11,7 Mcbride Street,Plainview Hotel,Plainview,Hotel,"A nice, quiet place on a side street."
+325,5,10,17 Harper Plaza,Dryland College,Dryland,College,Large vacation draw for tourists and families.
+326,2,8,3 Coleman Junction,Fort Stevens Hotel,Fort Stevens,Hotel,"A nice, quiet place on a side street."
+327,5,13,9487 Pierstorff Pass,Neskowin College,Neskowin,College,Very accomodating for students.
+328,6,14,8327 Springview Avenue,Russell University,Russell,University,Close to the local university.
+329,4,8,37318 Crowley Road,Labish Village Inn,Labish Village,Inn,Close to the local university.
+330,2,9,05449 Sloan Trail,Bolt Hotel,Bolt,Hotel,Very accomodating for students.
+331,6,8,047 Arapahoe Way,Brownsville University,Brownsville,University,Large vacation draw for tourists and families.
+332,1,8,7 Randy Terrace,Orient Hostel,Orient,Hostel,Large vacation draw for tourists and families.
+333,2,9,36844 Prairieview Circle,Dixonville Hotel,Dixonville,Hotel,"A nice, quiet place on a side street."
+334,4,10,52572 Scott Road,Mount View Inn,Mount View,Inn,Large vacation draw for tourists and families.
+335,4,10,2 Londonderry Center,Greenberry Inn,Greenberry,Inn,Large vacation draw for tourists and families.
+336,6,14,5 Glendale Hill,Island City University,Island City,University,Very accomodating for students.
+337,5,14,6 Schiller Avenue,Durkee College,Durkee,College,Large vacation draw for tourists and families.
+338,5,14,16505 Burrows Center,Rhododendron College,Rhododendron,College,Very accomodating for students.
+339,5,12,44 Shasta Crossing,Hugo College,Hugo,College,Large vacation draw for tourists and families.
+340,4,15,8 Blue Bill Park Hill,Forest Grove Inn,Forest Grove,Inn,"A nice, quiet place on a side street."
+341,5,11,073 Hanover Terrace,Bethel College,Bethel,College,"A nice, quiet place on a side street."
+342,3,8,41568 Fallview Park,Mehama Motel,Mehama,Motel,Very accomodating for students.
+343,2,7,22845 Northridge Terrace,Orenco Hotel,Orenco,Hotel,Very accomodating for students.
+344,6,14,8247 Pankratz Avenue,Elgarose University,Elgarose,University,Close to the local university.
+345,3,8,71 Moulton Court,Heppner Motel,Heppner,Motel,Large vacation draw for tourists and families.
+346,4,15,9754 Rigney Circle,Reedville Inn,Reedville,Inn,"A nice, quiet place on a side street."
+347,4,6,301 Hansons Point,Greenville Inn,Greenville,Inn,Large vacation draw for tourists and families.
+348,6,13,86585 Buena Vista Place,Reedsport University,Reedsport,University,Close to the local university.
+349,4,14,80 Waxwing Trail,Laurelwood Inn,Laurelwood,Inn,"A nice, quiet place on a side street."
+350,2,9,42267 Knutson Hill,Glide Hotel,Glide,Hotel,Very accomodating for students.
+351,3,10,08187 Farwell Circle,Creston Motel,Creston,Motel,Very accomodating for students.
+352,3,15,169 Welch Street,Labish Village Motel,Labish Village,Motel,"A nice, quiet place on a side street."
+353,3,12,7538 Sommers Road,Somerset West Motel,Somerset West,Motel,Close to the local university.
+354,4,13,3571 Heffernan Lane,Wichita Inn,Wichita,Inn,Very accomodating for students.
+355,3,12,570 Iowa Trail,Ashaha Motel,Ashaha,Motel,Close to the local university.
+356,6,15,2627 Vidon Crossing,Glendale University,Glendale,University,"A nice, quiet place on a side street."
+357,5,12,91 Badeau Center,Harper College,Harper,College,Very accomodating for students.
+358,5,7,179 Summit Parkway,Warrendale College,Warrendale,College,Large vacation draw for tourists and families.
+359,3,7,9373 Forster Center,Grand Island Junction Motel,Grand Island Junction,Motel,"A nice, quiet place on a side street."
+360,2,7,5 South Place,Birkenfeld Hotel,Birkenfeld,Hotel,Very accomodating for students.
+361,2,8,3888 Blackbird Alley,Spray Hotel,Spray,Hotel,Very accomodating for students.
+362,2,8,22163 Fisk Pass,Beaver Homes Hotel,Beaver Homes,Hotel,Very accomodating for students.
+363,6,12,4 Surrey Pass,Brookwild University,Brookwild,University,Large vacation draw for tourists and families.
+364,2,12,08 2nd Terrace,Athena Hotel,Athena,Hotel,Close to the local university.
+365,6,6,3356 Garrison Park,Shortys Corner University,Shortys Corner,University,Large vacation draw for tourists and families.
+366,5,11,68 Dennis Terrace,Willamette College,Willamette,College,Very accomodating for students.
+367,3,11,13 Birchwood Circle,Bonanza Motel,Bonanza,Motel,Very accomodating for students.
+368,4,9,262 Colorado Park,Wimer Inn,Wimer,Inn,Large vacation draw for tourists and families.
+369,2,11,9583 Parkside Avenue,Bonneville Hotel,Bonneville,Hotel,Close to the local university.
+370,4,11,06778 Magdeline Center,Unity Inn,Unity,Inn,Very accomodating for students.
+371,5,8,78076 Truax Trail,Redland College,Redland,College,Large vacation draw for tourists and families.
+372,2,9,762 Lake View Drive,Wilson Hotel,Wilson,Hotel,Large vacation draw for tourists and families.
+373,3,12,83299 Lake View Terrace,Payette Junction Motel,Payette Junction,Motel,Close to the local university.
+374,6,6,28 Express Crossing,Keizer University,Keizer,University,Very accomodating for students.
+375,4,6,38601 Old Gate Drive,Airlie Inn,Airlie,Inn,Close to the local university.
+376,4,14,2474 Mayfield Plaza,Woodburn Inn,Woodburn,Inn,Very accomodating for students.
+377,3,15,555 Logan Point,Dayton Motel,Dayton,Motel,Close to the local university.
+378,3,10,7082 Judy Court,Cannon Beach Junction Motel,Cannon Beach Junction,Motel,Close to the local university.
+379,3,7,2244 Columbus Terrace,Falls City Motel,Falls City,Motel,Very accomodating for students.
+380,6,8,53154 Elka Junction,Lobert Junction University,Lobert Junction,University,Large vacation draw for tourists and families.
+381,3,8,5174 Bayside Road,Lincoln Motel,Lincoln,Motel,Very accomodating for students.
+382,5,11,8 Mitchell Circle,Lincoln College,Lincoln,College,"A nice, quiet place on a side street."
+383,6,8,1 Lake View Lane,Mahan University,Mahan,University,Very accomodating for students.
+384,2,13,0748 Jenna Way,Monmouth Hotel,Monmouth,Hotel,"A nice, quiet place on a side street."
+385,3,7,01 Anhalt Street,Waconda Beach Motel,Waconda Beach,Motel,Very accomodating for students.
+386,5,8,00 Hauk Terrace,Irving College,Irving,College,Close to the local university.
+387,2,8,48759 Marcy Court,Placer Hotel,Placer,Hotel,Large vacation draw for tourists and families.
+388,4,15,27558 Merchant Street,Redland Inn,Redland,Inn,"A nice, quiet place on a side street."
+389,2,11,333 Drewry Alley,Rye Valley Hotel,Rye Valley,Hotel,"A nice, quiet place on a side street."
+390,2,15,97 Warrior Junction,Juniper Hotel,Juniper,Hotel,Large vacation draw for tourists and families.
+391,3,8,5031 Sunfield Terrace,Bethany Motel,Bethany,Motel,Very accomodating for students.
+392,5,10,8419 Waywood Point,Fern Ridge College,Fern Ridge,College,Close to the local university.
+393,3,7,3 Artisan Place,Mulino Motel,Mulino,Motel,"A nice, quiet place on a side street."
+394,1,13,14 Esker Plaza,Powell Valley Hostel,Powell Valley,Hostel,Very accomodating for students.
+395,3,14,91 Gateway Parkway,Switzerland Motel,Switzerland,Motel,Close to the local university.
+396,3,14,09 Red Cloud Street,Junction City Motel,Junction City,Motel,Large vacation draw for tourists and families.
+397,6,10,1 Tony Hill,Upper Nehalem University,Upper Nehalem,University,"A nice, quiet place on a side street."
+398,2,12,3627 2nd Pass,Sandlake Hotel,Sandlake,Hotel,Close to the local university.
+399,5,10,02 Dunning Plaza,Crescent College,Crescent,College,"A nice, quiet place on a side street."
+400,4,14,7 Bartelt Hill,Bellrose Inn,Bellrose,Inn,"A nice, quiet place on a side street."
+401,4,13,16091 American Crossing,Chenoweth Inn,Chenoweth,Inn,"A nice, quiet place on a side street."
+402,2,7,4894 Brickson Park Place,Talent Hotel,Talent,Hotel,Close to the local university.
+403,3,8,790 Straubel Drive,Latham Motel,Latham,Motel,Large vacation draw for tourists and families.
+404,1,9,3572 Arizona Pass,Forfar Hostel,Forfar,Hostel,Close to the local university.
+405,3,12,27 Merchant Trail,Wamic Motel,Wamic,Motel,Very accomodating for students.
+406,3,15,09 Grim Plaza,Creston Motel,Creston,Motel,"A nice, quiet place on a side street."
+407,2,14,0138 Thompson Lane,Mitchell Corner Hotel,Mitchell Corner,Hotel,Very accomodating for students.
+408,5,11,33 Melody Lane,McMinnville College,McMinnville,College,Large vacation draw for tourists and families.
+409,6,11,43 Utah Street,Beverly Beach University,Beverly Beach,University,"A nice, quiet place on a side street."
+410,1,15,06145 Milwaukee Junction,Surprise Valley Hostel,Surprise Valley,Hostel,"A nice, quiet place on a side street."
+411,3,7,0438 Eastwood Court,Breitenbush Motel,Breitenbush,Motel,"A nice, quiet place on a side street."
+412,5,13,4 Canary Parkway,Hemlock College,Hemlock,College,Large vacation draw for tourists and families.
+413,3,14,898 Saint Paul Crossing,Butterfield Motel,Butterfield,Motel,"A nice, quiet place on a side street."
+414,4,12,57587 Jenna Alley,Riverview Inn,Riverview,Inn,Close to the local university.
+415,4,8,3891 Rutledge Crossing,Newberg Inn,Newberg,Inn,Very accomodating for students.
+416,2,13,20758 Barnett Avenue,Rougue Elk Hotel,Rougue Elk,Hotel,Close to the local university.
+417,4,15,179 Northfield Crossing,Columbia City Inn,Columbia City,Inn,Large vacation draw for tourists and families.
+418,3,7,5035 Parkside Hill,Shedd Motel,Shedd,Motel,Large vacation draw for tourists and families.
+419,2,10,75 Thierer Terrace,Franklin Hotel,Franklin,Hotel,Close to the local university.
+420,6,9,20 Warner Alley,Halfway University,Halfway,University,Close to the local university.
+421,2,12,6347 Maryland Junction,Elk Rock Hotel,Elk Rock,Hotel,Large vacation draw for tourists and families.
+422,6,13,92 Dennis Lane,Hopewell University,Hopewell,University,Very accomodating for students.
+423,6,12,667 Superior Parkway,Interlachen University,Interlachen,University,Very accomodating for students.
+424,2,12,78 Butternut Lane,Bonny Slope Hotel,Bonny Slope,Hotel,Very accomodating for students.
+425,5,7,61 Clarendon Point,Takilma College,Takilma,College,"A nice, quiet place on a side street."
+426,3,8,1327 Green Ridge Pass,Prosper Motel,Prosper,Motel,Large vacation draw for tourists and families.
+427,4,7,8 Knutson Court,Brush College Inn,Brush College,Inn,Very accomodating for students.
+428,4,12,047 Sachs Terrace,Knappa Junction Inn,Knappa Junction,Inn,Close to the local university.
+429,6,9,761 Carey Crossing,Shady Dell University,Shady Dell,University,Close to the local university.
+430,2,8,47 Florence Street,Orchard View Hotel,Orchard View,Hotel,Large vacation draw for tourists and families.
+431,2,6,77988 Continental Way,Tracy Hotel,Tracy,Hotel,"A nice, quiet place on a side street."
+432,2,14,86 Arrowood Trail,Locoda Hotel,Locoda,Hotel,Very accomodating for students.
+433,2,6,1 Mcbride Terrace,Rosewood Hotel,Rosewood,Hotel,Very accomodating for students.
+434,4,8,707 Mariners Cove Circle,Wilson Corner Inn,Wilson Corner,Inn,"A nice, quiet place on a side street."
+435,6,8,15820 Forest Run Circle,Molalla University,Molalla,University,Large vacation draw for tourists and families.
+436,2,11,6376 Oak Valley Parkway,Wilderville Hotel,Wilderville,Hotel,Close to the local university.
+437,2,15,53 High Crossing Alley,Farnham Landing Hotel,Farnham Landing,Hotel,Close to the local university.
+438,5,10,1525 Loftsgordon Park,Troy College,Troy,College,"A nice, quiet place on a side street."
+439,4,11,79927 Charing Cross Circle,Siletz Inn,Siletz,Inn,Large vacation draw for tourists and families.
+440,1,15,0591 Crescent Oaks Terrace,Cherry Heights Hostel,Cherry Heights,Hostel,"A nice, quiet place on a side street."
+441,5,9,0910 Trailsway Trail,Clatsop Station College,Clatsop Station,College,"A nice, quiet place on a side street."
+442,3,13,6297 North Crossing,Monitor Motel,Monitor,Motel,Very accomodating for students.
+443,1,12,92683 Spohn Road,Empire Hostel,Empire,Hostel,Large vacation draw for tourists and families.
+444,5,9,3878 Michigan Alley,Lehman Springs College,Lehman Springs,College,Close to the local university.
+445,3,12,60174 Chinook Center,Park Place Motel,Park Place,Motel,"A nice, quiet place on a side street."
+446,1,14,8 International Road,Verboort Hostel,Verboort,Hostel,Close to the local university.
+447,6,6,0 Heath Crossing,Phoenix University,Phoenix,University,Very accomodating for students.
+448,1,8,75 Warner Court,Yankton Hostel,Yankton,Hostel,Very accomodating for students.
+449,1,12,837 Pepper Wood Parkway,Brightwood Hostel,Brightwood,Hostel,"A nice, quiet place on a side street."
+450,1,11,595 Homewood Hill,Salem Hostel,Salem,Hostel,Close to the local university.
+451,2,13,7 Little Fleur Court,Arleta Hotel,Arleta,Hotel,"A nice, quiet place on a side street."
+452,4,15,353 Main Way,Tumalo Inn,Tumalo,Inn,Very accomodating for students.
+453,3,11,78756 Hanson Plaza,Bethany Motel,Bethany,Motel,Very accomodating for students.
+454,2,12,925 8th Hill,Fairview Hotel,Fairview,Hotel,"A nice, quiet place on a side street."
+455,1,7,1 Eagan Hill,Deerhorn Hostel,Deerhorn,Hostel,Close to the local university.
+456,4,14,207 Amoth Park,Monitor Inn,Monitor,Inn,Very accomodating for students.
+457,5,12,3198 Northridge Crossing,Lents College,Lents,College,Close to the local university.
+458,2,10,700 Milwaukee Center,Hoodview Hotel,Hoodview,Hotel,Large vacation draw for tourists and families.
+459,4,9,567 Village Green Street,Rickey Inn,Rickey,Inn,Very accomodating for students.
+460,5,10,582 Chive Pass,Tolovana Park College,Tolovana Park,College,Close to the local university.
+461,6,12,83454 Rutledge Road,Athena University,Athena,University,"A nice, quiet place on a side street."
+462,3,10,53 Bashford Point,Albina Motel,Albina,Motel,Large vacation draw for tourists and families.
+463,2,9,2 Talmadge Point,Hines Hotel,Hines,Hotel,"A nice, quiet place on a side street."
+464,5,8,79765 Vernon Street,Damascus College,Damascus,College,Close to the local university.
+465,3,7,31913 Gerald Hill,Colton Motel,Colton,Motel,"A nice, quiet place on a side street."
+466,2,11,92392 Hauk Junction,Spring Valley Hotel,Spring Valley,Hotel,Very accomodating for students.
+467,6,13,38 Daystar Center,Lacomb University,Lacomb,University,"A nice, quiet place on a side street."
+468,6,9,00 Mccormick Park,Tenmile University,Tenmile,University,Very accomodating for students.
+469,5,10,2429 Jana Drive,Foster College,Foster,College,Very accomodating for students.
+470,2,8,0 Dexter Pass,Sweet Home Hotel,Sweet Home,Hotel,"A nice, quiet place on a side street."
+471,1,11,5 Emmet Alley,Pine Grove Hostel,Pine Grove,Hostel,Large vacation draw for tourists and families.
+472,1,11,0 Briar Crest Lane,McKenzie Bridge Hostel,McKenzie Bridge,Hostel,"A nice, quiet place on a side street."
+473,6,11,71 Steensland Crossing,Trent University,Trent,University,Large vacation draw for tourists and families.
+474,5,13,1 Washington Center,Irving College,Irving,College,Close to the local university.
+475,1,6,39844 Jenifer Parkway,Riddle Hostel,Riddle,Hostel,Large vacation draw for tourists and families.
+476,1,10,814 Colorado Drive,Parkrose Hostel,Parkrose,Hostel,Large vacation draw for tourists and families.
+477,2,6,59 Daystar Drive,Green Hills Hotel,Green Hills,Hotel,"A nice, quiet place on a side street."
+478,5,7,63484 Killdeer Pass,Bradley Corner College,Bradley Corner,College,Very accomodating for students.
+479,3,14,536 Barby Point,Mist Motel,Mist,Motel,Large vacation draw for tourists and families.
+480,3,9,26 Haas Street,Kelso Motel,Kelso,Motel,"A nice, quiet place on a side street."
+481,3,9,60 Kings Drive,Burp Hollow Motel,Burp Hollow,Motel,Very accomodating for students.
+482,3,15,565 Continental Point,Cherryville Motel,Cherryville,Motel,"A nice, quiet place on a side street."
+483,5,12,641 Truax Center,Oregon City College,Oregon City,College,Large vacation draw for tourists and families.
+484,4,8,0101 Coleman Park,Glasgow Inn,Glasgow,Inn,Very accomodating for students.
+485,5,14,116 Dawn Lane,Middleton College,Middleton,College,Very accomodating for students.
+486,4,11,5142 Waubesa Avenue,Swisshome Inn,Swisshome,Inn,Very accomodating for students.
+487,2,9,240 Badeau Way,Scappoose Hotel,Scappoose,Hotel,Large vacation draw for tourists and families.
+488,2,11,1 4th Place,Fern Hill Hotel,Fern Hill,Hotel,Very accomodating for students.
+489,6,8,68637 Packers Road,Norwood University,Norwood,University,"A nice, quiet place on a side street."
+490,3,15,9848 Pine View Circle,Douglass Ridge Motel,Douglass Ridge,Motel,Close to the local university.
+491,5,10,5417 Buena Vista Park,Butteville Station College,Butteville Station,College,Very accomodating for students.
+492,3,14,858 Dovetail Crossing,Orchard View Motel,Orchard View,Motel,"A nice, quiet place on a side street."
+493,3,10,70389 Grim Plaza,Netarts Motel,Netarts,Motel,Very accomodating for students.
+494,4,6,584 Spohn Circle,Philomath Inn,Philomath,Inn,Very accomodating for students.
+495,5,7,3 Warner Plaza,Ruby College,Ruby,College,"A nice, quiet place on a side street."
+496,1,7,0 Sunnyside Court,Otis Junction Hostel,Otis Junction,Hostel,Large vacation draw for tourists and families.
+497,2,8,91 Moland Crossing,Firwood Hotel,Firwood,Hotel,Very accomodating for students.
+498,3,7,4266 Manufacturers Lane,Culp Creek Motel,Culp Creek,Motel,Close to the local university.
+499,3,14,61237 Anderson Crossing,Troutdale Motel,Troutdale,Motel,Large vacation draw for tourists and families.
+500,4,8,021 Crownhardt Parkway,Ashdale Inn,Ashdale,Inn,Very accomodating for students.
+501,4,12,397 Helena Alley,Mitchell Inn,Mitchell,Inn,Large vacation draw for tourists and families.
+502,4,9,260 Pepper Wood Alley,Ukiah Inn,Ukiah,Inn,"A nice, quiet place on a side street."
+503,4,6,10730 Hintze Road,Buman Inn,Buman,Inn,"A nice, quiet place on a side street."
+504,6,7,53 Graedel Center,Seal Rock University,Seal Rock,University,"A nice, quiet place on a side street."
+505,5,6,46306 Cambridge Place,Waterloo College,Waterloo,College,Very accomodating for students.
+506,4,11,0 Autumn Leaf Circle,Harborton Inn,Harborton,Inn,Close to the local university.
+507,6,9,740 Kensington Parkway,Eagle Creek University,Eagle Creek,University,"A nice, quiet place on a side street."
+508,2,9,16613 Bunker Hill Center,Manzanita Hotel,Manzanita,Hotel,"A nice, quiet place on a side street."
+509,1,12,458 Coolidge Drive,Kenton Hostel,Kenton,Hostel,Very accomodating for students.
+510,6,8,66 Ramsey Junction,Navy Heights University,Navy Heights,University,"A nice, quiet place on a side street."
+511,3,11,08 Packers Park,Carver Motel,Carver,Motel,Large vacation draw for tourists and families.
+512,1,12,18577 Dovetail Drive,Union Gap Hostel,Union Gap,Hostel,Very accomodating for students.
+513,2,7,20 Brickson Park Road,Battin Hotel,Battin,Hotel,"A nice, quiet place on a side street."
+514,3,11,63 David Hill,Rye Valley Motel,Rye Valley,Motel,Large vacation draw for tourists and families.
+515,4,7,98 Porter Circle,Yamhill Station Inn,Yamhill Station,Inn,"A nice, quiet place on a side street."
+516,5,12,8 Bay Court,Big Eddy College,Big Eddy,College,"A nice, quiet place on a side street."
+517,2,7,203 Bobwhite Parkway,Greenburg Hotel,Greenburg,Hotel,Close to the local university.
+518,4,14,8 Scoville Circle,Brothers Inn,Brothers,Inn,Very accomodating for students.
+519,5,6,88403 Dwight Alley,Government Camp College,Government Camp,College,Very accomodating for students.
+520,5,15,72697 La Follette Hill,Waldport College,Waldport,College,"A nice, quiet place on a side street."
+521,4,14,28833 Fieldstone Way,Twin Rocks Inn,Twin Rocks,Inn,Large vacation draw for tourists and families.
+522,3,12,45 Waubesa Park,Rockford Motel,Rockford,Motel,Very accomodating for students.
+523,5,10,04504 Esch Terrace,Foster College,Foster,College,Very accomodating for students.
+524,2,11,013 Dunning Terrace,Milwaukie Hotel,Milwaukie,Hotel,Close to the local university.
+525,6,10,19 Laurel Pass,Rainier University,Rainier,University,Close to the local university.
+526,6,13,0323 Pankratz Parkway,Harlan University,Harlan,University,"A nice, quiet place on a side street."
+527,6,7,79419 Lakewood Gardens Street,Lebanon University,Lebanon,University,Close to the local university.
+528,6,8,804 Larry Parkway,Shangri-La Mill University,Shangri-La Mill,University,Large vacation draw for tourists and families.
+529,2,7,713 Stephen Plaza,Champoeg Hotel,Champoeg,Hotel,"A nice, quiet place on a side street."
+530,1,11,31 Mayer Drive,Buxton Hostel,Buxton,Hostel,"A nice, quiet place on a side street."
+531,2,10,17 Pawling Center,Marlene Village Hotel,Marlene Village,Hotel,Large vacation draw for tourists and families.
+532,6,14,51996 Havey Street,Clarnie University,Clarnie,University,"A nice, quiet place on a side street."
+533,6,11,52 Pine View Hill,Ramapo University,Ramapo,University,"A nice, quiet place on a side street."
+534,5,15,975 Holy Cross Street,Bandon College,Bandon,College,Close to the local university.
+535,5,9,83 Banding Park,Hillsdale College,Hillsdale,College,Close to the local university.
+536,3,13,73 Arizona Trail,Surf Pines Motel,Surf Pines,Motel,"A nice, quiet place on a side street."
+537,5,11,49609 Forest Run Trail,Hazeldale College,Hazeldale,College,Large vacation draw for tourists and families.
+538,5,15,2236 Transport Trail,Hurricane Grange College,Hurricane Grange,College,Very accomodating for students.
+539,5,14,55223 Valley Edge Avenue,Tillamook College,Tillamook,College,Close to the local university.
+540,5,11,823 Ridgeway Alley,Colton College,Colton,College,Close to the local university.
+541,2,14,49506 Kropf Avenue,Shady Hotel,Shady,Hotel,"A nice, quiet place on a side street."
+542,5,10,1 1st Hill,West Woodburn College,West Woodburn,College,"A nice, quiet place on a side street."
+543,1,15,417 Maryland Junction,Happy Valley Hostel,Happy Valley,Hostel,Close to the local university.
+544,1,13,8655 Warner Terrace,Elsie Hostel,Elsie,Hostel,Very accomodating for students.
+545,2,7,50 Michigan Circle,Buena Vista Hotel,Buena Vista,Hotel,Large vacation draw for tourists and families.
+546,6,6,0024 Vera Point,Aims University,Aims,University,"A nice, quiet place on a side street."
+547,2,14,17 Bellgrove Junction,Sylvan Hotel,Sylvan,Hotel,Close to the local university.
+548,5,10,7450 Bobwhite Parkway,Riddle College,Riddle,College,"A nice, quiet place on a side street."
+549,3,7,48160 Weeping Birch Parkway,Beaverton Motel,Beaverton,Motel,Very accomodating for students.
+550,1,14,2938 Village Green Junction,Crow Hostel,Crow,Hostel,Very accomodating for students.
+551,1,6,05464 Johnson Lane,Dodge Hostel,Dodge,Hostel,Very accomodating for students.
+552,6,10,92200 Thierer Place,Ellendale University,Ellendale,University,Large vacation draw for tourists and families.
+553,1,14,973 Bartillon Center,Bellfountain Hostel,Bellfountain,Hostel,Large vacation draw for tourists and families.
+554,1,15,9 Stoughton Lane,Kent Hostel,Kent,Hostel,Very accomodating for students.
+555,5,15,3 Dexter Alley,Rickard College,Rickard,College,Very accomodating for students.
+556,3,14,1 Fulton Avenue,Bellfountain Motel,Bellfountain,Motel,Close to the local university.
+557,6,13,93968 Veith Place,Outlook University,Outlook,University,Very accomodating for students.
+558,3,14,6 Lukken Plaza,Rickey Motel,Rickey,Motel,Very accomodating for students.
+559,4,12,68627 Sullivan Center,Waterloo Inn,Waterloo,Inn,Large vacation draw for tourists and families.
+560,5,12,78217 Maywood Plaza,Naef College,Naef,College,Large vacation draw for tourists and families.
+561,1,12,7 Pierstorff Circle,Mabel Hostel,Mabel,Hostel,"A nice, quiet place on a side street."
+562,2,12,59 Duke Lane,Mabel Hotel,Mabel,Hotel,Close to the local university.
+563,6,7,697 Lukken Point,Gold Beach University,Gold Beach,University,Very accomodating for students.
+564,1,10,254 Columbus Drive,Hardman Hostel,Hardman,Hostel,Very accomodating for students.
+565,1,12,56 Brown Drive,Elgin Hostel,Elgin,Hostel,"A nice, quiet place on a side street."
+566,3,9,611 Maryland Way,Menefee Motel,Menefee,Motel,Very accomodating for students.
+567,3,13,94 Westridge Trail,Kilts Motel,Kilts,Motel,Large vacation draw for tourists and families.
+568,6,14,94 Sunbrook Center,Woodson University,Woodson,University,Large vacation draw for tourists and families.
+569,4,9,0134 Lillian Road,Mohler Inn,Mohler,Inn,Very accomodating for students.
+570,1,7,825 Mcguire Street,Scholls Hostel,Scholls,Hostel,Large vacation draw for tourists and families.
+571,1,12,2 Hollow Ridge Hill,Glencullen Hostel,Glencullen,Hostel,Very accomodating for students.
+572,3,14,86460 Marquette Court,Copperfield Motel,Copperfield,Motel,"A nice, quiet place on a side street."
+573,1,10,6 John Wall Circle,Trask Hostel,Trask,Hostel,"A nice, quiet place on a side street."
+574,5,10,012 Magdeline Drive,Mosier College,Mosier,College,Large vacation draw for tourists and families.
+575,2,11,40638 Stephen Street,Jeffers Garden Hotel,Jeffers Garden,Hotel,"A nice, quiet place on a side street."
+576,6,14,0 Ruskin Point,Tideport University,Tideport,University,Large vacation draw for tourists and families.
+577,1,9,56546 John Wall Circle,West Portland Park Hostel,West Portland Park,Hostel,Large vacation draw for tourists and families.
+578,5,15,46 Coolidge Place,Inglis College,Inglis,College,Very accomodating for students.
+579,4,11,0646 Sheridan Street,Allegany Inn,Allegany,Inn,Large vacation draw for tourists and families.
+580,6,9,38851 Fieldstone Plaza,Sherwood University,Sherwood,University,Very accomodating for students.
+581,6,12,1867 Maple Pass,Bridal Veil University,Bridal Veil,University,Close to the local university.
+582,1,14,29 Summit Junction,Canyon City Hostel,Canyon City,Hostel,Close to the local university.
+583,6,10,720 Village Plaza,Neawanna Station University,Neawanna Station,University,Very accomodating for students.
+584,5,9,3 Autumn Leaf Crossing,Netarts College,Netarts,College,Large vacation draw for tourists and families.
+585,5,12,09 Coolidge Plaza,Aurora College,Aurora,College,Large vacation draw for tourists and families.
+586,6,15,475 Tomscot Pass,Hillsdale University,Hillsdale,University,Close to the local university.
+587,3,11,7 Brown Avenue,Warm Springs Motel,Warm Springs,Motel,Very accomodating for students.
+588,4,6,61 Grasskamp Place,Mt Carmel Inn,Mt Carmel,Inn,"A nice, quiet place on a side street."
+589,3,11,8 Green Hill,Imnaha Motel,Imnaha,Motel,"A nice, quiet place on a side street."
+590,5,11,5332 Melody Plaza,Cannon Beach Junction College,Cannon Beach Junction,College,Close to the local university.
+591,3,7,539 Emmet Circle,Brush College Motel,Brush College,Motel,Large vacation draw for tourists and families.
+592,4,14,24 Truax Point,Brush College Inn,Brush College,Inn,Very accomodating for students.
+593,5,8,59609 Buell Avenue,Dufur College,Dufur,College,Very accomodating for students.
+594,4,10,0420 Troy Avenue,Briarwood Inn,Briarwood,Inn,Large vacation draw for tourists and families.
+595,4,10,7636 Fuller Court,Astoria Inn,Astoria,Inn,Large vacation draw for tourists and families.
+596,5,8,61 Dahle Junction,Hardman College,Hardman,College,Close to the local university.
+597,1,9,9151 Truax Road,Port Orford Hostel,Port Orford,Hostel,"A nice, quiet place on a side street."
+598,3,11,7 Pierstorff Crossing,Sherwood Motel,Sherwood,Motel,"A nice, quiet place on a side street."
+599,5,7,323 Banding Court,Maryhurst College,Maryhurst,College,"A nice, quiet place on a side street."
+600,4,12,1 Granby Avenue,Springwater Inn,Springwater,Inn,"A nice, quiet place on a side street."
+601,4,8,0 Namekagon Street,Liberal Inn,Liberal,Inn,"A nice, quiet place on a side street."
+602,4,14,6 Amoth Street,Quartz Mountain Inn,Quartz Mountain,Inn,Close to the local university.
+603,3,11,3858 Bay Road,Concord Motel,Concord,Motel,"A nice, quiet place on a side street."
+604,4,7,5 Hayes Alley,Parkrose Inn,Parkrose,Inn,Close to the local university.
+605,2,12,527 Morrow Pass,Trout Creek Hotel,Trout Creek,Hotel,Close to the local university.
+606,6,14,59145 Di Loreto Place,Meacham University,Meacham,University,Close to the local university.
+607,3,8,3 Katie Place,Willamette Heights Motel,Willamette Heights,Motel,Large vacation draw for tourists and families.
+608,3,12,93 International Road,Madras Station Motel,Madras Station,Motel,"A nice, quiet place on a side street."
+609,4,15,75452 Monica Trail,Willamette Inn,Willamette,Inn,Very accomodating for students.
+610,5,11,886 Daystar Road,Wolf Creek College,Wolf Creek,College,Large vacation draw for tourists and families.
+611,4,10,781 Bashford Avenue,Lincoln Beach Inn,Lincoln Beach,Inn,Very accomodating for students.
+612,4,7,17088 Sachtjen Terrace,Lehman Springs Inn,Lehman Springs,Inn,"A nice, quiet place on a side street."
+613,6,8,1 Evergreen Lane,Maupin University,Maupin,University,Large vacation draw for tourists and families.
+614,3,9,00 Doe Crossing Park,Brownlee Motel,Brownlee,Motel,"A nice, quiet place on a side street."
+615,6,10,74683 Morning Parkway,Barview University,Barview,University,Very accomodating for students.
+616,1,12,3 Mandrake Hill,Vernonia Hostel,Vernonia,Hostel,Large vacation draw for tourists and families.
+617,5,13,484 Carpenter Parkway,Clarnie College,Clarnie,College,"A nice, quiet place on a side street."
+618,3,7,0466 Shelley Hill,Buell Motel,Buell,Motel,Close to the local university.
+619,1,10,7975 Division Place,Tigard Hostel,Tigard,Hostel,Close to the local university.
+620,1,9,23 Brown Trail,Otis Junction Hostel,Otis Junction,Hostel,"A nice, quiet place on a side street."
+621,5,11,4234 Farragut Court,Farnham Landing College,Farnham Landing,College,Close to the local university.
+622,5,11,6472 Fallview Hill,Park Place College,Park Place,College,"A nice, quiet place on a side street."
+623,6,9,5973 Grover Drive,Union Mills University,Union Mills,University,"A nice, quiet place on a side street."
+624,4,15,29790 Swallow Place,Laurelwood Inn,Laurelwood,Inn,Large vacation draw for tourists and families.
+625,1,15,115 Eggendart Trail,Dodge Hostel,Dodge,Hostel,Close to the local university.
+626,1,6,9789 Mayer Plaza,Crescent Lake Hostel,Crescent Lake,Hostel,Large vacation draw for tourists and families.
+627,5,14,38 Ludington Court,Bonanza College,Bonanza,College,Very accomodating for students.
+628,3,12,6810 Moose Crossing,Fairview Motel,Fairview,Motel,Close to the local university.
+629,6,13,98424 Kedzie Way,Terrebonne University,Terrebonne,University,Large vacation draw for tourists and families.
+630,1,11,0 Susan Circle,South Lake Oswego Hostel,South Lake Oswego,Hostel,Close to the local university.
+631,1,11,297 Ohio Trail,Holiday Beach Hostel,Holiday Beach,Hostel,Very accomodating for students.
+632,2,7,28063 Novick Lane,Liberal Hotel,Liberal,Hotel,"A nice, quiet place on a side street."
+633,6,9,4966 Roxbury Lane,Lonerock University,Lonerock,University,Close to the local university.
+634,1,11,35 Ruskin Trail,Fairview Hostel,Fairview,Hostel,Large vacation draw for tourists and families.
+635,1,8,593 Susan Alley,Willamette Hostel,Willamette,Hostel,Close to the local university.
+636,1,8,8309 Sage Crossing,Marion Forks Hostel,Marion Forks,Hostel,Large vacation draw for tourists and families.
+637,4,7,05 Sycamore Crossing,Canaan Inn,Canaan,Inn,Large vacation draw for tourists and families.
+638,4,9,22 Scoville Plaza,Latourell Inn,Latourell,Inn,"A nice, quiet place on a side street."
+639,2,10,4353 4th Center,Saunders Lake Hotel,Saunders Lake,Hotel,"A nice, quiet place on a side street."
+640,2,14,5 Ohio Circle,Landax Hotel,Landax,Hotel,Large vacation draw for tourists and families.
+641,4,8,730 Texas Circle,Blodgett Inn,Blodgett,Inn,Very accomodating for students.
+642,1,11,7 Mosinee Pass,Valley Junction Hostel,Valley Junction,Hostel,"A nice, quiet place on a side street."
+643,1,10,784 Norway Maple Way,Liberty Hostel,Liberty,Hostel,"A nice, quiet place on a side street."
+644,1,10,919 Elmside Circle,Grove Hostel,Grove,Hostel,Very accomodating for students.
+645,1,11,1463 Dexter Place,Rosedale Hostel,Rosedale,Hostel,Very accomodating for students.
+646,1,7,82205 Blaine Terrace,Irrigon Hostel,Irrigon,Hostel,"A nice, quiet place on a side street."
+647,1,12,12 Mesta Center,Lincoln City Hostel,Lincoln City,Hostel,"A nice, quiet place on a side street."
+648,4,9,218 Forest Run Drive,Agate Beach Inn,Agate Beach,Inn,Very accomodating for students.
+649,3,7,541 6th Drive,Mt Angel Motel,Mt Angel,Motel,Large vacation draw for tourists and families.
+650,5,15,73894 Wayridge Street,Bell College,Bell,College,Close to the local university.
+651,4,10,109 Cascade Avenue,West Salem Inn,West Salem,Inn,Close to the local university.
+652,6,7,2774 Utah Center,Pendair Heights University,Pendair Heights,University,Large vacation draw for tourists and families.
+653,4,12,2252 Grover Terrace,Sisters Inn,Sisters,Inn,"A nice, quiet place on a side street."
+654,4,14,10916 Armistice Avenue,Banks Inn,Banks,Inn,"A nice, quiet place on a side street."
+655,6,13,825 Debra Pass,Hemlock University,Hemlock,University,Close to the local university.
+656,4,11,1 Forest Run Junction,Agate Beach Inn,Agate Beach,Inn,Very accomodating for students.
+657,5,7,072 Crownhardt Drive,Springwater College,Springwater,College,"A nice, quiet place on a side street."
+658,2,9,29 Doe Crossing Hill,Crow Hotel,Crow,Hotel,Very accomodating for students.
+659,4,14,7 8th Trail,Mitchell Corner Inn,Mitchell Corner,Inn,"A nice, quiet place on a side street."
+660,5,12,277 Sullivan Park,Salishan College,Salishan,College,"A nice, quiet place on a side street."
+661,5,10,757 Manley Drive,Happy Hollow College,Happy Hollow,College,"A nice, quiet place on a side street."
+662,3,6,83237 Walton Road,Sunnyside Motel,Sunnyside,Motel,Close to the local university.
+663,5,10,7 Shelley Crossing,Forfar College,Forfar,College,Large vacation draw for tourists and families.
+664,5,8,2 Sunbrook Plaza,Green Acres College,Green Acres,College,Very accomodating for students.
+665,3,12,216 Independence Crossing,Albina Motel,Albina,Motel,Close to the local university.
+666,6,11,0317 Twin Pines Junction,Sonny University,Sonny,University,Large vacation draw for tourists and families.
+667,2,15,51 Nevada Plaza,Mountain Air Park Hotel,Mountain Air Park,Hotel,Close to the local university.
+668,6,10,331 Dawn Drive,Fir Grove University,Fir Grove,University,Very accomodating for students.
+669,4,9,50 Banding Hill,Harper Inn,Harper,Inn,"A nice, quiet place on a side street."
+670,5,14,1496 Sheridan Park,Wemme College,Wemme,College,Very accomodating for students.
+671,5,14,200 Talmadge Avenue,Vermont Hills College,Vermont Hills,College,Very accomodating for students.
+672,2,13,5 Cascade Way,Eddyville Hotel,Eddyville,Hotel,"A nice, quiet place on a side street."
+673,3,6,3728 2nd Street,Tyee Camp Motel,Tyee Camp,Motel,Close to the local university.
+674,2,13,523 Sutherland Hill,Spray Hotel,Spray,Hotel,"A nice, quiet place on a side street."
+675,4,13,04 Helena Trail,Indian Village Inn,Indian Village,Inn,Close to the local university.
+676,5,15,19050 Del Sol Way,Bethel College,Bethel,College,Large vacation draw for tourists and families.
+677,6,8,827 Carioca Hill,Scholls University,Scholls,University,Close to the local university.
+678,6,13,75 Heffernan Way,Shevlin University,Shevlin,University,Large vacation draw for tourists and families.
+679,3,13,7847 Summer Ridge Center,Pelican City Motel,Pelican City,Motel,Very accomodating for students.
+680,1,15,2186 Laurel Center,Errol Heights Hostel,Errol Heights,Hostel,Close to the local university.
+681,6,12,34 Bashford Parkway,Walker University,Walker,University,"A nice, quiet place on a side street."
+682,3,9,646 Hansons Crossing,Altamont Motel,Altamont,Motel,Close to the local university.
+683,2,9,163 Anderson Road,Terrebonne Hotel,Terrebonne,Hotel,"A nice, quiet place on a side street."
+684,1,6,06472 Lunder Point,Toledo Hostel,Toledo,Hostel,Very accomodating for students.
+685,5,14,95 Farmco Avenue,Zena College,Zena,College,"A nice, quiet place on a side street."
+686,5,12,9 Packers Terrace,Bolt College,Bolt,College,Large vacation draw for tourists and families.
+687,2,14,556 Donald Avenue,Lacomb Hotel,Lacomb,Hotel,Very accomodating for students.
+688,1,14,27 Arapahoe Drive,Gopher Hostel,Gopher,Hostel,Large vacation draw for tourists and families.
+689,3,9,61883 Dryden Center,Jean Motel,Jean,Motel,Large vacation draw for tourists and families.
+690,3,13,24 Anzinger Place,Detroit Motel,Detroit,Motel,Very accomodating for students.
+691,4,11,51371 Twin Pines Place,Mulloy Inn,Mulloy,Inn,Large vacation draw for tourists and families.
+692,2,12,0513 Old Gate Crossing,Braymill Hotel,Braymill,Hotel,Close to the local university.
+693,3,14,77453 Ryan Avenue,Matney Motel,Matney,Motel,Close to the local university.
+694,1,11,128 Sommers Terrace,Greenburg Hostel,Greenburg,Hostel,Large vacation draw for tourists and families.
+695,2,10,84 Lakewood Point,Cascade Locks Hotel,Cascade Locks,Hotel,Large vacation draw for tourists and families.
+696,4,13,1488 Golf View Lane,Unity Inn,Unity,Inn,Close to the local university.
+697,5,10,4143 Namekagon Road,Boardman College,Boardman,College,Large vacation draw for tourists and families.
+698,2,14,408 Eagan Parkway,Wood Village Hotel,Wood Village,Hotel,"A nice, quiet place on a side street."
+699,3,10,14973 Fairview Street,McMinnville Motel,McMinnville,Motel,"A nice, quiet place on a side street."
+700,6,11,35342 Briar Crest Road,White Settlement University,White Settlement,University,Very accomodating for students.
+701,1,13,553 Briar Crest Pass,Plainview Hostel,Plainview,Hostel,Large vacation draw for tourists and families.
+702,6,11,12 Goodland Circle,Cape Meares University,Cape Meares,University,Very accomodating for students.
+703,4,14,9 Petterle Avenue,Oregon Slope Inn,Oregon Slope,Inn,"A nice, quiet place on a side street."
+704,4,10,731 Dunning Parkway,Ainsworth Corner Inn,Ainsworth Corner,Inn,Very accomodating for students.
+705,1,9,10 Toban Lane,Joler Hostel,Joler,Hostel,Large vacation draw for tourists and families.
+706,6,9,0 Lakewood Junction,Canby University,Canby,University,"A nice, quiet place on a side street."
+707,3,8,1 Di Loreto Alley,Fields Motel,Fields,Motel,Close to the local university.
+708,2,13,15 Bonner Parkway,Simnasho Hotel,Simnasho,Hotel,Close to the local university.
+709,5,13,646 Pennsylvania Terrace,Adrian College,Adrian,College,"A nice, quiet place on a side street."
+710,2,10,54 Kedzie Center,River Grove Hotel,River Grove,Hotel,Large vacation draw for tourists and families.
+711,3,9,43 Elgar Trail,Bethel Motel,Bethel,Motel,Large vacation draw for tourists and families.
+712,3,7,757 Redwing Place,Bellfountain Motel,Bellfountain,Motel,Large vacation draw for tourists and families.
+713,3,13,9009 John Wall Street,Meadowbrook Motel,Meadowbrook,Motel,Close to the local university.
+714,3,11,6416 Burning Wood Avenue,Shangri-La Mill Motel,Shangri-La Mill,Motel,Close to the local university.
+715,1,8,51234 Scofield Trail,Oakland Hostel,Oakland,Hostel,"A nice, quiet place on a side street."
+716,4,12,3 Brickson Park Trail,Azalea Inn,Azalea,Inn,Very accomodating for students.
+717,6,11,7 Green Ridge Pass,Harborton University,Harborton,University,"A nice, quiet place on a side street."
+718,4,13,0 Morning Circle,Ontario Heights Inn,Ontario Heights,Inn,Large vacation draw for tourists and families.
+719,6,8,953 Bultman Point,Tolovana Park University,Tolovana Park,University,Very accomodating for students.
+720,3,14,87590 Mendota Center,Nyssa Motel,Nyssa,Motel,Large vacation draw for tourists and families.
+721,3,8,020 Granby Place,Lincoln Motel,Lincoln,Motel,Close to the local university.
+722,6,15,9524 Springs Way,Spray University,Spray,University,Very accomodating for students.
+723,2,14,91 Tony Crossing,Empire Hotel,Empire,Hotel,"A nice, quiet place on a side street."
+724,3,7,93 Eagle Crest Point,Roberts Motel,Roberts,Motel,"A nice, quiet place on a side street."
+725,6,12,69 Talisman Place,Phoenix University,Phoenix,University,"A nice, quiet place on a side street."
+726,4,13,96 Randy Lane,Springwater Inn,Springwater,Inn,Very accomodating for students.
+727,2,14,2795 Brentwood Park,Russell Hotel,Russell,Hotel,Very accomodating for students.
+728,3,12,4 Delaware Road,Coalca Motel,Coalca,Motel,Very accomodating for students.
+729,1,12,0649 Bunker Hill Alley,Werner Camp Hostel,Werner Camp,Hostel,Very accomodating for students.
+730,5,7,1 Drewry Court,Gaston College,Gaston,College,"A nice, quiet place on a side street."
+731,2,13,50909 Erie Point,Mulloy Hotel,Mulloy,Hotel,Close to the local university.
+732,3,8,3309 Daystar Terrace,Green Hills Motel,Green Hills,Motel,Large vacation draw for tourists and families.
+733,2,14,205 Ramsey Drive,Dillard Hotel,Dillard,Hotel,Close to the local university.
+734,6,14,93 Spaight Place,Netarts University,Netarts,University,"A nice, quiet place on a side street."
+735,1,12,56 Hauk Street,Interlachen Hostel,Interlachen,Hostel,Very accomodating for students.
+736,2,14,0 Fallview Trail,Grouse Hotel,Grouse,Hotel,Close to the local university.
+737,6,8,5768 Gateway Hill,Clear Lake Resort University,Clear Lake Resort,University,Very accomodating for students.
+738,5,11,012 Graedel Terrace,Deerhorn College,Deerhorn,College,Very accomodating for students.
+739,3,12,3261 Fair Oaks Place,Breitenbush Hot Springs Motel,Breitenbush Hot Springs,Motel,Close to the local university.
+740,4,7,2268 Artisan Road,Takilma Inn,Takilma,Inn,Large vacation draw for tourists and families.
+741,6,11,5 Montana Way,Weston University,Weston,University,Close to the local university.
+742,5,7,19551 Northfield Avenue,Chemawa College,Chemawa,College,"A nice, quiet place on a side street."
+743,2,14,76160 Lighthouse Bay Park,Florence Hotel,Florence,Hotel,Large vacation draw for tourists and families.
+744,2,15,8 Dahle Parkway,Scholls Hotel,Scholls,Hotel,"A nice, quiet place on a side street."
+745,4,9,027 Talmadge Crossing,San Marine Inn,San Marine,Inn,Large vacation draw for tourists and families.
+746,1,14,183 Delaware Hill,Quinaby Hostel,Quinaby,Hostel,Close to the local university.
+747,1,9,56452 Sugar Crossing,Winston Hostel,Winston,Hostel,"A nice, quiet place on a side street."
+748,3,7,792 International Center,Batterson Motel,Batterson,Motel,"A nice, quiet place on a side street."
+749,1,7,454 Oneill Avenue,Kerry Hostel,Kerry,Hostel,"A nice, quiet place on a side street."
+750,4,12,9289 Gulseth Point,Clackamas Heights Inn,Clackamas Heights,Inn,Close to the local university.
+751,2,10,7402 Loeprich Alley,Hidaway Springs Hotel,Hidaway Springs,Hotel,Large vacation draw for tourists and families.
+752,6,14,743 Forest Run Circle,Hillsboro University,Hillsboro,University,"A nice, quiet place on a side street."
+753,2,7,5507 Vahlen Drive,Barview Hotel,Barview,Hotel,Large vacation draw for tourists and families.
+754,2,8,3 Stang Terrace,Alsea Hotel,Alsea,Hotel,Very accomodating for students.
+755,3,13,8976 Dapin Point,Wilhoit Motel,Wilhoit,Motel,Close to the local university.
+756,3,12,7422 Brown Plaza,Stayton Motel,Stayton,Motel,Large vacation draw for tourists and families.
+757,3,9,92 David Circle,Marquam Hill Motel,Marquam Hill,Motel,Close to the local university.
+758,3,7,5236 Lunder Street,Wedderburn Motel,Wedderburn,Motel,Large vacation draw for tourists and families.
+759,3,11,059 Fairview Terrace,Glenbrook Motel,Glenbrook,Motel,"A nice, quiet place on a side street."
+760,2,13,93192 Park Meadow Street,Park Place Hotel,Park Place,Hotel,Very accomodating for students.
+761,6,14,36 Summerview Parkway,Seaside University,Seaside,University,"A nice, quiet place on a side street."
+762,6,8,6170 Ruskin Hill,Peoria University,Peoria,University,Close to the local university.
+763,4,10,6 Superior Center,Elk Rock Inn,Elk Rock,Inn,Very accomodating for students.
+764,3,9,7 Shopko Drive,Quincy Motel,Quincy,Motel,Close to the local university.
+765,6,9,81719 Donald Hill,Roseburg University,Roseburg,University,Large vacation draw for tourists and families.
+766,5,12,71 Walton Trail,Gearhart College,Gearhart,College,Very accomodating for students.
+767,3,9,81 Tennyson Crossing,Bates Motel,Bates,Motel,"A nice, quiet place on a side street."
+768,2,9,3 Dwight Crossing,Three Pines Hotel,Three Pines,Hotel,Close to the local university.
+769,1,9,36025 Hallows Hill,Harrisburg Hostel,Harrisburg,Hostel,Very accomodating for students.
+770,5,12,333 Springs Junction,Cascade Locks College,Cascade Locks,College,Close to the local university.
+771,5,9,8347 Steensland Circle,East Gardiner College,East Gardiner,College,Large vacation draw for tourists and families.
+772,5,14,4 Oriole Crossing,North Howell College,North Howell,College,"A nice, quiet place on a side street."
+773,5,12,558 Corben Place,Rogue River College,Rogue River,College,Very accomodating for students.
+774,6,7,98609 Ridge Oak Crossing,Butteville University,Butteville,University,Close to the local university.
+775,2,14,7573 Crownhardt Street,Monte Cristo Hotel,Monte Cristo,Hotel,Large vacation draw for tourists and families.
+776,6,9,128 Dovetail Court,Vienta University,Vienta,University,Large vacation draw for tourists and families.
+777,1,14,75127 Spohn Crossing,Briarwood Hostel,Briarwood,Hostel,Close to the local university.
+778,2,6,92865 Shelley Court,Kerby Hotel,Kerby,Hotel,Large vacation draw for tourists and families.
+779,6,13,89 Drewry Street,Tide University,Tide,University,Large vacation draw for tourists and families.
+780,4,11,80384 Hansons Pass,Brogan Inn,Brogan,Inn,Large vacation draw for tourists and families.
+781,1,11,44200 Harbort Terrace,North Albany Hostel,North Albany,Hostel,"A nice, quiet place on a side street."
+782,3,9,4 Marquette Pass,Hunter Creek Motel,Hunter Creek,Motel,Close to the local university.
+783,5,12,37230 Buhler Terrace,Kahneeta Hot Springs College,Kahneeta Hot Springs,College,Close to the local university.
+784,1,12,44 Lakewood Gardens Junction,Westmoreland Hostel,Westmoreland,Hostel,"A nice, quiet place on a side street."
+785,3,8,97 Melrose Trail,Sodaville Motel,Sodaville,Motel,"A nice, quiet place on a side street."
+786,3,9,429 Lyons Pass,Wilsonia Motel,Wilsonia,Motel,Very accomodating for students.
+787,5,13,01 Kinsman Street,Laurelhurst College,Laurelhurst,College,Very accomodating for students.
+788,5,10,77 Messerschmidt Circle,Sparta College,Sparta,College,Large vacation draw for tourists and families.
+789,5,14,32361 Stuart Drive,Rockaway College,Rockaway,College,Very accomodating for students.
+790,1,11,9466 Thackeray Plaza,Joseph Hostel,Joseph,Hostel,Large vacation draw for tourists and families.
+791,2,12,32 Harbort Circle,Linnemann Hotel,Linnemann,Hotel,Large vacation draw for tourists and families.
+792,1,8,77 Stang Crossing,Interlachen Hostel,Interlachen,Hostel,Close to the local university.
+793,3,6,1 Northland Park,Hamricks Corner Motel,Hamricks Corner,Motel,Close to the local university.
+794,4,12,3 Scofield Trail,Spitzenberg Inn,Spitzenberg,Inn,Very accomodating for students.
+795,1,9,4 Talisman Parkway,Sentinel Hill Hostel,Sentinel Hill,Hostel,Very accomodating for students.
+796,4,8,47432 Stone Corner Center,Astoria Inn,Astoria,Inn,Large vacation draw for tourists and families.
+797,4,9,7381 Westport Circle,Columbia City Inn,Columbia City,Inn,Large vacation draw for tourists and families.
+798,6,8,21090 5th Alley,Wren University,Wren,University,"A nice, quiet place on a side street."
+799,5,10,4957 Bartillon Hill,Brownlee College,Brownlee,College,Large vacation draw for tourists and families.
+800,4,10,4 Bowman Park,Champoeg Inn,Champoeg,Inn,Close to the local university.
+801,6,7,202 Thompson Plaza,Nelscott University,Nelscott,University,"A nice, quiet place on a side street."
+802,4,14,19303 Florence Drive,North Santian Inn,North Santian,Inn,"A nice, quiet place on a side street."
+803,6,6,3 Starling Avenue,Bolt University,Bolt,University,Very accomodating for students.
+804,4,14,3163 Quincy Court,Waconda Beach Inn,Waconda Beach,Inn,"A nice, quiet place on a side street."
+805,1,7,03 Lotheville Crossing,Oregon City Hostel,Oregon City,Hostel,Very accomodating for students.
+806,5,14,995 Morning Crossing,Rufus College,Rufus,College,Very accomodating for students.
+807,4,11,44 Mcguire Pass,Curtin Inn,Curtin,Inn,"A nice, quiet place on a side street."
+808,1,13,65977 Oneill Court,Nesmith Hostel,Nesmith,Hostel,Close to the local university.
+809,2,8,3560 Fairfield Crossing,Crates Hotel,Crates,Hotel,"A nice, quiet place on a side street."
+810,2,13,24052 Maryland Court,Hopmere Hotel,Hopmere,Hotel,"A nice, quiet place on a side street."
+811,1,12,664 Scoville Trail,Rockwood Hostel,Rockwood,Hostel,Close to the local university.
+812,5,9,66860 Declaration Circle,Bend College,Bend,College,Very accomodating for students.
+813,1,9,31006 Esker Parkway,Milwaukie Hostel,Milwaukie,Hostel,Close to the local university.
+814,6,9,45574 Westridge Avenue,Juntura University,Juntura,University,Very accomodating for students.
+815,1,14,82817 Kim Road,Paradise Park Hostel,Paradise Park,Hostel,"A nice, quiet place on a side street."
+816,3,12,1 Myrtle Trail,Saginaw Motel,Saginaw,Motel,"A nice, quiet place on a side street."
+817,1,9,293 Nobel Circle,Curtin Hostel,Curtin,Hostel,Very accomodating for students.
+818,2,15,9938 Pearson Court,Wallowa Hotel,Wallowa,Hotel,Very accomodating for students.
+819,6,13,6269 Mcguire Parkway,Cave Junction University,Cave Junction,University,Very accomodating for students.
+820,4,11,1418 Lakeland Avenue,Glide Inn,Glide,Inn,"A nice, quiet place on a side street."
+821,6,15,94 Atwood Point,Winberry University,Winberry,University,"A nice, quiet place on a side street."
+822,2,8,806 Express Crossing,Lexington Hotel,Lexington,Hotel,Close to the local university.
+823,6,9,731 Lyons Lane,Lunnville University,Lunnville,University,Large vacation draw for tourists and families.
+824,5,15,45312 Hollow Ridge Park,Glendale College,Glendale,College,Close to the local university.
+825,4,11,4501 Corscot Avenue,Fossil Inn,Fossil,Inn,Close to the local university.
+826,1,14,021 Troy Pass,Kahneeta Hot Springs Hostel,Kahneeta Hot Springs,Hostel,"A nice, quiet place on a side street."
+827,4,8,86 Eagan Road,Ruby Inn,Ruby,Inn,"A nice, quiet place on a side street."
+828,1,14,7965 Thackeray Junction,Klamath Agency Hostel,Klamath Agency,Hostel,"A nice, quiet place on a side street."
+829,1,7,94424 Thompson Plaza,Roberts Hostel,Roberts,Hostel,"A nice, quiet place on a side street."
+830,6,11,87343 Sloan Crossing,Hammond University,Hammond,University,Close to the local university.
+831,4,10,59 Pine View Road,Kaskela Inn,Kaskela,Inn,Close to the local university.
+832,6,8,4 Laurel Park,Sprague River University,Sprague River,University,Very accomodating for students.
+833,4,12,5318 Dapin Junction,Millersburg Inn,Millersburg,Inn,Close to the local university.
+834,3,15,336 Ruskin Hill,Harmony Motel,Harmony,Motel,Very accomodating for students.
+835,2,13,30 Crowley Trail,Lents Hotel,Lents,Hotel,Close to the local university.
+836,4,14,1949 Laurel Way,Irrigon Inn,Irrigon,Inn,Very accomodating for students.
+837,6,8,025 Bunting Crossing,Barlow University,Barlow,University,"A nice, quiet place on a side street."
+838,6,14,235 Glendale Avenue,Salishan University,Salishan,University,Close to the local university.
+839,4,12,89815 Sauthoff Plaza,Buchanan Inn,Buchanan,Inn,Close to the local university.
+840,3,12,484 Debs Junction,Ritter Motel,Ritter,Motel,"A nice, quiet place on a side street."
+841,3,7,4 Pennsylvania Lane,Milwaukie Motel,Milwaukie,Motel,Large vacation draw for tourists and families.
+842,5,14,3 Manitowish Pass,Oretown College,Oretown,College,"A nice, quiet place on a side street."
+843,1,9,65 Ryan Center,Shale City Hostel,Shale City,Hostel,Very accomodating for students.
+844,4,10,3 Pawling Plaza,Siltcoos Inn,Siltcoos,Inn,Very accomodating for students.
+845,4,14,8098 South Pass,Placer Inn,Placer,Inn,Large vacation draw for tourists and families.
+846,2,9,72 Mifflin Circle,Salishan Beach Hotel,Salishan Beach,Hotel,Large vacation draw for tourists and families.
+847,2,12,03264 Graceland Hill,Summer Lake Hotel,Summer Lake,Hotel,Large vacation draw for tourists and families.
+848,1,13,7192 Russell Way,Brooklyn Hostel,Brooklyn,Hostel,Very accomodating for students.
+849,2,8,2 Helena Alley,Powers Hotel,Powers,Hotel,Close to the local university.
+850,6,15,663 Corry Court,Vaughn University,Vaughn,University,"A nice, quiet place on a side street."
+851,4,8,59 Tennyson Trail,Kokel Corner Inn,Kokel Corner,Inn,Large vacation draw for tourists and families.
+852,4,11,35 Corry Alley,Clackamas Heights Inn,Clackamas Heights,Inn,Very accomodating for students.
+853,6,14,2 Farwell Avenue,Fort Stevens University,Fort Stevens,University,"A nice, quiet place on a side street."
+854,5,12,23 Pankratz Way,Orrs Corner College,Orrs Corner,College,Very accomodating for students.
+855,1,10,17 Marcy Road,Delena Hostel,Delena,Hostel,Close to the local university.
+856,2,9,9970 Mitchell Center,Damascus Hotel,Damascus,Hotel,Close to the local university.
+857,5,14,90 Stephen Trail,Coquille College,Coquille,College,"A nice, quiet place on a side street."
+858,4,10,1818 Schlimgen Plaza,Turner Inn,Turner,Inn,"A nice, quiet place on a side street."
+859,1,15,3881 Fairview Hill,Horton Hostel,Horton,Hostel,Large vacation draw for tourists and families.
+860,5,9,2 Bluestem Place,Villa Ridge College,Villa Ridge,College,Large vacation draw for tourists and families.
+861,1,9,1 Pankratz Avenue,Olney Hostel,Olney,Hostel,Close to the local university.
+862,3,12,87171 Arapahoe Park,Sodaville Motel,Sodaville,Motel,Very accomodating for students.
+863,1,13,66093 Fordem Drive,Gap Hostel,Gap,Hostel,Large vacation draw for tourists and families.
+864,5,8,19 Esker Way,Glencullen College,Glencullen,College,Very accomodating for students.
+865,1,13,530 Donald Pass,Cove Orchard Hostel,Cove Orchard,Hostel,Close to the local university.
+866,5,13,12386 Vahlen Lane,Tidewater College,Tidewater,College,Large vacation draw for tourists and families.
+867,2,14,911 Jenna Road,Reeds Mill Hotel,Reeds Mill,Hotel,Large vacation draw for tourists and families.
+868,1,8,99 Russell Lane,Elwood Hostel,Elwood,Hostel,Close to the local university.
+869,2,10,9 Barnett Point,Jean Hotel,Jean,Hotel,Close to the local university.
+870,2,6,6 Moose Drive,Hermiston Hotel,Hermiston,Hotel,Very accomodating for students.
+871,5,9,94 Mallory Lane,Vinemaple College,Vinemaple,College,"A nice, quiet place on a side street."
+872,6,13,50 Mariners Cove Way,Ballston University,Ballston,University,"A nice, quiet place on a side street."
+873,3,12,8075 Spenser Lane,Yamhill Motel,Yamhill,Motel,"A nice, quiet place on a side street."
+874,2,14,8386 Center Road,Valley Junction Hotel,Valley Junction,Hotel,Very accomodating for students.
+875,1,14,281 Elmside Circle,Eden Hostel,Eden,Hostel,Very accomodating for students.
+876,6,6,52 Vermont Drive,Sandy University,Sandy,University,"A nice, quiet place on a side street."
+877,4,13,37 Clyde Gallagher Hill,Salem Inn,Salem,Inn,Very accomodating for students.
+878,5,10,250 Wayridge Junction,Sharps Corner College,Sharps Corner,College,Large vacation draw for tourists and families.
+879,4,14,976 Rutledge Center,Merrill Inn,Merrill,Inn,"A nice, quiet place on a side street."
+880,5,11,631 Ridgeway Court,Parkdale College,Parkdale,College,Very accomodating for students.
+881,6,10,97 Sugar Court,Corvallis University,Corvallis,University,"A nice, quiet place on a side street."
+882,6,10,90114 Warner Way,Beaver Marsh University,Beaver Marsh,University,"A nice, quiet place on a side street."
+883,1,13,09 Evergreen Crossing,Alder Hostel,Alder,Hostel,Very accomodating for students.
+884,2,7,0378 Carioca Center,Panther Creek Hotel,Panther Creek,Hotel,Very accomodating for students.
+885,1,11,049 Beilfuss Road,Hurricane Grange Hostel,Hurricane Grange,Hostel,Close to the local university.
+886,6,7,044 Kings Street,Arleta University,Arleta,University,"A nice, quiet place on a side street."
+887,5,13,0 Barnett Drive,Flynn College,Flynn,College,"A nice, quiet place on a side street."
+888,1,13,64 Union Drive,Lebanon Hostel,Lebanon,Hostel,Very accomodating for students.
+889,1,9,87499 Sunnyside Point,O'Brien Hostel,O'Brien,Hostel,"A nice, quiet place on a side street."
+890,4,8,648 Alpine Point,Kokel Corner Inn,Kokel Corner,Inn,Close to the local university.
+891,4,15,67 Holmberg Lane,McCoy Inn,McCoy,Inn,Close to the local university.
+892,1,7,46301 Pleasure Way,Pendair Heights Hostel,Pendair Heights,Hostel,"A nice, quiet place on a side street."
+893,5,6,68109 Canary Alley,Crabtree College,Crabtree,College,Large vacation draw for tourists and families.
+894,6,7,92674 Canary Way,Salem University,Salem,University,Close to the local university.
+895,1,13,15 Rutledge Hill,Wolf Creek Hostel,Wolf Creek,Hostel,Close to the local university.
+896,5,14,1 Glendale Circle,Woodstock College,Woodstock,College,Large vacation draw for tourists and families.
+897,2,13,5 Mallory Pass,Hillsboro Hotel,Hillsboro,Hotel,"A nice, quiet place on a side street."
+898,2,7,194 Derek Parkway,Hemlock Hotel,Hemlock,Hotel,Very accomodating for students.
+899,6,6,6849 Tennyson Alley,Voorhies University,Voorhies,University,"A nice, quiet place on a side street."
+900,4,13,91 Crest Line Court,Shady Cove Inn,Shady Cove,Inn,"A nice, quiet place on a side street."
+901,1,10,1241 Paget Park,Narrows Hostel,Narrows,Hostel,Close to the local university.
+902,1,10,669 Havey Parkway,Tillicum Beach Hostel,Tillicum Beach,Hostel,Very accomodating for students.
+903,4,12,38 Havey Lane,Applegate Inn,Applegate,Inn,Large vacation draw for tourists and families.
+904,4,10,97399 Judy Lane,Lafayette Inn,Lafayette,Inn,Large vacation draw for tourists and families.
+905,3,15,54322 Lillian Place,Athena Motel,Athena,Motel,Very accomodating for students.
+906,3,10,1675 Reinke Place,Shortys Corner Motel,Shortys Corner,Motel,"A nice, quiet place on a side street."
+907,4,13,38 Talmadge Terrace,Vale Inn,Vale,Inn,Large vacation draw for tourists and families.
+908,6,7,56356 Debra Junction,Labish Center University,Labish Center,University,Close to the local university.
+909,3,11,50 Eastwood Junction,Carver Motel,Carver,Motel,Very accomodating for students.
+910,1,7,3 Blackbird Street,Remote Hostel,Remote,Hostel,"A nice, quiet place on a side street."
+911,4,14,442 Lukken Place,Lenz Inn,Lenz,Inn,Very accomodating for students.
+912,6,8,2039 Roxbury Point,McNary University,McNary,University,Large vacation draw for tourists and families.
+913,4,9,5 South Hill,Gladstone Station Inn,Gladstone Station,Inn,Large vacation draw for tourists and families.
+914,6,10,8492 Donald Street,Alsea University,Alsea,University,Close to the local university.
+915,2,13,7 Columbus Drive,Macleay Hotel,Macleay,Hotel,"A nice, quiet place on a side street."
+916,5,12,578 Birchwood Point,Jacksonville College,Jacksonville,College,Large vacation draw for tourists and families.
+917,5,8,03 Orin Circle,Dora College,Dora,College,Very accomodating for students.
+918,5,8,73 7th Road,Pringle College,Pringle,College,Large vacation draw for tourists and families.
+919,3,9,43238 Kipling Street,Wilson Corner Motel,Wilson Corner,Motel,"A nice, quiet place on a side street."
+920,2,8,11 Westerfield Crossing,Shady Dell Hotel,Shady Dell,Hotel,Very accomodating for students.
+921,6,14,0 Haas Trail,Seaside University,Seaside,University,Close to the local university.
+922,1,8,4681 Mcbride Plaza,Albany Hostel,Albany,Hostel,"A nice, quiet place on a side street."
+923,3,12,57 Spenser Plaza,Russellville Motel,Russellville,Motel,Large vacation draw for tourists and families.
+924,3,7,38232 Fisk Lane,Tillicum Beach Motel,Tillicum Beach,Motel,Large vacation draw for tourists and families.
+925,4,10,78 Graceland Junction,Adrian Inn,Adrian,Inn,Close to the local university.
+926,5,14,808 3rd Point,Champoeg College,Champoeg,College,Large vacation draw for tourists and families.
+927,6,15,7289 Continental Plaza,Macleay University,Macleay,University,Close to the local university.
+928,2,14,19128 Prentice Pass,Firgrove Hotel,Firgrove,Hotel,"A nice, quiet place on a side street."
+929,1,10,90 Glacier Hill Drive,Disston Hostel,Disston,Hostel,"A nice, quiet place on a side street."
+930,4,8,1364 Comanche Street,Hood River Inn,Hood River,Inn,Very accomodating for students.
+931,5,12,14 Heffernan Center,Fruita College,Fruita,College,Close to the local university.
+932,5,8,16 Glacier Hill Junction,Dickey Prairie College,Dickey Prairie,College,Close to the local university.
+933,3,9,04691 Blue Bill Park Pass,Firwood Motel,Firwood,Motel,Close to the local university.
+934,2,7,31 Moland Road,Robertson Hotel,Robertson,Hotel,"A nice, quiet place on a side street."
+935,4,8,4 Village Alley,Robinette Inn,Robinette,Inn,Large vacation draw for tourists and families.
+936,2,13,3466 Birchwood Lane,Albany Hotel,Albany,Hotel,Very accomodating for students.
+937,2,11,2 Fisk Court,Wetzels Corner Hotel,Wetzels Corner,Hotel,Large vacation draw for tourists and families.
+938,2,13,3105 Helena Hill,Lorella Hotel,Lorella,Hotel,Close to the local university.
+939,4,11,758 Merchant Trail,Delena Inn,Delena,Inn,Close to the local university.
+940,3,13,4 Steensland Hill,Klamath Junction Motel,Klamath Junction,Motel,Close to the local university.
+941,1,15,1010 Orin Point,Adair Village Hostel,Adair Village,Hostel,Large vacation draw for tourists and families.
+942,2,6,17 Vermont Crossing,Wildwood Hotel,Wildwood,Hotel,Close to the local university.
+943,1,7,73 Declaration Plaza,Lookingglass Hostel,Lookingglass,Hostel,Close to the local university.
+944,4,12,6749 Montana Lane,Harmony Point Inn,Harmony Point,Inn,Large vacation draw for tourists and families.
+945,1,7,406 Buena Vista Trail,Green Hostel,Green,Hostel,Very accomodating for students.
+946,3,10,3841 Crest Line Lane,McKee Motel,McKee,Motel,Large vacation draw for tourists and families.
+947,1,15,7271 Prairie Rose Pass,Wheeler Hostel,Wheeler,Hostel,"A nice, quiet place on a side street."
+948,3,8,1 Claremont Center,Chehalem Motel,Chehalem,Motel,Close to the local university.
+949,5,11,7268 Coleman Hill,Dellwood College,Dellwood,College,Large vacation draw for tourists and families.
+950,4,9,9 Crowley Road,Bradley Corner Inn,Bradley Corner,Inn,"A nice, quiet place on a side street."
+951,4,14,598 Elgar Place,Kamela Inn,Kamela,Inn,Close to the local university.
+952,5,11,2 Rusk Parkway,Sams Valley College,Sams Valley,College,"A nice, quiet place on a side street."
+953,1,7,5 Ohio Court,Rougue Elk Hostel,Rougue Elk,Hostel,Very accomodating for students.
+954,3,6,0 Browning Junction,Rogue River Motel,Rogue River,Motel,Close to the local university.
+955,3,8,881 Waubesa Circle,Lacomb Motel,Lacomb,Motel,"A nice, quiet place on a side street."
+956,6,12,181 Memorial Road,Blalock University,Blalock,University,Close to the local university.
+957,3,8,28 Northview Place,Newberg Motel,Newberg,Motel,Very accomodating for students.
+958,1,11,30 Hallows Drive,Barnes Road Hostel,Barnes Road,Hostel,"A nice, quiet place on a side street."
+959,5,8,2 Scoville Plaza,Fortune Branch College,Fortune Branch,College,Close to the local university.
+960,5,6,52540 Shopko Lane,North Santiam College,North Santiam,College,Large vacation draw for tourists and families.
+961,2,6,8780 School Park,Cove Hotel,Cove,Hotel,Very accomodating for students.
+962,4,8,50677 Ludington Plaza,College Hill Inn,College Hill,Inn,Large vacation draw for tourists and families.
+963,3,14,844 Pearson Place,Errol Heights Motel,Errol Heights,Motel,Large vacation draw for tourists and families.
+964,3,10,9112 Bowman Alley,Cedar Hills Motel,Cedar Hills,Motel,"A nice, quiet place on a side street."
+965,1,13,5 Kropf Pass,Hemlock Hostel,Hemlock,Hostel,"A nice, quiet place on a side street."
+966,2,9,5019 Lakewood Gardens Street,Vale Hotel,Vale,Hotel,Large vacation draw for tourists and families.
+967,5,7,3 Surrey Park,Greenleaf College,Greenleaf,College,Close to the local university.
+968,6,8,71491 Talisman Junction,Alameda University,Alameda,University,"A nice, quiet place on a side street."
+969,3,8,6730 Arkansas Street,Helix Motel,Helix,Motel,Large vacation draw for tourists and families.
+970,5,10,0 Jenifer Junction,New Era College,New Era,College,Large vacation draw for tourists and families.
+971,2,13,625 Schiller Center,Langlois Hotel,Langlois,Hotel,"A nice, quiet place on a side street."
+972,3,8,82 Debs Center,Hardman Motel,Hardman,Motel,Very accomodating for students.
+973,5,10,898 Ilene Circle,Amity College,Amity,College,Very accomodating for students.
+974,3,15,56 Lawn Drive,Mist Motel,Mist,Motel,Large vacation draw for tourists and families.
+975,4,14,743 Algoma Place,Burp Hollow Inn,Burp Hollow,Inn,"A nice, quiet place on a side street."
+976,1,11,4445 Prairie Rose Parkway,Sprague River Hostel,Sprague River,Hostel,Close to the local university.
+977,5,12,1 Shasta Park,Odell Lake College,Odell Lake,College,Very accomodating for students.
+978,3,9,39 Jenifer Road,Alder Creek Motel,Alder Creek,Motel,"A nice, quiet place on a side street."
+979,6,10,9 Del Mar Road,Colton University,Colton,University,Very accomodating for students.
+980,6,14,751 Miller Junction,Aldervale University,Aldervale,University,Close to the local university.
+981,6,10,591 Summer Ridge Hill,Shady Pine University,Shady Pine,University,"A nice, quiet place on a side street."
+982,5,8,7 Nova Avenue,Airlie College,Airlie,College,Close to the local university.
+983,2,10,4 Monterey Circle,Wilsonville Hotel,Wilsonville,Hotel,Large vacation draw for tourists and families.
+984,5,13,40 Oak Valley Road,Pirtle College,Pirtle,College,Large vacation draw for tourists and families.
+985,1,7,20642 Onsgard Plaza,Mulloy Hostel,Mulloy,Hostel,"A nice, quiet place on a side street."
+986,2,14,8259 Continental Street,Empire Hotel,Empire,Hotel,Large vacation draw for tourists and families.
+987,1,13,7004 Russell Court,Goshen Hostel,Goshen,Hostel,"A nice, quiet place on a side street."
+988,6,10,009 Village Green Avenue,Sisters University,Sisters,University,Large vacation draw for tourists and families.
+989,2,10,33 Carberry Alley,Newport Heights Hotel,Newport Heights,Hotel,Very accomodating for students.
+990,6,7,43 Grim Circle,Seven Oaks University,Seven Oaks,University,"A nice, quiet place on a side street."
+991,6,12,81126 Tennyson Trail,Jasper University,Jasper,University,Large vacation draw for tourists and families.
+992,3,12,2529 Iowa Place,Summit Motel,Summit,Motel,"A nice, quiet place on a side street."
+993,6,11,515 Weeping Birch Pass,Shale City University,Shale City,University,Large vacation draw for tourists and families.
+994,1,11,75171 Evergreen Alley,Idleyld Park Hostel,Idleyld Park,Hostel,Close to the local university.
+995,2,11,03387 Center Avenue,Ontario Heights Hotel,Ontario Heights,Hotel,Very accomodating for students.
+996,6,13,9058 Bonner Lane,Whiskey Hill University,Whiskey Hill,University,Close to the local university.
+997,1,8,92934 Forster Crossing,Keno Hostel,Keno,Hostel,"A nice, quiet place on a side street."
+998,2,15,0758 Pankratz Avenue,New Pine Creek Hotel,New Pine Creek,Hotel,"A nice, quiet place on a side street."
+999,3,15,54728 Kipling Alley,Firgrove Motel,Firgrove,Motel,Very accomodating for students.
+1000,1,11,5 Independence Lane,Bucks Corners Hostel,Bucks Corners,Hostel,Large vacation draw for tourists and families.
