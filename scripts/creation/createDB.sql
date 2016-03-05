@@ -122,14 +122,14 @@ CREATE TABLE TRANSIT (
 --------------------
 
 CREATE TABLE ACTIVITY_CATEGORY (
-	ActivityCategoryID int NOT NULL,
+	ActivityCategoryID int IDENTITY(1,1) NOT NULL,
 	ActivityCategoryName varchar(255) NOT NULL,
 	ActivityCategoryDesc varchar(255) NOT NULL,
 	CONSTRAINT PK_ACTIVITYCATEGORY PRIMARY KEY NONCLUSTERED (ActivityCategoryID)
 );
 
 CREATE TABLE ACTIVITY_TYPE (
-	ActivityTypeID int NOT NULL,
+	ActivityTypeID int IDENTITY(1,1) NOT NULL,
 	ActivityCategoryID int NOT NULL,
 	ActivityTypeName varchar(255) NOT NULL,
 	ActivityTypeDesc varchar(255) NOT NULL,
@@ -144,14 +144,14 @@ CREATE TABLE ACTIVITY_TYPE (
 --------------------
 
 CREATE TABLE SPONSOR_TYPE (
-	SponsorTypeID int NOT NULL,
+	SponsorTypeID int IDENTITY(1,1) NOT NULL,
 	SponsorTypeName varchar(255) NOT NULL,
 	SponsorTypeDesc varchar(255) NOT NULL,
 	CONSTRAINT PK_SPONSORTYPE PRIMARY KEY NONCLUSTERED (SponsorTypeID)
 );
 
 CREATE TABLE SPONSOR (
-	SponsorID int NOT NULL,
+	SponsorID int IDENTITY(1,1) NOT NULL,
 	SponsorTypeID int NOT NULL,
 	CityID int NOT NULL,
 	SponsorName varchar(255) NOT NULL,
@@ -165,7 +165,7 @@ CREATE TABLE SPONSOR (
 );
 
 CREATE TABLE SPONSOR_CONTACT (
-	SponsorContactID int NOT NULL,
+	SponsorContactID int IDENTITY(1,1) NOT NULL,
 	SponsorID int NOT NULL,
 	SponsorContactFName varchar(255) NOT NULL,
 	SponsorContactLName varchar(255) NOT NULL,
@@ -182,14 +182,14 @@ CREATE TABLE SPONSOR_CONTACT (
 --------------------------------
 
 CREATE TABLE STUDENT_TYPE (
-	StudentTypeID int NOT NULL,
+	StudentTypeID int IDENTITY(1,1) NOT NULL,
 	StudentTypeName varchar(255) NOT NULL,
 	StudentTypeDesc varchar(255) NOT NULL,
 	CONSTRAINT PK_STUDENTTYPE PRIMARY KEY NONCLUSTERED (StudentTypeID)
 );
 
 CREATE TABLE STUDENT (
-	StudentID int NOT NULL,
+	StudentID int IDENTITY(1,1) NOT NULL,
 	StudentTypeID int NOT NULL,
 	StudentFName varchar(255) NOT NULL,
 	StudentLName varchar(255) NOT NULL,
@@ -203,7 +203,7 @@ CREATE TABLE STUDENT (
 );
 
 CREATE TABLE LEADER (
-	LeaderID int NOT NULL,
+	LeaderID int IDENTITY(1,1) NOT NULL,
 	LeaderFName varchar(255) NOT NULL,
 	LeaderLName varchar(255) NOT NULL,
 	LeaderDOB date NOT NULL,
@@ -218,7 +218,7 @@ CREATE TABLE LEADER (
 ---------------------------------------
 
 CREATE TABLE TRIPGROUP (
-	GroupID int NOT NULL,
+	GroupID int IDENTITY(1,1) NOT NULL,
 	GroupMainLeaderID int NOT NULL,
 	GroupCoLeaderID int NOT NULL,
 	GroupName varchar(255) NOT NULL,
@@ -231,7 +231,7 @@ CREATE TABLE TRIPGROUP (
 );
 
 CREATE TABLE GROUP_STUDENT (
-	GroupStudentID int NOT NULL,
+	GroupStudentID int IDENTITY(1,1) NOT NULL,
 	StudentID int NOT NULL,
 	GroupID int NOT NULL,
 	CONSTRAINT PK_GROUPSTUDENT PRIMARY KEY NONCLUSTERED (GroupStudentID),
@@ -258,7 +258,7 @@ CREATE TABLE FLIGHT_GROUP_STUDENT (
 ---------------------------------------------------------------------------
 
 CREATE TABLE TRIP (
-	TripID int NOT NULL,
+	TripID int IDENTITY(1,1) NOT NULL,
 	GroupID int NOT NULL,
 	SponsorContactID int NOT NULL,
 	CONSTRAINT PK_TRIP PRIMARY KEY NONCLUSTERED (TripID),
@@ -269,7 +269,7 @@ CREATE TABLE TRIP (
 );
 
 CREATE TABLE TRIP_CITY (
-	TripCityID int NOT NULL,
+	TripCityID int IDENTITY(1,1) NOT NULL,
 	TripID int NOT NULL,
 	CityID int NOT NULL,
 	TripCityArrivalDate date NOT NULL,
@@ -282,7 +282,7 @@ CREATE TABLE TRIP_CITY (
 );
 
 CREATE TABLE TRIP_ACTIVITY (
-	TripActivityID int NOT NULL,
+	TripActivityID int IDENTITY(1,1) NOT NULL,
 	TripID int NOT NULL,
 	ActivityTypeID int NOT NULL,
 	CityID int NOT NULL,
@@ -302,7 +302,7 @@ CREATE TABLE TRIP_ACTIVITY (
 );
 
 CREATE TABLE TRIP_HOTEL (
-	TripHotelID int NOT NULL,
+	TripHotelID int IDENTITY(1,1) NOT NULL,
 	TripID int NOT NULL,
 	HotelID int NOT NULL,
 	HotelRoomsReserved int NOT NULL,
@@ -317,7 +317,7 @@ CREATE TABLE TRIP_HOTEL (
 );
 
 CREATE TABLE TRIP_TRANSIT (
-	TripTransitID int NOT NULL,
+	TripTransitID int IDENTITY(1,1) NOT NULL,
 	TripID int NOT NULL,
 	TransitID int NOT NULL,
 	TripTransitPickupCityID int NOT NULL,
