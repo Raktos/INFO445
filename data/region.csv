@@ -1,0 +1,22 @@
+RegionID,CountryID,RegionName
+1,1,Washington
+2,1,California
+3,1,New York
+4,2,London
+5,2,Wales
+6,2,West Midlands
+7,3,Centre
+8,3,Limousin
+9,3,Normanide
+10,4,Berlin
+11,4,Bavaria
+12,4,Saarland
+13,5,Tuscany
+14,5,Lombardy
+15,5,Sicily
+16,6,Attica
+17,6,Crete
+18,6,Thessaly
+19,7,Zeeland
+20,7,North Holland
+21,7,Drenthe

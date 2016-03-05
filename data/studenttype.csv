@@ -1,0 +1,6 @@
+StudentTypeID,StudentTypeName,StudentTypeDesc
+1,Freshman,First year in school
+2,Sophomore,Second year in school
+3,Junior,Third year in school
+4,Senior,Fourth year in school
+5,Graduate,Graduated from undegraduate, either not in school or a graduate school student
