@@ -1,7 +1,7 @@
-USE AtlasTravel;
+USE AtlasTravel_FINAL;
 GO
 
-CREATE PROCEDURE [dbo].[uspinsertFLIGHT_GROUP_STUDENT] 
+CREATE PROCEDURE [dbo].[uspinsertRandFLIGHT_GROUP_STUDENT] 
 	-- Add the parameters for the stored procedure here
 	@numRows int
 AS
