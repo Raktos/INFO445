@@ -13,5 +13,5 @@ GO
 
 
 ALTER TABLE TRIPGROUP
-ADD TotalNumStudents AS (dbo.fnCalcStudentNumberInGroup (@GroupID))
+ADD TotalNumStudents AS (dbo.fnCalcStudentNumberInGroup (GroupID))
 GO
