@@ -3,11 +3,14 @@ GO
 
 CREATE PROCEDURE uspInsertHotel
 	@DepCity varchar(255),
+	@DepRegion varchar(255),
+	@DepCountry varchar(255),
 	@ArrCity varchar(255),
+	@ArrRegion varchar(255),
+	@ArrCountry varchar(255),
 	@AirlineName varchar(255),
-	@AttributeName varchar(255),
-	@DepDate Date,
-	@ArrDate Date,
+	@DepDate Datetime,
+	@ArrDate Datetime,
 	@FlightNum int,
 	@StudentFName varchar(255),
 	@StudentLName varchar(255),
@@ -19,45 +22,64 @@ AS
 		DECLARE @GroupStudentFind int;
 		DECLARE @AirlineFind int;
 		DECLARE @DepCityFind int;
+		DECLARE @DepRegionFind int;
+		DECLARE @DepCountryFind int;
 		DECLARE @ArrCityFind int;
+		DECLARE @ArrRegionFind int;
+		DECLARE @ArrCountryFind int;
 		DECLARE @FlightFind int;
 		
 		SET @StudentFind = (SELECT StudentID 
 			FROM STUDENT
 			WHERE StudentFName = @StudentFName
 			AND StudentLName = @StudentLName
-			AND StudentEmail = @StudentEmail);
-
+			AND StudentEmal = @StudentEmail);
+		
 		SET @GroupStudentFind = (SELECT GroupStudentID FROM GROUP_STUDENT
-								 WHERE GroupID = (SELECT GroupID FROM GROUP WHERE GroupName = @GroupName)
-								 AND StudentID = StudentFind);
+								 WHERE GroupID = (SELECT GroupID FROM TRIPGROUP WHERE GroupName = @GroupName)
+								 AND StudentID = @StudentFind);
+
+		SET @ArrCountryFind = (SELECT CountryID FROM COUNTRY 
+								WHERE CountryName = @ArrCountry);
+		
+		SET @ArrRegionFind = (SELECT RegionID FROM REGION 
+								WHERE RegionName = @ArrRegionFind
+								AND CountryID = @ArrCountryFind);
 
 		SET @ArrCityFind = (SELECT CityID 
 			FROM CITY 
-			WHERE CityName = @ArrCity);
+			WHERE CityName = @ArrCity
+			AND RegionID = @ArrRegionFind);
 
 		IF @ArrCityFind IS NULL
 		BEGIN
-			EXEC dbo.uspInsertCity @City = @ArrCity
+			EXEC dbo.uspInsertCity @City = @ArrCity, @Region = @ArrRegion, @Country = @ArrCountry;
 		END
 		SET @ArrCityFind = SCOPE_IDENTITY();
 
+		SET @DepCountryFind = (SELECT CountryID FROM COUNTRY 
+								WHERE CountryName = @DepCountry);
+		
+		SET @DepRegionFind = (SELECT RegionID FROM REGION 
+								WHERE RegionName = @DepRegionFind
+								AND CountryID = @DepCountryFind);
+		
 		SET @DepCityFind = (SELECT CityID 
 			FROM CITY 
-			WHERE CityName = @DepCity);
+			WHERE CityName = @DepCity
+			AND RegionID = @DepRegionFind);
 
 		IF @DepCityFind IS NULL
 		BEGIN
-			EXEC dbo.uspInsertCity @City = @DepCity
+			EXEC dbo.uspInsertCity @City = @DepCity, @Region = @DepRegion, @Country = @DepCountry;
 		END
 		SET @DepCityFind = SCOPE_IDENTITY();
 
 		SET @AirlineFind = (SELECT AirlineID FROM AIRLINE 
-						WHERE AirlineName = @AirlineName 
-						AND AttributeName = @AttributeName);
+						WHERE AirlineName = @AirlineName);
 		IF @AirlineFind IS NULL
 		BEGIN
-			EXEC dbo.uspInsertAirline @AirlineName = @AirlineName, @AttributeName = @AttributeName;
+			EXEC dbo.uspInsertAirline @AirlineName = @AirlineName;
 		END
 		SET @AirlineFind = SCOPE_IDENTITY();
 		
@@ -66,7 +88,7 @@ AS
 							AND FlightDepartureCityID = @DepCityFind
 							AND FlightArrivalCityID = @ArrCityFind
 							AND FlightNumber = @FlightNum
-							AND FlightDepartureDate = @DepDate
+							AND FligthDepartureDate = @DepDate
 							AND FlightArrivalDate = @ArrDate);
 		IF @FlightFind IS NULL
 		BEGIN
@@ -78,6 +100,9 @@ AS
 
 		INSERT INTO FLIGHT_GROUP_STUDENT(FlightID, GroupStudentID) 
 		VALUES(@FlightFind, @GroupStudentFind);
-
-	COMMIT TRAN t1
+	
+	IF @@error <>0
+		ROLLBACK TRAN t1
+	ELSE
+		COMMIT TRAN t1
 GO
