@@ -1,4 +1,4 @@
-CREATE PROCEDURE insertTripCity
+CREATE PROCEDURE uspInsertTripCity
 	@counter INT
 AS
 BEGIN

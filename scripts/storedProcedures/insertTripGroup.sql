@@ -1,4 +1,4 @@
-CREATE PROCEDURE insertTripGroup
+CREATE PROCEDURE uspInsertTripGroup
 	@GroupName varchar(255),
 	@GroupDesc varchar(255)
 AS
