@@ -23,5 +23,8 @@ AS
 			
 		INSERT INTO HOTEL(HotelTypeID, CityID, HotelName, HotelDesc, HotelStreetAddress)
 		VALUES(@TypeFind, @CityFind, @HotelName, @HotelDesc, @HotelAddress);
-	COMMIT TRAN t1
+	IF @@error <> 0
+		ROLLBACK TRAN t1
+	ELSE
+		COMMIT TRAN t1
 GO
