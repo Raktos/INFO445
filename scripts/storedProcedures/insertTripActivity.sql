@@ -1,13 +1,27 @@
 CREATE PROCEDURE insertTripActivity
+	-- fail if tripname do not exist
+	-- fail if activityTypeName does not exist
+	-- fail if join on activityCategoryName where ActivityType.cateogryID = activitycategory.categoryID is not the same
+
+	@TripName VARCHAR(255),
+	@ActivityTypeName VARCHAR(255),
+	@ActivityCategoryName VARCHAR(255),
+	@CityName VARCHAR(255),
+	@RegionName VARCHAR(255),
+	@CountryName VARCHAR(255),
 	@ActivityName VARCHAR(255),
 	@ActivityDesc VARCHAR(255),
 	@ActivityStreetAddress VARCHAR(255)
+
 AS
 BEGIN
 	SET NOCOUNT ON;
 	BEGIN TRAN t1
+		DECLARE @TripFind INT;
+		DECLARE @ActivityTypeFind INT;
+		DECLARE @ActivityCategoryFind INT;
+		DECLARE @CityFind INT;
 
-		DECLARE @TripActivityID INT;
 		DECLARE @TripID INT;
 		DECLARE @ActivityTypeID INT;
 		DECLARE @CityID INT;
@@ -18,8 +32,30 @@ BEGIN
 		DECLARE @rand NUMERIC (16, 16);
 
 		BEGIN
-			SELECT @TripActivityID = ISNULL(MAX(TripActivityID), 0) + 1
-			FROM dbo.TRIP_ACTIVITY
+
+			SET @TripFind = (SELECT TripID FROM TRIP WHERE TripName = @TripName)
+			IF @TripFind IS NULL
+			BEGIN
+				RETURN -1
+			END
+
+			SET @ActivityTypeFind = (SELECT ActivityTypeID FROM ACTIVITY_TYPE WHERE ActivityTypeName = @ActivityTypeName)
+			IF @ActivityTypeName IS NULL
+			BEGIN
+				RETURN -1
+			END
+
+			SET @ActivityCategoryFind = (SELECT ActivityCategoryID FROM ACTIVITY_CATEGORY ac JOIN ACTIVITY_TYPE at ON ac.ActivityCategoryID = at.ActivityCategoryID WHERE ac.ActivityCategoryName = @ActivityCategoryName)
+			IF @ActivityCategoryFind IS NULL
+			BEGIN
+				RETURN -1
+			END
+
+			SET @CityFind = (SELECT CityID FROM CITY c JOIN REGION r on r.RegionID = c.RegionID JOIN COUNTRY cu ON cu.CountryID = r.CountryID WHERE c.CityName = @CityName AND r.RegionName = @RegionName AND cu.CountryName = @CountryName)
+			IF @CityFind IS NULL
+			BEGIN
+				EXEC dbo.uspInsertCity @City = @CityName, @Region = @RegionName, @Country = @CountryName, @CityID = @CityFind OUTPUT
+			END
 
 			SET @TripID = (SELECT TOP 1 TripID FROM TRIP ORDER BY newid())
 
@@ -42,8 +78,8 @@ BEGIN
 									END
 									) AS MONEY)
 
-			INSERT INTO dbo.TRIP_ACTIVITY(TripActivityID, TripID, ActivityTypeID, CityID, ActivityName, ActivityDesc, ActivityStartDate, ActivityEndDate, ActivityStreetAddress, ActivityCost)
-			VALUES(@TripActivityID, @TripID, @ActivityTypeID, @CityID, @ActivityName, @ActivityDesc, @ActivityStartDate, @ActivityEndDate, @ActivityStreetAddress, @ActivityCost)
+			INSERT INTO dbo.TRIP_ACTIVITY(TripID, ActivityTypeID, CityID, ActivityName, ActivityDesc, ActivityStartDate, ActivityEndDate, ActivityStreetAddress, ActivityCost)
+			VALUES(@TripID, @ActivityTypeID, @CityID, @ActivityName, @ActivityDesc, @ActivityStartDate, @ActivityEndDate, @ActivityStreetAddress, @ActivityCost)
 		END
 
 		IF @@error <> 0
