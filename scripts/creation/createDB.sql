@@ -196,7 +196,7 @@ CREATE TABLE STUDENT (
 	StudentDOB date NOT NULL,
 	StudentGraduationDate date NOT NULL,
 	StudentPhoneNumber varchar(255) NOT NULL,
-	StudentEmal varchar(255) NOT NULL,
+	StudentEmail varchar(255) NOT NULL,
 	CONSTRAINT PK_STUDENT PRIMARY KEY NONCLUSTERED (StudentID),
 	CONSTRAINT FK_STUDENT_STUDENTTYPE FOREIGN KEY (StudentTypeID)
 		REFERENCES STUDENT_TYPE (StudentTypeID)
