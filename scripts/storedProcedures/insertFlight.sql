@@ -1,7 +1,7 @@
 USE AtlasTravel_FINAL;
 GO
 
-CREATE PROCEDURE [dbo].[insertFlight]
+CREATE PROCEDURE uspinsertFlight
 	@Airline varchar(255),
 	@FlightDepartureCity varchar(255),
 	@FlightDepartureRegion varchar(255),
