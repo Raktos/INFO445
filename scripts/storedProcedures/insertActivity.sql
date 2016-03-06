@@ -13,7 +13,7 @@ AS
 							WHERE ActivityCategoryName = @ActivityCategoryName
 							AND ActivityCategoryDesc = @ActivityCategoryDesc);
 
-		IF NOT EXIST @ActCateFind
+		IF @ActCateFind IS NULL
 		BEGIN
 			INSERT INTO ACTIVITY_CATEGORY(ActivityCategoryName, ActivityCategoryDesc)
 			VALUES(@ActivityCategoryName, @ActivityCategoryDesc);
