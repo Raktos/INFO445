@@ -32,12 +32,12 @@ BEGIN
 	SET @FlightDepartureCityFind = (SELECT CityID 
 						FROM CITY c
 						JOIN REGION r
-							ON r.RegionID = c.CityID
+							ON r.RegionID = c.RegionID
 						JOIN COUNTRY cu
-							ON cu.CountryID = r.RegionID
+							ON cu.CountryID = r.CountryID
 						WHERE c.CityName = @FlightDepartureCity
 						AND r.RegionName = @FlightDepartureRegion
-						AND cu.CountryID = @FlightDepartureCountry);
+						AND cu.CountryName = @FlightDepartureCountry);
 	IF @FlightDepartureCityFind IS NULL
 	BEGIN
 		EXEC dbo.uspInsertCity @City = @FlightDepartureCity, @Region = @FlightDepartureRegion, @Country = @FlightDepartureCountry, @CityID = @FlightDepartureCityFind OUTPUT
@@ -46,12 +46,12 @@ BEGIN
 	SET @FlightArrivalCityFind = (SELECT CityID 
 						FROM CITY c
 						JOIN REGION r
-							ON r.RegionID = c.CityID
+							ON r.RegionID = c.RegionID
 						JOIN COUNTRY cu
-							ON cu.CountryID = r.RegionID
+							ON cu.CountryID = r.CountryID
 						WHERE c.CityName = @FlightArrivalCity
 						AND r.RegionName = @FlightArrivalRegion
-						AND cu.CountryID = @FlightArivalCountry);
+						AND cu.CountryName = @FlightArivalCountry);
 	IF @FlightArrivalCityFind IS NULL
 	BEGIN
 		EXEC dbo.uspInsertCity @City = @FlightArrivalCity, @Region = @FlightArrivalRegion, @Country = @FlightArrivalCountry, @CityID = @FlightArrivalCityFind OUTPUT
