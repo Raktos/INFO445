@@ -45,5 +45,7 @@ AS
 			INSERT INTO CITY (CityName, RegionID)
 			VALUES (@City, @RegionFind);
 		END
+
+		SET @CityID = SCOPE_IDENTITY()
 	COMMIT TRAN t1
 GO

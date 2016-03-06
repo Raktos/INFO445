@@ -11,7 +11,8 @@ CREATE PROCEDURE [dbo].[insertFlight]
 	@FlightArrivalCountry varchar(255),
 	@FligthDepartureDate DATE,
 	@FlightArrivalDate DATE,
-	@FlightNumber varchar(255)
+	@FlightNumber varchar(255),
+	@FlightID int OUTPUT
 AS
 BEGIN
 	SET NOCOUNT ON;
@@ -25,7 +26,7 @@ BEGIN
 						WHERE AirlineName = @Airline);
 	IF @AirlineFind IS NULL
 	BEGIN
-		EXEC dbo.uspInsertAirline @AirlineName = @AirlineFind;
+		EXEC dbo.uspInsertAirline @AirlineName = @Airline, @AirlineID = @AirlineFind OUTPUT;
 	END
 
 	SET @FlightDepartureCityFind = (SELECT CityID 
@@ -39,7 +40,7 @@ BEGIN
 						AND cu.CountryID = @FlightDepartureCountry);
 	IF @FlightDepartureCityFind IS NULL
 	BEGIN
-		EXEC dbo.uspInsertCity @City = @FlightDepartureCity, @Region = @FlightDepartureRegion, @Country = @FlightDepartureCountry;
+		EXEC dbo.uspInsertCity @City = @FlightDepartureCity, @Region = @FlightDepartureRegion, @Country = @FlightDepartureCountry, @CityID = @FlightDepartureCityFind OUTPUT
 	END
 
 	SET @FlightArrivalCityFind = (SELECT CityID 
@@ -53,7 +54,8 @@ BEGIN
 						AND cu.CountryID = @FlightArivalCountry);
 	IF @FlightArrivalCityFind IS NULL
 	BEGIN
-		EXEC dbo.uspInsertCity @City = @FlightArrivalCity, @Region = @FlightArrivalRegion, @Country = @FlightArrivalCountry;
+		EXEC dbo.uspInsertCity @City = @FlightArrivalCity, @Region = @FlightArrivalRegion, @Country = @FlightArrivalCountry, @CityID = @FlightArrivalCityFind OUTPUT
+	END;
 	END
 
 	BEGIN TRAN T2
@@ -61,6 +63,7 @@ BEGIN
 		VALUES(@AirlineFind, @FlightDepartureCityFind,
 		 @FlightArrivalCityFind, @FligthDepartureDate, 
 		 @FlightArrivalDate, @FlightNumber);
+		SET @FlightID = SCOPE_IDENTITY()
     COMMIT TRAN T2
 END
 GO
