@@ -1,7 +1,7 @@
 USE AtlasTravel_FINAL;
 GO
 
-CREATE PROCEDURE uspInsertHotel
+CREATE PROCEDURE uspInsertFlightGroupStudent
 	@DepCity varchar(255),
 	@DepRegion varchar(255),
 	@DepCountry varchar(255),
