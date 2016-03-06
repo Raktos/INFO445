@@ -100,11 +100,12 @@ AS
 		IF @FlightFind IS NULL
 		BEGIN
 			EXEC dbo.uspInsertFlight @Airline = @AirlineName, @FlightDepartureCity = @DepCity, @FlightDepartureRegion = @DepRegion,
-									 @FlightDepartureCountry = @DepCountry, @FlightArrivalCity = @ArrCity, @FlightArrivalRegion = @ArrRegion, @FlightArrivalCountry = @ArrCountry,
+									 @FlightDepartureCountry = @DepCountry, @FlightArrivalCity = @ArrCity, 
+									 @FlightArrivalRegion = @ArrRegion, @FlightArrivalCountry = @ArrCountry,
 									 @FlightArrivalCity = @ArrCityFind, @FlightDepartureDate = @DepDate, 
 									 @FlightArrivalDate = @ArrDate, @FlightNumber = @FlightNum;
+			SET @FlightFind = SCOPE_IDENTITY();
 		END
-		SET @FlightFind = SCOPE_IDENTITY();
 
 		INSERT INTO FLIGHT_GROUP_STUDENT(FlightID, GroupStudentID) 
 		VALUES(@FlightFind, @GroupStudentFind);
