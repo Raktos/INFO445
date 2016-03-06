@@ -20,13 +20,15 @@ AS
 	BEGIN TRAN t1
 		DECLARE @StudentFind int;
 		DECLARE @GroupStudentFind int;
-		DECLARE @AirlineFind int;
+
+/**		DECLARE @AirlineFind int;
 		DECLARE @DepCityFind int;
 		DECLARE @DepRegionFind int;
 		DECLARE @DepCountryFind int;
 		DECLARE @ArrCityFind int;
 		DECLARE @ArrRegionFind int;
 		DECLARE @ArrCountryFind int;
+**/
 		DECLARE @FlightFind int;
 		
 		SET @StudentFind = (SELECT StudentID 
@@ -39,7 +41,7 @@ AS
 								 WHERE GroupID = (SELECT GroupID FROM TRIPGROUP WHERE GroupName = @GroupName)
 								 AND StudentID = @StudentFind);
 
-		SET @ArrCountryFind = (SELECT CountryID FROM COUNTRY 
+/**		SET @ArrCountryFind = (SELECT CountryID FROM COUNTRY 
 								WHERE CountryName = @ArrCountry);
 		
 		SET @ArrRegionFind = (SELECT RegionID FROM REGION 
@@ -83,17 +85,23 @@ AS
 		END
 		SET @AirlineFind = SCOPE_IDENTITY();
 		
+**/
+
 		SET @FlightFind = (SELECT FlightID FROM FLIGHT
-							WHERE AirlineID = @AirlineFind
-							AND FlightDepartureCityID = @DepCityFind
-							AND FlightArrivalCityID = @ArrCityFind
+										   JOIN AIRLINE ON FLIGHT.AirlineID = AIRLINE.AirlineID
+										   JOIN CITY c1 ON FLIGHT.FlightDepartureCityID = c1.CityID
+										   JOIN CITY c2 ON FLIGHT.FlightArrivalCityID = c2.CityID
+							WHERE AirlineName = @AirlineName
+							AND c1.CityName = @DepCity
+							AND c2.CityName = @ArrCity
 							AND FlightNumber = @FlightNum
 							AND FligthDepartureDate = @DepDate
 							AND FlightArrivalDate = @ArrDate);
 		IF @FlightFind IS NULL
 		BEGIN
-			EXEC dbo.uspInsertFlight @AirlineID = @AirlineFind, @FlightDepartureCityID = @DepCityFind, 
-									 @FlightArrivalCityID = @ArrCityFind, @FlightDepartureDate = @DepDate, 
+			EXEC dbo.uspInsertFlight @Airline = @AirlineName, @FlightDepartureCity = @DepCity, @FlightDepartureRegion = @DepRegion,
+									 @FlightDepartureCountry = @DepCountry, @FlightArrivalCity = @ArrCity, @FlightArrivalRegion = @ArrRegion, @FlightArrivalCountry = @ArrCountry,
+									 @FlightArrivalCity = @ArrCityFind, @FlightDepartureDate = @DepDate, 
 									 @FlightArrivalDate = @ArrDate, @FlightNumber = @FlightNum;
 		END
 		SET @FlightFind = SCOPE_IDENTITY();
