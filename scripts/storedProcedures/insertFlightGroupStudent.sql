@@ -32,10 +32,10 @@ AS
 		DECLARE @FlightFind int;
 		
 		SET @StudentFind = (SELECT StudentID 
-			FROM STUDENT
-			WHERE StudentFName = @StudentFName
-			AND StudentLName = @StudentLName
-			AND StudentEmail = @StudentEmail);
+							FROM STUDENT
+							WHERE StudentFName = @StudentFName
+							AND StudentLName = @StudentLName
+							AND StudentEmal = @StudentEmail);
 		
 		SET @GroupStudentFind = (SELECT GroupStudentID FROM GROUP_STUDENT
 								 WHERE GroupID = (SELECT GroupID FROM TRIPGROUP WHERE GroupName = @GroupName)
@@ -103,8 +103,7 @@ AS
 									 @FlightDepartureCountry = @DepCountry, @FlightArrivalCity = @ArrCity, 
 									 @FlightArrivalRegion = @ArrRegion, @FlightArrivalCountry = @ArrCountry,
 									 @FlightArrivalCity = @ArrCityFind, @FlightDepartureDate = @DepDate, 
-									 @FlightArrivalDate = @ArrDate, @FlightNumber = @FlightNum;
-			SET @FlightFind = SCOPE_IDENTITY();
+									 @FlightArrivalDate = @ArrDate, @FlightNumber = @FlightNum, @FlightID = @FlightFind;
 		END
 
 		INSERT INTO FLIGHT_GROUP_STUDENT(FlightID, GroupStudentID) 
