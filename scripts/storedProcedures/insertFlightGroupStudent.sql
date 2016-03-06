@@ -35,7 +35,7 @@ AS
 			FROM STUDENT
 			WHERE StudentFName = @StudentFName
 			AND StudentLName = @StudentLName
-			AND StudentEmal = @StudentEmail);
+			AND StudentEmail = @StudentEmail);
 		
 		SET @GroupStudentFind = (SELECT GroupStudentID FROM GROUP_STUDENT
 								 WHERE GroupID = (SELECT GroupID FROM TRIPGROUP WHERE GroupName = @GroupName)
