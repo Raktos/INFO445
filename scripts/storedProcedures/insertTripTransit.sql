@@ -61,7 +61,7 @@ BEGIN
 						AND TransitDesc = @TransitDesc);
 	IF @TransitFind IS NULL
 	BEGIN
-		EXEC dbo.uspInsertTransit @TransitTypeID = @TransitTypeFind, @TransitCompanyID = @TransitCompanyFind, @TransitDesc = @TransitDesc
+		EXEC dbo.uspInsertTransit @TransitTypeID = @TransitTypeFind, @TransitCompanyID = @TransitCompanyFind, @TransitDesc = @TransitDesc, @TransitID = @TransitFind OUTPUT
 	END
 
 	SET @PickupCityFind = (SELECT CityID 
@@ -75,7 +75,7 @@ BEGIN
 						AND cu.CountryID = @PickupCountry);
 	IF @PickupityFind IS NULL
 	BEGIN
-		EXEC dbo.uspInsertCity @City = @PickupCity, @Region = @PickupRegion, @Country = @PickupCountry;
+		EXEC dbo.uspInsertCity @City = @PickupCity, @Region = @PickupRegion, @Country = @PickupCountry, @CityID = @PickupCityFind OUTPUT;
 	END
 	
 	SET @DropoffCityFind = (SELECT CityID 
@@ -89,20 +89,17 @@ BEGIN
 						AND cu.CountryID = @DropoffCountry);
 	IF @FlightDepartureCityFind IS NULL
 	BEGIN
-		EXEC dbo.uspInsertCity @City = @DropoffCity, @Region = @DropoffRegion, @Country = @DropoffCountry;
+		EXEC dbo.uspInsertCity @City = @DropoffCity, @Region = @DropoffRegion, @Country = @DropoffCountry @ CityID = @DropoffCityFind OUTPUT;
 	END
 	BEGIN TRAN T1
-		INSERT INTO TRIP_TRANSIT (
-			TripTransitID, TripID, TransitID, TripTransitPickupCityID, TripTransitDropoffCityID, TripTransitPickupDate,
-			TripTransitDropoffDate, TripTransitPickupStreetAddress, TripTransitDropoffStreetAddress, TripTransitCost
-		)
-
+		INSERT INTO TRIP_TRANSIT (TripID, TransitID, TripTransitPickupCityID, TripTransitDropoffCityID,
+									TripTransitPickupDate, TripTransitDropoffDate, TripTransitPickupStreetAddress,
+									TripTransitDropoffStreetAddress, TripTransitCost)
 		VALUES(
-			@TripTransitID,
-			@TripID,
+			@TripFind,
 			@TransitID,
-			@TripTransitPickupCityID,
-			@TripTransitDropoffCityID,
+			@PickupCityFind,
+			@DropoffCityFind,
 			@TripTransitPickupDate,
 			@TripTransitDropoffDate,
 			@TripTransitPickupStreetAddress,

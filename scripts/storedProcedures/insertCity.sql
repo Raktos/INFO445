@@ -4,7 +4,8 @@ GO
 CREATE PROCEDURE uspInsertCity
 	@City varchar(255),
 	@Region varchar(255),
-	@Country varchar(255)
+	@Country varchar(255),
+	@CityID int OUTPUT
 AS
 	BEGIN TRAN t1
 		DECLARE @CountryFind int;
@@ -39,10 +40,12 @@ AS
 			WHERE CityName = @City
 			AND RegionID = @RegionFind);
 			
+		SET @CityID = @CityFind
 		IF @CityFind IS NULL
 		BEGIN
 			INSERT INTO CITY (CityName, RegionID)
 			VALUES (@City, @RegionFind);
+			SET @CityID = SCOPE_IDENTITY()
 		END
 	COMMIT TRAN t1
 GO
