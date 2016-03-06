@@ -14,11 +14,6 @@ BEGIN
 		DECLARE @MainLeaderFind INT;
 		DECLARE @CoLeaderFind INT;
 
-		DECLARE @GroupID INT;
-		DECLARE @TripID INT;
-		DECLARE @GroupMainLeaderID INT;
-		DECLARE @GroupCoLeaderID INT;
-
 		BEGIN
 			SET @TripFind = (SELECT TripID FROM TRIP WHERE TripName = @TripName)
 			IF @TripFind IS NULL
@@ -38,15 +33,8 @@ BEGIN
 				RETURN -1
 			END
 
-			SET @TripID = (SELECT TOP 1 TripID FROM TRIP ORDER BY NEWID());
-
-			SET @GroupMainLeaderID = (SELECT TOP 1 LeaderID FROM LEADER WHERE LeaderID <> @GroupCoLeaderID ORDER BY NEWID());
-
-			SET @GroupCoLeaderID = (SELECT TOP 1 LeaderID FROM LEADER WHERE LeaderID <> @GroupMainLeaderID ORDER BY NEWID());
-
 			INSERT INTO TRIPGROUP(TripID, GroupMainLeaderID, GroupCoLeaderID, GroupName, GroupDesc)
-			VALUES(@TripID, @GroupMainLeaderID, @GroupCoLeaderID, @GroupName, @GroupDesc)
-
+			VALUES(@TripFind, @MainLeaderFind, @CoLeaderFind, @GroupName, @GroupDesc)
 		END
 
 	IF @@error <> 0 
