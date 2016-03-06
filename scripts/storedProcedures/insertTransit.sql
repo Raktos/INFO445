@@ -5,7 +5,8 @@ CREATE PROCEDURE [dbo].[insertTRANSIT](
 	@TransitID int,
 	@TransitTypeID int,
 	@TransitCompanyID int,
-	@TransitDesc varchar(255)
+	@TransitDesc varchar(255),
+	@TransitID OUTPUT
 )
 AS
 
@@ -19,6 +20,7 @@ BEGIN
 		SET IDENTITY_INSERT AtlasTravel.dbo.TRANSIT ON
 		INSERT INTO AtlasTravel.dbo.TRANSIT(TransitID, TransitTypeID, TransitCompanyID, TransitDesc)
 		VALUES (@TransitID, @TransitTypeID, @TransitCompanyID, @TransitDesc)
+		SET @TransitID = SCOPE_IDENTITY()
 	END
 END
 GO
