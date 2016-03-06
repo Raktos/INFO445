@@ -34,7 +34,7 @@ BEGIN
 						JOIN REGION r
 							ON r.RegionID = c.CityID
 						JOIN COUNTRY cu
-							ON cu.CountryID - r.RegionID
+							ON cu.CountryID = r.RegionID
 						WHERE c.CityName = @FlightDepartureCity
 						AND r.RegionName = @FlightDepartureRegion
 						AND cu.CountryID = @FlightDepartureCountry);
@@ -48,7 +48,7 @@ BEGIN
 						JOIN REGION r
 							ON r.RegionID = c.CityID
 						JOIN COUNTRY cu
-							ON cu.CountryID - r.RegionID
+							ON cu.CountryID = r.RegionID
 						WHERE c.CityName = @FlightArrivalCity
 						AND r.RegionName = @FlightArrivalRegion
 						AND cu.CountryID = @FlightArivalCountry);
