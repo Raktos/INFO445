@@ -18,6 +18,8 @@ AS
 			INSERT INTO ACTIVITY_CATEGORY(ActivityCategoryName, ActivityCategoryDesc)
 			VALUES(@ActivityCategoryName, @ActivityCategoryDesc);
 		END
-
-	COMMIT TRAN t1
+	IF @@error <> 0
+		ROLLBACK TRAN t1
+	ELSE
+		COMMIT TRAN t1
 GO
