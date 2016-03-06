@@ -1,27 +1,27 @@
-create procedure insertTripCity
-	@counter int
-as
-begin
-	set nocount on;
-	begin tran t1
+CREATE PROCEDURE insertTripCity
+	@counter INT
+AS
+BEGIN
+	SET NOCOUNT ON;
+	BEGIN TRAN T1
 
-		declare @TripCityID int;
-		declare @TripID int;
-		declare @CityID int;
-		declare @TripCityArrivalDate Date;
-		declare @TripCityDepartureDate Date;
-		DECLARE @Dig1 varchar(20);
-		DECLARE @rand Numeric (16, 16);
+		DECLARE @TripCityID INT;
+		DECLARE @TripID INT;
+		DECLARE @CityID INT;
+		DECLARE @TripCityArrivalDate DATE;
+		DECLARE @TripCityDepartureDate DATE;
+		DECLARE @Dig1 VARCHAR(20);
+		DECLARE @rand NUMERIC (16, 16);
 
-		while @counter > 0
-		begin
+		WHILE @counter > 0
+		BEGIN
 			
-			select @TripCityID = ISNULL(MAX(TripCityID), 0) + 1
-			from dbo.TRIP_CITY
+			SELECT @TripCityID = ISNULL(MAX(TripCityID), 0) + 1
+			FROM dbo.TRIP_CITY
 
-			select @TripID = (select top 1 TripID from TRIP order by newid());
+			SELECT @TripID = (SELECT TOP 1 TripID FROM TRIP ORDER BY newid());
 
-			select @CityID = (select top 1 CityID from CITY order by newid());
+			SELECT @CityID = (SELECT TOP 1 CityID from CITY ORDER BY newid());
 
 			SELECT @rand = RAND();
 			SET @Dig1 = @rand;
@@ -31,14 +31,14 @@ begin
 			SET @Dig1 = @rand;
 			SET @TripCityDepartureDate = (SELECT DATEADD(DAY, ABS(CHECKSUM(NEWID()) % 85), '2008-05-01'));
 
-			insert into dbo.TRIP_CITY (TripCityID, TripID, CityID, TripCityArrivalDate, TripCityDepartureDate)
-			values (@TripCityID, @TripID, @CityID, @TripCityArrivalDate, @TripCityDepartureDate)
+			INSERT INTO dbo.TRIP_CITY (TripCityID, TripID, CityID, TripCityArrivalDate, TripCityDepartureDate)
+			VALUES (@TripCityID, @TripID, @CityID, @TripCityArrivalDate, @TripCityDepartureDate)
 
-			set @counter = @counter - 1;
-		end
+			SET @counter = @counter - 1;
+		END
 
-		if @@error <> 0
-			rollback tran t1
-		else 
-			commit tran t1
-end
+		IF @@error <> 0
+			ROLLBACK TRAN t1
+		ELSE 
+			COMMIT TRAN t1
+END

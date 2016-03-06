@@ -1,28 +1,27 @@
-alter Procedure insertSponsorContact
-	@SponsorContactFName varchar(255),
-	@SponsorContactLName varchar(255),
-	@SponsorContactPhoneNumber varchar(255),
-	@SponsorContactEmail varchar(255)
-As
-Begin
-	Set Nocount on;
-	Begin Tran t1
-		declare @SponsorContactID int;
-		declare @SponsorID int;
+CREATE PROCEDURE insertSponsorContact
+	@SponsorContactFName VARCHAR(255),
+	@SponsorContactLName VARCHAR(255),
+	@SponsorContactPhoneNumber VARCHAR(255),
+	@SponsorContactEmail VARCHAR(255)
+AS
+BEGIN
+	SET NOCOUNT ON;
+	BEGIN TRAN t1
+		DECLARE @SponsorContactID INT;
+		DECLARE @SponsorID INT;
 
-		begin
-			select @SponsorContactID = ISNULL(MAX(SponsorContactID), 0) + 1
-			from dbo.SPONSOR_CONTACT
+		BEGIN
+			SELECT @SponsorContactID = ISNULL(MAX(SponsorContactID), 0) + 1
+			FROM dbo.SPONSOR_CONTACT
 
-			set @SponsorID = (Select top 1 SponsorID from SPONSOR_CONTACT ORDER BY NEWID());
+			SET @SponsorID = (SELECT TOP 1 SponsorID FROM SPONSOR_CONTACT ORDER BY NEWID());
 
-			insert into SPONSOR_CONTACT(SponsorContactID, SponsorID, SponsorContactFName, SponsorContactLName, SponsorContactPhoneNumber, SponsorContactEmail)
-			Values(@SponsorContactID, @SponsorID, @SponsorContactFName, @SponsorContactLName, @SponsorContactPhoneNumber, @SponsorContactEmail)
+			INSERT INTO SPONSOR_CONTACT(SponsorContactID, SponsorID, SponsorContactFName, SponsorContactLName, SponsorContactPhoneNumber, SponsorContactEmail)
+			VALUES(@SponsorContactID, @SponsorID, @SponsorContactFName, @SponsorContactLName, @SponsorContactPhoneNumber, @SponsorContactEmail)
+		END
 
-		end
-
-	if @@error <> 0 
-		rollback tran t1
-	else
-		commit tran t1
-end
+	IF @@error <> 0 
+		ROLLBACK TRAN t1
+	ELSE
+		COMMIT TRAN t1
+END

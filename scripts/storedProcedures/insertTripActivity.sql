@@ -1,31 +1,31 @@
-create procedure insertTripActivity
-	@ActivityName varchar(255),
-	@ActivityDesc varchar(255),
-	@ActivityStreetAddress varchar(255)
-as
-begin
-	set nocount on;
-	begin tran t1
+CREATE PROCEDURE insertTripActivity
+	@ActivityName VARCHAR(255),
+	@ActivityDesc VARCHAR(255),
+	@ActivityStreetAddress VARCHAR(255)
+AS
+BEGIN
+	SET NOCOUNT ON;
+	BEGIN TRAN t1
 
-		declare @TripActivityID int;
-		declare @TripID int
-		declare @ActivityTypeID int;
-		declare @CityID int;
-		declare @ActivityStartDate Date;
-		declare @ActivityEndDate Date;
-		declare @ActivityCost Money;
-		declare @Dig1 varchar(20);
-		declare @rand Numeric (16, 16);
+		DECLARE @TripActivityID INT;
+		DECLARE @TripID INT;
+		DECLARE @ActivityTypeID INT;
+		DECLARE @CityID INT;
+		DECLARE @ActivityStartDate DATE;
+		DECLARE @ActivityEndDate DATE;
+		DECLARE @ActivityCost MONEY;
+		DECLARE @Dig1 VARCHAR(20);
+		DECLARE @rand NUMERIC (16, 16);
 
-		begin
-			select @TripActivityID = ISNULL(MAX(TripActivityID), 0) + 1
-			from dbo.TRIP_ACTIVITY
+		BEGIN
+			SELECT @TripActivityID = ISNULL(MAX(TripActivityID), 0) + 1
+			FROM dbo.TRIP_ACTIVITY
 
-			set @TripID = (select top 1 TripID from TRIP order by newid())
+			SET @TripID = (SELECT TOP 1 TripID FROM TRIP ORDER BY newid())
 
-			set @ActivityTypeID = (select top 1 ActivityTypeID from ACTIVITY_TYPE order by newid())
+			SET @ActivityTypeID = (SELECT TOP 1 ActivityTypeID FROM ACTIVITY_TYPE ORDER BY newid())
 
-			set @CityID = (select top 1 CityID from CITY order by newid())
+			SET @CityID = (SELECT TOP 1 CityID FROM CITY ORDER BY newid())
 
 			SELECT @rand = RAND();
 			SET @Dig1 = @rand;
@@ -42,12 +42,12 @@ begin
 									END
 									) AS MONEY)
 
-			insert into dbo.TRIP_ACTIVITY(TripActivityID, TripID, ActivityTypeID, CityID, ActivityName, ActivityDesc, ActivityStartDate, ActivityEndDate, ActivityStreetAddress, ActivityCost)
-			values(@TripActivityID, @TripID, @ActivityTypeID, @CityID, @ActivityName, @ActivityDesc, @ActivityStartDate, @ActivityEndDate, @ActivityStreetAddress, @ActivityCost)
-		end
+			INSERT INTO dbo.TRIP_ACTIVITY(TripActivityID, TripID, ActivityTypeID, CityID, ActivityName, ActivityDesc, ActivityStartDate, ActivityEndDate, ActivityStreetAddress, ActivityCost)
+			VALUES(@TripActivityID, @TripID, @ActivityTypeID, @CityID, @ActivityName, @ActivityDesc, @ActivityStartDate, @ActivityEndDate, @ActivityStreetAddress, @ActivityCost)
+		END
 
-		if @@error <> 0
-			rollback tran t1
-		else
-			commit tran t1
-	end
+		IF @@error <> 0
+			ROLLBACK TRAN t1
+		ELSE
+			COMMIT TRAN t1
+	END
