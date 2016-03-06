@@ -1,27 +1,20 @@
-USE AtlasTravel;
+USE AtlasTravel_FINAL;
 GO
 
-CREATE PROCEDURE [dbo].[insertTRANSIT_TYPE](
-	@TransitTypeID int,
+CREATE PROCEDURE uspInsertTransitType
 	@TransitTypeName varchar(255),
 	@TransitTypeDesc varchar(255)
-)
 AS
+	BEGIN TRAN T1
+		DECLARE @TransitTypeFind int
 
-BEGIN
-
-	SET NOCOUNT ON
-
-	SELECT @TransitTypeID = ISNULL(MAX(TransitTypeID), 0) + 1
-	FROM dbo.TRANSIT_TYPE
-
-	BEGIN 
-		SET IDENTITY_INSERT AtlasTravel.dbo.TRANSIT_TYPE ON
-
-		INSERT INTO AtlasTravel.dbo.TRANSIT_TYPE(TransitTypeID, TransitTypeName, TransitTypeDesc)
-		VALUES (@TransitTypeID, @TransitTypeName, @TransitTypeDesc)
-
-	END
-
-END
+		SET @TransitTypeFind = (SELECT TransitTypeID
+								FROM TRANSIT_TYPE
+								WHERE TransitTypeName = @TransitTypeName);
+		IF @TransitTypeFind IS NULL
+		BEGIN
+			INSERT INTO TRANSIT_TYPE(TransitTypeName, TransitTypeDesc)
+			VALUES(@TransitTypeName, @TransitTypeDesc)
+		END
+	COMMIT TRAN T1
 GO
