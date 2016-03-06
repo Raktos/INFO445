@@ -4,7 +4,8 @@ GO
 CREATE PROCEDURE uspInsertCity
 	@City varchar(255),
 	@Region varchar(255),
-	@Country varchar(255)
+	@Country varchar(255),
+	@CityID int OUTPUT
 AS
 	BEGIN TRAN t1
 		DECLARE @CountryFind int;
