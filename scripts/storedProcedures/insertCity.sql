@@ -40,6 +40,7 @@ AS
 			WHERE CityName = @City
 			AND RegionID = @RegionFind);
 			
+		SET @CityID = @CityFind
 		IF @CityFind IS NULL
 		BEGIN
 			INSERT INTO CITY (CityName, RegionID)
