@@ -1,7 +1,7 @@
 USE AtlasTravel_FINAL;
 GO
 
-CREATE PROCEDURE uspInsertHotel
+CREATE PROCEDURE uspInsertFlightGroupStudent
 	@DepCity varchar(255),
 	@DepRegion varchar(255),
 	@DepCountry varchar(255),
@@ -100,11 +100,12 @@ AS
 		IF @FlightFind IS NULL
 		BEGIN
 			EXEC dbo.uspInsertFlight @Airline = @AirlineName, @FlightDepartureCity = @DepCity, @FlightDepartureRegion = @DepRegion,
-									 @FlightDepartureCountry = @DepCountry, @FlightArrivalCity = @ArrCity, @FlightArrivalRegion = @ArrRegion, @FlightArrivalCountry = @ArrCountry,
+									 @FlightDepartureCountry = @DepCountry, @FlightArrivalCity = @ArrCity, 
+									 @FlightArrivalRegion = @ArrRegion, @FlightArrivalCountry = @ArrCountry,
 									 @FlightArrivalCity = @ArrCityFind, @FlightDepartureDate = @DepDate, 
 									 @FlightArrivalDate = @ArrDate, @FlightNumber = @FlightNum;
+			SET @FlightFind = SCOPE_IDENTITY();
 		END
-		SET @FlightFind = SCOPE_IDENTITY();
 
 		INSERT INTO FLIGHT_GROUP_STUDENT(FlightID, GroupStudentID) 
 		VALUES(@FlightFind, @GroupStudentFind);
