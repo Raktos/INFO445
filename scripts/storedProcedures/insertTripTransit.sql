@@ -1,11 +1,15 @@
-USE AtlasTravel;
+USE [AtlasTravel_FINAL]
+GO
+/****** Object:  StoredProcedure [dbo].[uspInsertTripTransit]    Script Date: 3/6/2016 4:54:43 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
 GO
 
 
-CREATE PROCEDURE uspInsertTripTransit
+ALTER PROCEDURE [dbo].[uspInsertTripTransit]
 	@TripName varchar(255),
 	@TransitType varchar(255),
-	@TransitDesc varchar(255),
 	@TransitCompany varchar(255),
 	@PickupCity varchar(255),
 	@PickupRegion varchar(255),
@@ -57,11 +61,11 @@ BEGIN
 	SET @TransitFind = (SELECT TransitID
 						FROM TRANSIT
 						WHERE TransitTypeID = @TransitTypeFind
-						AND TransitCompanyID = @TransitcompanyFind
-						AND TransitDesc = @TransitDesc);
+						AND TransitCompanyID = @TransitcompanyFind);
 	IF @TransitFind IS NULL
 	BEGIN
-		EXEC dbo.uspInsertTransit @TransitTypeID = @TransitTypeFind, @TransitCompanyID = @TransitCompanyFind, @TransitDesc = @TransitDesc, @TransitID = @TransitFind OUTPUT
+		raiserror('could not find transit', 18, 1)
+		return -1
 	END
 
 	SET @PickupCityFind = (SELECT CityID 
@@ -72,7 +76,7 @@ BEGIN
 							ON cu.CountryID = r.CountryID
 						WHERE c.CityName = @PickupCity
 						AND r.RegionName = @PickupRegion
-						AND cu.CountryID = @PickupCountry);
+						AND cu.CountryName = @PickupCountry);
 	IF @PickupCityFind IS NULL
 	BEGIN
 		EXEC dbo.uspInsertCity @City = @PickupCity, @Region = @PickupRegion, @Country = @PickupCountry, @CityID = @PickupCityFind OUTPUT;
@@ -86,7 +90,7 @@ BEGIN
 							ON cu.CountryID = r.CountryID
 						WHERE c.CityName = @DropoffCity
 						AND r.RegionName = @DropoffRegion
-						AND cu.CountryID = @DropoffCountry);
+						AND cu.CountryName = @DropoffCountry);
 	IF @DropoffCityFind IS NULL
 	BEGIN
 		EXEC dbo.uspInsertCity @City = @DropoffCity, @Region = @DropoffRegion, @Country = @DropoffCountry, @CityID = @DropoffCityFind OUTPUT;
@@ -108,4 +112,3 @@ BEGIN
 		);
     COMMIT TRAN T1
 END
-GO
