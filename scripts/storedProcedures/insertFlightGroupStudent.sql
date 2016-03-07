@@ -1,7 +1,12 @@
-USE AtlasTravel_FINAL;
+USE [AtlasTravel_FINAL]
+GO
+/****** Object:  StoredProcedure [dbo].[uspInsertFlightGroupStudent]    Script Date: 3/7/2016 9:11:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER PROCEDURE uspInsertFlightGroupStudent
+CREATE PROCEDURE [dbo].[uspInsertFlightGroupStudent]
 	@DepCity varchar(255),
 	@DepRegion varchar(255),
 	@DepCountry varchar(255),
@@ -47,18 +52,15 @@ AS
 		SET @ArrRegionFind = (SELECT RegionID FROM REGION 
 								WHERE RegionName = @ArrRegionFind
 								AND CountryID = @ArrCountryFind);
-
 		SET @ArrCityFind = (SELECT CityID 
 			FROM CITY 
 			WHERE CityName = @ArrCity
 			AND RegionID = @ArrRegionFind);
-
 		IF @ArrCityFind IS NULL
 		BEGIN
 			EXEC dbo.uspInsertCity @City = @ArrCity, @Region = @ArrRegion, @Country = @ArrCountry;
 		END
 		SET @ArrCityFind = SCOPE_IDENTITY();
-
 		SET @DepCountryFind = (SELECT CountryID FROM COUNTRY 
 								WHERE CountryName = @DepCountry);
 		
@@ -70,13 +72,11 @@ AS
 			FROM CITY 
 			WHERE CityName = @DepCity
 			AND RegionID = @DepRegionFind);
-
 		IF @DepCityFind IS NULL
 		BEGIN
 			EXEC dbo.uspInsertCity @City = @DepCity, @Region = @DepRegion, @Country = @DepCountry;
 		END
 		SET @DepCityFind = SCOPE_IDENTITY();
-
 		SET @AirlineFind = (SELECT AirlineID FROM AIRLINE 
 						WHERE AirlineName = @AirlineName);
 		IF @AirlineFind IS NULL
@@ -103,11 +103,10 @@ AS
 									 @FlightDepartureCountry = @DepCountry, @FlightArrivalCity = @ArrCity, 
 									 @FlightArrivalRegion = @ArrRegion, @FlightArrivalCountry = @ArrCountry,
 									 @FlightDepartureDate = @DepDate, @FlightArrivalDate = @ArrDate, @FlightNumber = @FlightNum, 
-									 @FlightID = @FlightFind;
+									 @FlightID = @FlightFind OUTPUT;
 		END
 
 		INSERT INTO FLIGHT_GROUP_STUDENT(FlightID, GroupStudentID) 
 		VALUES(@FlightFind, @GroupStudentFind);
 
 	COMMIT TRAN t1
-GO
