@@ -13,7 +13,7 @@ BEGIN
 		WHILE @counter > 0
 		BEGIN
 			
-			SET @TripName = 'Trip ' + (SELECT ISNULL(MAX(TripID), 0) + 2 FROM dbo.TRIP);
+			SET @TripName = 'Trip ' + (SELECT CAST((ISNULL(MAX(TripID), 0) + 2) AS varchar) FROM dbo.TRIP);
 			SET @SponsorContactID= (SELECT TOP 1 SponsorContactID FROM SPONSOR_CONTACT ORDER BY newid());
 			SET @TripDesc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit lorem, placerat varius arcu quis, ullamcorper sagittis quam. Nulla placerat purus ac suscipit fermentum. Curabitur pulvinar in quam tincidunt rutrum.';
 			
@@ -25,3 +25,4 @@ BEGIN
 
 	COMMIT TRAN t1
 END
+
