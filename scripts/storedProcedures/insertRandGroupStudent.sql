@@ -23,12 +23,12 @@ BEGIN
 			SET @randGroupID = (SELECT  CASE
 							WHEN SUBSTRING(@digit, 3, 3) = 000 
 								THEN 9
-							ELSE CAST(SUBSTRING(@digit, 3, 1) AS INT)
+							ELSE CAST(SUBSTRING(@digit, 3, 3) AS INT)
 							END);
 			SET @randStudentID = (SELECT  CASE
 							WHEN SUBSTRING(@digit, 7, 3) = 000 
 								THEN 100
-							ELSE CAST(SUBSTRING(@digit, 3, 1) AS INT)
+							ELSE CAST(SUBSTRING(@digit, 7, 3) AS INT)
 							END);
 
 			INSERT INTO GROUP_STUDENT (GroupID, StudentID)
