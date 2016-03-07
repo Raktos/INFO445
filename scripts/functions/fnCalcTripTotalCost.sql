@@ -1,7 +1,7 @@
 USE AtlasTravel_FINAL
 GO
 
-CREATE FUNCTION fnCalcTripTotalCost (@TripID INT)
+ALTER FUNCTION fnCalcTripTotalCost (@TripID INT)
 RETURNS money
 AS
 BEGIN
@@ -16,9 +16,13 @@ BEGIN
 	
 	SET @TransitTotalCost = (SELECT Sum(TripTransitCost) FROM TRIP_TRANSIT tt WHERE tt.TripID = @TripID);
 
-	SET @RET = (SELECT (@HotelTotalCost + @ActivityTotalCost + @TransitTotalCost));
+	SET @RET = @HotelTotalCost + @ActivityTotalCost + @TransitTotalCost;
 RETURN @RET
 END
+GO
+
+ALTER TABLE TRIP
+DROP TotalCost
 GO
 
 ALTER TABLE TRIP
