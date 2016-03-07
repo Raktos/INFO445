@@ -1,7 +1,7 @@
 USE AtlasTravel_FINAL;
 GO
 
-CREATE PROCEDURE uspInsertFlightGroupStudent
+ALTER PROCEDURE uspInsertFlightGroupStudent
 	@DepCity varchar(255),
 	@DepRegion varchar(255),
 	@DepCountry varchar(255),
@@ -9,8 +9,8 @@ CREATE PROCEDURE uspInsertFlightGroupStudent
 	@ArrRegion varchar(255),
 	@ArrCountry varchar(255),
 	@AirlineName varchar(255),
-	@DepDate Datetime,
-	@ArrDate Datetime,
+	@DepDate Date,
+	@ArrDate Date,
 	@FlightNum int,
 	@StudentFName varchar(255),
 	@StudentLName varchar(255),
@@ -35,7 +35,7 @@ AS
 							FROM STUDENT
 							WHERE StudentFName = @StudentFName
 							AND StudentLName = @StudentLName
-							AND StudentEmal = @StudentEmail);
+							AND StudentEmail = @StudentEmail);
 		
 		SET @GroupStudentFind = (SELECT GroupStudentID FROM GROUP_STUDENT
 								 WHERE GroupID = (SELECT GroupID FROM TRIPGROUP WHERE GroupName = @GroupName)
@@ -95,22 +95,19 @@ AS
 							AND c1.CityName = @DepCity
 							AND c2.CityName = @ArrCity
 							AND FlightNumber = @FlightNum
-							AND FligthDepartureDate = @DepDate
+							AND FlightDepartureDate = @DepDate
 							AND FlightArrivalDate = @ArrDate);
 		IF @FlightFind IS NULL
 		BEGIN
-			EXEC dbo.uspInsertFlight @Airline = @AirlineName, @FlightDepartureCity = @DepCity, @FlightDepartureRegion = @DepRegion,
+			EXEC [dbo].[uspInsertFlight] @Airline = @AirlineName, @FlightDepartureCity = @DepCity, @FlightDepartureRegion = @DepRegion,
 									 @FlightDepartureCountry = @DepCountry, @FlightArrivalCity = @ArrCity, 
 									 @FlightArrivalRegion = @ArrRegion, @FlightArrivalCountry = @ArrCountry,
-									 @FlightArrivalCity = @ArrCityFind, @FlightDepartureDate = @DepDate, 
-									 @FlightArrivalDate = @ArrDate, @FlightNumber = @FlightNum, @FlightID = @FlightFind;
+									 @FlightDepartureDate = @DepDate, @FlightArrivalDate = @ArrDate, @FlightNumber = @FlightNum, 
+									 @FlightID = @FlightFind;
 		END
 
 		INSERT INTO FLIGHT_GROUP_STUDENT(FlightID, GroupStudentID) 
 		VALUES(@FlightFind, @GroupStudentFind);
-	
-	IF @@error <>0
-		ROLLBACK TRAN t1
-	ELSE
-		COMMIT TRAN t1
+
+	COMMIT TRAN t1
 GO

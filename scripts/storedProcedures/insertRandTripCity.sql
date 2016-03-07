@@ -33,7 +33,7 @@ BEGIN
 								THEN 100
 							ELSE CAST(SUBSTRING(@digit, 6, 2) AS INT)
 							END);
-			SET @arrivalDate = (SELECT DATEADD(DAY, ABS(CHECKSUM(NEWID()) % 45), '2008-01-01'));
+			SET @arrivalDate = (SELECT DATEADD(DAY, ABS(CHECKSUM(NEWID()) % 3650), '2008-01-01'));
 			SET @dateAdd = (SELECT CASE
 							WHEN SUBSTRING(@digit, 8, 1) = 0 
 								THEN 10

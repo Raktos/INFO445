@@ -1,8 +1,15 @@
-USE AtlasTravel_FINAL;
+USE [AtlasTravel_FINAL]
+GO
+/****** Object:  StoredProcedure [dbo].[uspInsertHotel]    Script Date: 3/6/2016 5:46:06 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE PROCEDURE uspInsertHotel
+CREATE PROCEDURE [dbo].[uspInsertHotel]
 	@City varchar(255),
+	@Region varchar(255),
+	@Country varchar(255),
 	@Type varchar(255),
 	@HotelName varchar(255),
 	@HotelDesc varchar(255),
@@ -12,19 +19,22 @@ AS
 		DECLARE @TypeFind int;
 		DECLARE @CityFind int;
 		
-		SET @TypeFind = (SELECT CountryID 
-			FROM COUNTRY 
-			WHERE CountryName = @Country);
+		SET @TypeFind = (SELECT HotelTypeID 
+			FROM HOTEL_TYPE 
+			WHERE HotelTypeName = @Type);
 		
+
 		SET @CityFind = (SELECT CityID 
-			FROM CITY 
-			WHERE CityName = @City
-			AND RegionID = @RegionFind);
+			FROM CITY c JOIN REGION r ON c.RegionID = r.RegionID
+			JOIN COUNTRY co ON r.CountryID = co.CountryID
+			WHERE c.CityName = @City
+			AND r.RegionName = @Region
+			AND co.CountryName = @Country);
+		IF @CityFind IS NULL
+		BEGIN
+			EXEC [dbo].[uspInsertCity] @City = @City, @Region = @Region, @Country = @Country, @CityID = @CityFind OUTPUT;
+		END
 			
 		INSERT INTO HOTEL(HotelTypeID, CityID, HotelName, HotelDesc, HotelStreetAddress)
 		VALUES(@TypeFind, @CityFind, @HotelName, @HotelDesc, @HotelAddress);
-	IF @@error <> 0
-		ROLLBACK TRAN t1
-	ELSE
-		COMMIT TRAN t1
-GO
+	COMMIT TRAN t1
