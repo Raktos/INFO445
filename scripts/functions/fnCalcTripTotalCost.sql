@@ -22,5 +22,5 @@ END
 GO
 
 ALTER TABLE TRIP
-ADD TotalCost AS (dbo.fnCalcTripTotalCost(@TripID))
+ADD TotalCost AS (dbo.fnCalcTripTotalCost(TripID))
 GO

@@ -20,12 +20,12 @@ CREATE PROCEDURE uspInsertTripTransit
 	@TripTransitCost money
 AS
 BEGIN
-	DECLARE @PickupCity int
-	DECLARE @DropoffCity int
+	DECLARE @PickupCityFind int
+	DECLARE @DropoffCityFind int
 	DECLARE @TripFind int
 	DECLARE @TransitFind int
-	DECLARE @TransitcompanyFind int
-	DECLARE @TransitTypeFind
+	DECLARE @TransitCompanyFind int
+	DECLARE @TransitTypeFind int
 
 	SET @TripFind = (SELECT TripID 
 						FROM TRIP
@@ -67,13 +67,13 @@ BEGIN
 	SET @PickupCityFind = (SELECT CityID 
 						FROM CITY c
 						JOIN REGION r
-							ON r.RegionID = c.CityID
+							ON r.RegionID = c.RegionID
 						JOIN COUNTRY cu
-							ON cu.CountryID - r.RegionID
+							ON cu.CountryID = r.CountryID
 						WHERE c.CityName = @PickupCity
 						AND r.RegionName = @PickupRegion
 						AND cu.CountryID = @PickupCountry);
-	IF @PickupityFind IS NULL
+	IF @PickupCityFind IS NULL
 	BEGIN
 		EXEC dbo.uspInsertCity @City = @PickupCity, @Region = @PickupRegion, @Country = @PickupCountry, @CityID = @PickupCityFind OUTPUT;
 	END
@@ -81,15 +81,15 @@ BEGIN
 	SET @DropoffCityFind = (SELECT CityID 
 						FROM CITY c
 						JOIN REGION r
-							ON r.RegionID = c.CityID
+							ON r.RegionID = c.RegionID
 						JOIN COUNTRY cu
-							ON cu.CountryID - r.RegionID
+							ON cu.CountryID = r.CountryID
 						WHERE c.CityName = @DropoffCity
 						AND r.RegionName = @DropoffRegion
 						AND cu.CountryID = @DropoffCountry);
-	IF @FlightDepartureCityFind IS NULL
+	IF @DropoffCityFind IS NULL
 	BEGIN
-		EXEC dbo.uspInsertCity @City = @DropoffCity, @Region = @DropoffRegion, @Country = @DropoffCountry @ CityID = @DropoffCityFind OUTPUT;
+		EXEC dbo.uspInsertCity @City = @DropoffCity, @Region = @DropoffRegion, @Country = @DropoffCountry, @CityID = @DropoffCityFind OUTPUT;
 	END
 	BEGIN TRAN T1
 		INSERT INTO TRIP_TRANSIT (TripID, TransitID, TripTransitPickupCityID, TripTransitDropoffCityID,
@@ -97,7 +97,7 @@ BEGIN
 									TripTransitDropoffStreetAddress, TripTransitCost)
 		VALUES(
 			@TripFind,
-			@TransitID,
+			@TransitFind,
 			@PickupCityFind,
 			@DropoffCityFind,
 			@TripTransitPickupDate,
@@ -109,5 +109,3 @@ BEGIN
     COMMIT TRAN T1
 END
 GO
-
-
