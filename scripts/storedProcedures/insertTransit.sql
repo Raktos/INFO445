@@ -1,27 +1,40 @@
-USE AtlasTravel;
+USE AtlasTravel_FINAL;
 GO
 
-CREATE PROCEDURE [dbo].[insertTRANSIT](
-	@TransitID int,
-	@TransitTypeID int,
-	@TransitCompanyID int,
+CREATE PROCEDURE uspInsertTransit(
+	@TransitType varchar(255),
+	@TransitCompany varchar(255),
 	@TransitDesc varchar(255),
-	@TransitID OUTPUT
+	@TransitID int OUTPUT
 )
 AS
-
 BEGIN
-	SET NOCOUNT ON
+	DECLARE @TransitTypeFind int
+	DECLARE @TransitCompanyFind int
 
-	SELECT @TransitID = ISNULL(MAX(TransitID), 0) + 1
-	FROM dbo.TRANSIT
-
-	BEGIN 
-		SET IDENTITY_INSERT AtlasTravel.dbo.TRANSIT ON
-		INSERT INTO AtlasTravel.dbo.TRANSIT(TransitID, TransitTypeID, TransitCompanyID, TransitDesc)
-		VALUES (@TransitID, @TransitTypeID, @TransitCompanyID, @TransitDesc)
-		SET @TransitID = SCOPE_IDENTITY()
+	SET @TransitTypeFind = (SELECT TransitTypeID
+							FROM TRANSIT_TYPE
+							WHERE TransitTypeName = @TransitType);
+	IF @TransitTypeFind IS NULL
+	BEGIN
+		raiserror('cannot find transit type', 18, 1)
+		return -1
 	END
+
+	SET @TransitCompanyFind = (SELECT TransitCompanyID
+							FROM TRANSIT_COMPANY
+							WHERE TransitCompanyName = @TransitCompany);
+	IF @TransitCompanyFind IS NULL
+	BEGIN
+		raiserror('cannot find transit company', 18, 1)
+		return -1
+	END
+
+	BEGIN TRAN T1
+		INSERT INTO TRANSIT (TransitTypeID, TransitCompanyID, TransitDesc)
+		VALUES (@TransitTypeFind, @TransitCompanyFind, @TransitDesc);
+		SET @TransitID = SCOPE_IDENTITY()
+	COMMIT TRAN T1
 END
 GO
 
