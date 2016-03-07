@@ -1,58 +1,32 @@
--- Jaoson Ho
--- Lab2
--- 25 January 2016
-
--- Gets a random integer from 1 - max inclusive
--- 0 is not allowed
-CREATE FUNCTION fnGetRandIntWithMax (@Max int)
-RETURNS int
-AS BEGIN
-	DECLARE @Rand int;
-	SET @Rand = 0;
-	WHILE @Rand = 0
-	BEGIN
-		SET @Rand = CAST(ROUND(RAND() * @Max, 0) AS int);
-	END
-	RETURN @Rand
-END
-GO
-
--- Inserts a fake student.
-CREATE PROCEDURE uspPopulateStudent
-	@NumInserts int
+ALTER PROCEDURE uspPopulateStudent
+  @NumInserts int
 AS
-	DECLARE @FName varchar(255);
-	DECLARE @LName varchar(255);
-	DELCARE @DOB date;
-	DECLARE @Phone varchar(255);
-	DECLARE @Email varchar(255);
-	DECLARE @StudentType int;
-
-	WHILE @NumInserts > 0
-	BEGIN
-		BEGIN TRAN t1
-			-- get a first name from the first name lookup table
-			SET @FName = (SELECT FirstName FROM tblFIRST_NAME WHERE FirstNameID = fnGetRandIntWithMax(SELECT count(*) FROM tblFIRST_NAME));
-
-			-- get a last name from the last name lookup table
-			SET @LName = (SELECT LastName FROM tblLAST_NAME WHERE LastNameID = fnGetRandIntWithMax(SELECT count(*) FROM tblLAST_NAME));
-
-			-- create a birthdate between age 18 and 30
-			SET @DOB = (SELECT DATEADD(day, -10950 + fnGetRandIntWithMax(4380), GETDATE()));
-
-			-- generate a phone number string with 3 random numbers
-			SET @PHONE = ('(' + fnGetRandIntWithMax(999) + ') ' + fnGetRandIntWithMax(999) + '-' + fnGetRandIntWithMax(9999));
-
-			-- use FName and random numbers to generate email
-			SET @Email = @FName + CAST(fnGetRandIntWithMax(999) AS varchar) + '@email.com';
-
-			-- find a student type
-			SET @StudentType = fnGetRandIntWithMax(SELECT count(*) FROM STUDENT_TYPE);
-
-			-- perform the insert
-			INSERT INTO STUDENT(StudentTypeID, StudentFName, StudentLName, StudentDOB, StudentPhoneNumber, StudentEmail)
-				VALUES(@StudentType, @FName, @LName, @DOB, @Phone, @Email)
-		COMMIT TRAN t1
-		@NumInserts = @NumInserts - 1;
-	END
+WHILE @NumInserts > 0
+BEGIN
+  DECLARE @StudentType VARCHAR(255)
+  DECLARE @FName VARCHAR(255)
+  DECLARE @LName VARCHAR(255)
+  DECLARE @DOB DATE
+  DECLARE @Phone VARCHAR(10)
+  DECLARE @Email VARCHAR(255)
+  DECLARE @School VARCHAR(255)
+  
+  SET @StudentType = (SELECT TOP 1 StudentTypeName FROM STUDENT_TYPE ORDER BY NEWID())
+  SET @FName = (SELECT TOP 1 fName FROM FIRST_NAME ORDER BY NEWID())
+  SET @LName = (SELECT TOP 1 lName FROM LAST_NAME ORDER BY NEWID())
+  SET @School = (SELECT TOP 1 SponsorName FROM SPONSOR ORDER BY NEWID())
+  SET @Phone = CAST(CAST(ROUND((RAND() * 8999999999) + 1000000000, 0) AS NUMERIC(10,0)) AS VARCHAR(10))
+  SET @DOB = DATEADD(DAY, ABS(CHECKSUM(NEWID()) % 14600), '1960-01-01') -- date from 1960-1-1 to + 2000-1-1, +40 years
+  SET @Email = @FName + '.' + @LName + '@' + REPLACE(@School, ' ', '') + '.edu'
+  
+  EXEC dbo.uspInsertStudent
+  	@StudentTypeName = @StudentType,
+    @StudentFName = @FName,
+    @StudentLName = @LName,
+    @StudentDOB = @DOB,
+    @StudentPhoneNumber = @Phone,
+    @StudentEmail = @Email;
+  
+  SET @NumInserts = @NumInserts - 1
+END
 GO
