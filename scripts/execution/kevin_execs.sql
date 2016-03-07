@@ -22,3 +22,10 @@ EXEC @returnVal = dbo.uspInsertTripActivity
 SELECT @returnVal
 
 SELECT TOP 1 * FROM TRIP_ACTIVITY ORDER BY TripActivityID DESC
+
+EXEC dbo.uspInsertGroupStudent = 
+	@StudentFName = 'Kevin',
+	@StudentLName = 'Horwitz',
+	@GroupName = 'INFO 445' 
+
+SELECT * FROM TRIPGROUP WHERE GroupID = 1
