@@ -1,13 +1,12 @@
+-- calculate the number of STUDENTS on a given flight
 CREATE FUNCTION fnCalcStudentsOnFlight (@FlightID INT)
 RETURNS INT
 AS
 BEGIN
 	DECLARE @RET INT =
-		(SELECT COUNT(StudentID) FROM FLIGHT f JOIN FLIGHT_GROUP_STUDENT fgs ON f.FlightID = fgs.FlightID JOIN GROUP_STUDENT gs ON fgs.GroupStudentID = gs.GroupStudentID where f.FlightID = fgs.FlightID)
+		(SELECT COUNT(StudentID) FROM GROUP_STUDENT gs 
+			JOIN FLIGHT_GROUP_STUDENT fgs ON gs.GroupStudentID = fgs.GroupStudentID
+			WHERE fgs.FlightID = @FlightID)
 	RETURN @RET
 END
-GO
-
-ALTER TABLE FLIGHT
-ADD NumberOfStudents AS (dbo.fnCalcStudentsOnFlight(FlightID))
 GO
