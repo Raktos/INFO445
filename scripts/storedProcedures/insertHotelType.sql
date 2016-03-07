@@ -13,13 +13,7 @@ AS
 							WHERE HotelTypeName = @HotelTypeName
 							AND HotelTypeDesc = @HotelTypeDesc);
 
-		IF NOT EXIST @HotelTypeFind
-		BEGIN
-			INSERT INTO HOTEL_TYPE(HotelTypeName, HotelTypeDesc)
-			VALUES(@HotelTypeName, @HotelTypeDesc);
-		END
-	IF @@error <> 0
-		ROLLBACK TRAN t1
-	ELSE
-		COMMIT TRAN t1
+		INSERT INTO HOTEL_TYPE(HotelTypeName, HotelTypeDesc)
+		VALUES(@HotelTypeName, @HotelTypeDesc);
+	COMMIT TRAN t1
 GO
