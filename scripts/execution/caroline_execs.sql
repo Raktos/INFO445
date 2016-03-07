@@ -1,3 +1,18 @@
+/*** computed column ***/
+SELECT [AirlineID]
+      ,[AirlineName]
+      ,[NumberOfFlights]
+  FROM [AtlasTravel_FINAL].[dbo].[AIRLINE]
+INSERT INTO FLIGHT([FlightID]
+      ,[AirlineID]
+      ,[FlightDepartureCityID]
+      ,[FlightArrivalCityID]
+      ,[FlightDepartureDate]
+      ,[FlightArrivalDate]
+      ,[FlightNumber]
+      ,[NumberOfStudents])
+
+/*** insert exec ***/
 SELECT f.FlightID, f.FlightNumber, c1.CityName AS DepartureCity, c2.CityName AS ArrivalCity, r.RegionName AS ArrivalRegion FROM FLIGHT_GROUP_STUDENT fg 
          JOIN GROUP_STUDENT gs ON fg.GroupStudentID = gs.GroupStudentID 
          JOIN STUDENT s ON gs.StudentID = s.StudentID 
