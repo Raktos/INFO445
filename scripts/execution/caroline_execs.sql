@@ -3,14 +3,14 @@ SELECT [AirlineID]
       ,[AirlineName]
       ,[NumberOfFlights]
   FROM [AtlasTravel_FINAL].[dbo].[AIRLINE]
-INSERT INTO FLIGHT([FlightID]
-      ,[AirlineID]
+INSERT INTO FLIGHT([AirlineID]
       ,[FlightDepartureCityID]
       ,[FlightArrivalCityID]
       ,[FlightDepartureDate]
       ,[FlightArrivalDate]
       ,[FlightNumber]
       ,[NumberOfStudents])
+      VALUES (3, 2, 23, '2015-10-10', '2015-10-11', 145, 0);
 
 /*** insert exec ***/
 SELECT f.FlightID, f.FlightNumber, c1.CityName AS DepartureCity, c2.CityName AS ArrivalCity, r.RegionName AS ArrivalRegion FROM FLIGHT_GROUP_STUDENT fg 
